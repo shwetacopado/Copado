@@ -6,7 +6,7 @@ public class AccountAutomations {
             return a;
         }
     }
-  //  This is a test
+  //  This is a comment2
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Basauri, 6'; 
         a.billingstate = 'Madrid'; 
