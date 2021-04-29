@@ -91,11 +91,6 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__LightningInstrumentation</application>
-        <default>false</default>
-        <visible>false</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__LightningSales</application>
         <default>false</default>
         <visible>false</visible>
@@ -2931,6 +2926,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.External_ID__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Account.Fax</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3483,6 +3483,11 @@
         <editable>true</editable>
         <field>Contact.Email</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.External_ID__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
