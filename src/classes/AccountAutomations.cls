@@ -24,7 +24,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.copado1.com'; 
+        a.website = 'www.D&G.com'; 
         return a;
     }
 }
