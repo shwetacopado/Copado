@@ -1,0 +1,17 @@
+<apex:page controller="ProfileController" >
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Choose the Environment</h1>
+  <apex:form >
+  <apex:pageBlock >
+  
+  <span>Enviroment: </span> 
+  <apex:selectList size="1">
+  <apex:selectOptions value="{!ChooseEnvironment}" />
+    </apex:selectList>
+  </apex:pageBlock>
+  
+   
+  </apex:form>
+  
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

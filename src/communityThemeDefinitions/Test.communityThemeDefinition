@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultBrandingSet>Test</defaultBrandingSet>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Test</masterLabel>
+    <publisher>Shweta</publisher>
+    <themeSetting>
+        <themeLayout>Test_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Test_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+</CommunityThemeDefinition>

@@ -1,0 +1,20 @@
+<apex:page standardController="Candidate__c">
+     <apex:includeLightning />
+   
+    <div id="CandidateResume"></div> 
+    
+ <script>
+     
+    $Lightning.use("c:CandidateResumeUploadApp", function() {
+     
+    $Lightning.createComponent("c:CandidateResumeUpload",
+    { 
+            parentId : '{!Candidate__c.Id}'
+ 	},
+   "CandidateResume",
+    function(component) {
+        
+    });
+ });
+ </script>
+</apex:page>

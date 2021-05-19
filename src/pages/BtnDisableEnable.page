@@ -1,0 +1,18 @@
+<apex:page controller="BtnDisableEnable" >
+    <apex:form >
+        <apex:outputPanel id="Idbtnpanel">
+            <apex:commandButton value="Button1" disabled="{!btn1}" action="{!clickbtn1}" rerender="Idbtnpanel"/>
+            <apex:commandButton value="Button2" disabled="{!btn2}" action="{!clickbtn2}" rerender="Idbtnpanel"/>
+            
+            <apex:pageBlock ID="IDPB1" rendered="{!pb1}">
+                Page Block1
+            </apex:pageBlock>
+          <apex:pageblock ID="IDPB2" rendered="{!pb2}">
+              Page Block2
+            
+          </apex:pageblock>  
+          
+        </apex:outputPanel>
+    </apex:form>
+    
+</apex:page>

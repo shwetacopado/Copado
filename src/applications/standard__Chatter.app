@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <defaultLandingTab>standard-Chatter</defaultLandingTab>
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <tabs>standard-Chatter</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Candidate__c</tabs>
+    <tabs>Review__c</tabs>
+    <tabs>Employment_Website__c</tabs>
+    <tabs>Job_Posting__c</tabs>
+    <tabs>Vehicle__c</tabs>
+    <tabs>Trail__c</tabs>
+    <tabs>Campsite__c</tabs>
+    <tabs>Campsite_Reservation__c</tabs>
+    <tabs>Quick_Account</tabs>
+    <tabs>Customer_Flow</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>CodeCoverage__c</tabs>
+    <tabs>Suggestion__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Customer_Project__c</tabs>
+    <tabs>Contact_Relationship__c</tabs>
+    <tabs>Communication__c</tabs>
+    <tabs>Customer_Satisfaction_Survey__c</tabs>
+    <tabs>Comparable__c</tabs>
+    <tabs>Energy_Audit__c</tabs>
+    <tabs>Obj1__c</tabs>
+    <tabs>Obj2__c</tabs>
+    <tabs>Robot_Setup__c</tabs>
+    <tabs>Tower__c</tabs>
+    <tabs>Orders__x</tabs>
+    <tabs>OrderDetails__x</tabs>
 </CustomApplication>

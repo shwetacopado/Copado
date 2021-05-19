@@ -1,0 +1,18 @@
+<apex:page Sidebar="false" StandardController="Account">
+ 
+ <apex:pageBlock Title="Contacts">
+ 
+<apex:pageBlockSection >
+<apex:outputField value="{! Account.Name}"/>
+<apex:outputField value="{! Account.Phone}"/>
+<apex:pageBlockTable value="{! Account.Contacts}" var="Contact">
+<apex:column value="{! Contact.Name}"/>
+<apex:column value="{!Contact.Title}"/>
+
+</apex:pageBlockTable>
+</apex:pageBlockSection>
+
+ 
+ </apex:pageBlock>
+ 
+</apex:page>

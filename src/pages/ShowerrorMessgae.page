@@ -1,0 +1,18 @@
+<apex:page standardController="Account" extensions="ShowerrorMessage"  showHeader="false" sidebar="false">
+    <apex:form >
+    <apex:pageBlock >
+    <apex:pageMessages id="showmsg">
+    </apex:pageMessages>
+    <apex:panelGrid columns="2">
+        Account Name:   <apex:inputText value="{!account.name}"/>
+        Account Number: <apex:inputText value="{!account.Accountnumber}"/>
+        Account Phone:  <apex:inputText value="{!account.phone}"/>
+        Account Site :  <apex:inputText value="{!account.site}"/>
+        Account Industry:<apex:inputText value="{!account.Industry}"/>
+        <apex:commandButton value="Click" action="{!save}" rerender="showmsg"/>
+    </apex:panelGrid>    
+    </apex:pageBlock>
+    </apex:form>
+               
+    
+</apex:page>

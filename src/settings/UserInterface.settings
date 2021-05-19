@@ -4,15 +4,15 @@
     <enableAsyncRelatedLists>false</enableAsyncRelatedLists>
     <enableClickjackUserPageHeaderless>false</enableClickjackUserPageHeaderless>
     <enableCollapsibleSections>true</enableCollapsibleSections>
-    <enableCollapsibleSideBar>true</enableCollapsibleSideBar>
+    <enableCollapsibleSideBar>false</enableCollapsibleSideBar>
     <enableCustomObjectTruncate>false</enableCustomObjectTruncate>
     <enableCustomeSideBarOnAllPages>false</enableCustomeSideBarOnAllPages>
     <enableDeleteFieldHistory>false</enableDeleteFieldHistory>
-    <enableExternalObjectAsyncRelatedLists>true</enableExternalObjectAsyncRelatedLists>
+    <enableExternalObjectAsyncRelatedLists>false</enableExternalObjectAsyncRelatedLists>
     <enableHoverDetails>true</enableHoverDetails>
     <enableInlineEdit>true</enableInlineEdit>
     <enableNewPageLayoutEditor>true</enableNewPageLayoutEditor>
-    <enablePersonalCanvas>true</enablePersonalCanvas>
+    <enablePersonalCanvas>false</enablePersonalCanvas>
     <enablePrintableListViews>true</enablePrintableListViews>
     <enableProfileCustomTabsets>true</enableProfileCustomTabsets>
     <enableQuickCreate>true</enableQuickCreate>

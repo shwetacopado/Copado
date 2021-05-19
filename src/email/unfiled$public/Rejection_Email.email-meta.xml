@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>sampleLetter</letterhead>
+    <name>Rejection Email</name>
+    <style>freeForm</style>
+    <subject>Rejection Candidate</subject>
+    <textOnly>Hi {!Review__c.H_R__c},
+
+I do not find this candidate for this position.
+
+Thanks,
+{!Review__c.Interviewer__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

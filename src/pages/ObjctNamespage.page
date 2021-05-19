@@ -1,0 +1,11 @@
+<apex:page controller="ObjectNamesController" >
+    <apex:form >
+        <apex:pageBlock >
+            Please Select the Object
+            <apex:selectList value="{!SelectedName}">
+                <apex:selectOptions value="{!objNames}">
+                </apex:selectOptions>
+            </apex:selectList>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

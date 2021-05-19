@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <interviewLabel>New Customer Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>New Customer Flow</label>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>Account_Create</name>
+        <label>Account Create</label>
+        <locationX>153</locationX>
+        <locationY>259</locationY>
+        <connector>
+            <targetReference>Contact_Create</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>First_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Contact_Create</name>
+        <label>Contact Create</label>
+        <locationX>157</locationX>
+        <locationY>406</locationY>
+        <connector>
+            <targetReference>Opp_create</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>FirstName</field>
+            <value>
+                <elementReference>First_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LastName</field>
+            <value>
+                <elementReference>Last_Name</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordCreates>
+    <recordCreates>
+        <name>Opp_create</name>
+        <label>Opp create</label>
+        <locationX>184</locationX>
+        <locationY>529</locationY>
+        <inputAssignments>
+            <field>CloseDate</field>
+            <value>
+                <elementReference>Closed_Date</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <stringValue>{!Company_Name} - {!Last_Name}</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <elementReference>Opportunity_Stage</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Opportunity</object>
+    </recordCreates>
+    <screens>
+        <name>Opportunity_details</name>
+        <label>Opportunity details</label>
+        <locationX>169</locationX>
+        <locationY>110</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Account_Create</targetReference>
+        </connector>
+        <fields>
+            <name>First_Name</name>
+            <dataType>String</dataType>
+            <fieldText>First Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Last_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Last Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Company_Name</name>
+            <dataType>String</dataType>
+            <fieldText>Company Name</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Opportunity_Amount</name>
+            <dataType>String</dataType>
+            <fieldText>Opportunity Amount</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Opportunity_Stage</name>
+            <dataType>String</dataType>
+            <fieldText>Opportunity Stage</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Closed_Date</name>
+            <dataType>Date</dataType>
+            <fieldText>Closed Date</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>Opportunity_details</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>Closedate</name>
+        <dataType>Date</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Opportunityname</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

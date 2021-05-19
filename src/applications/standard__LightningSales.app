@@ -1,43 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Account_Record_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Account</pageOrSobjectType>
-    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>Sales</logo>
-        <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
-    <description>Sell smarter and faster with the world&apos;s #1 CRM solution.</description>
+    <description>Manage your sales process with accounts, leads, opportunities, and more</description>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
-    <tabs>sf_GsPilotV1__Getting_Started</tabs>
+    <tabs>Reassign_Account_Ownership</tabs>
+    <tabs>MyData</tabs>
+    <tabs>Top_Accounts_and_Opportunities</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-File</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
-    <tabs>standard-Lead</tabs>
-    <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Task</tabs>
-    <tabs>standard-Event</tabs>
+    <tabs>standard-Campaign</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-ContentNote</tabs>
     <tabs>standard-report</tabs>
-    <tabs>standard-CollaborationGroup</tabs>
-    <tabs>standard-Forecasting3</tabs>
-    <tabs>standard-File</tabs>
-    <tabs>standard-ListEmail</tabs>
-    <tabs>standard-Quote</tabs>
     <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>Suggestion__c</tabs>
+    <tabs>Book__c</tabs>
+    <tabs>Customer_Project__c</tabs>
+    <tabs>Contact_Relationship__c</tabs>
+    <tabs>Communication__c</tabs>
+    <tabs>Customer_Satisfaction_Survey__c</tabs>
+    <tabs>Comparable__c</tabs>
+    <tabs>Energy_Audit__c</tabs>
+    <tabs>Obj1__c</tabs>
+    <tabs>Obj2__c</tabs>
+    <tabs>Robot_Setup__c</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Tower__c</tabs>
+    <tabs>Orders__x</tabs>
+    <tabs>OrderDetails__x</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Sales_UtilityBar</utilityBar>
+    <utilityBar>undefined_UtilityBar</utilityBar>
 </CustomApplication>

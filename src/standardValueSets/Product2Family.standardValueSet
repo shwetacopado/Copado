@@ -6,4 +6,14 @@
         <default>false</default>
         <label>None</label>
     </standardValue>
+    <standardValue>
+        <fullName>Software</fullName>
+        <default>false</default>
+        <label>Software</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hardware</fullName>
+        <default>false</default>
+        <label>Hardware</label>
+    </standardValue>
 </StandardValueSet>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Comparable</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Comparables</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base_Opportunity --></label>
+        <name>Base_Opportunity__c</name>
+        <relationshipLabel><!-- Comparables --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Close_Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comparable_Opportunity --></label>
+        <name>Comparable_Opportunity__c</name>
+        <relationshipLabel><!-- Comparables (Comparable_Opportunity) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Comparable_opp_Name --></label>
+        <name>Comparable_opp_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

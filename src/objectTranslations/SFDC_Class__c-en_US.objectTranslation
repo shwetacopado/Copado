@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Class</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Classes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Instructor --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Classes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Offered --></label>
+        <name>Date_Offered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility --></label>
+        <name>Facility__c</name>
+        <picklistValues>
+            <masterLabel>Lab Room</masterLabel>
+            <translation><!-- Lab Room --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Room Bldg A Room 234</masterLabel>
+            <translation><!-- Training Room Bldg A Room 234 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Room Bldg A Room 254</masterLabel>
+            <translation><!-- Training Room Bldg A Room 254 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Max Capacity --></label>
+        <name>Max_Capacity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course --></label>
+        <name>Product2__c</name>
+        <relationshipLabel><!-- Classes --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

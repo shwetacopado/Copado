@@ -3,9 +3,8 @@
     <enableCanAnswerContainUsername>true</enableCanAnswerContainUsername>
     <enableConcealPersonalInfo>true</enableConcealPersonalInfo>
     <enableEnhancedPermsetMgmt>false</enableEnhancedPermsetMgmt>
-    <enableEnhancedProfileMgmt>false</enableEnhancedProfileMgmt>
+    <enableEnhancedProfileMgmt>true</enableEnhancedProfileMgmt>
     <enableNewProfileUI>false</enableNewProfileUI>
-    <enableProfileFiltering>false</enableProfileFiltering>
     <enableScrambleUserData>false</enableScrambleUserData>
     <enableUserSelfDeactivate>false</enableUserSelfDeactivate>
     <restrictedProfileCloning>false</restrictedProfileCloning>

@@ -4,6 +4,13 @@
     <attachmentOption>All</attachmentOption>
     <authenticationFailureAction>Discard</authenticationFailureAction>
     <authorizationFailureAction>Bounce</authorizationFailureAction>
+    <emailServicesAddresses>
+        <authorizedSenders>shwetachadha27@gmail.com</authorizedSenders>
+        <developerName>emailtosalesforce</developerName>
+        <isActive>true</isActive>
+        <localPart>emailtosalesforce</localPart>
+        <runAsUser>findshweta1@gmail.com</runAsUser>
+    </emailServicesAddresses>
     <functionInactiveAction>Bounce</functionInactiveAction>
     <functionName>EmailToSalesforce</functionName>
     <isActive>true</isActive>

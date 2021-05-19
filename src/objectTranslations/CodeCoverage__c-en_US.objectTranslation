@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CodeCoverage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CodeCoverages</value>
+    </caseValues>
+    <fields>
+        <label><!-- NumLinesCovered --></label>
+        <name>NumLinesCovered__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumLinesUncovered --></label>
+        <name>NumLinesUncovered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent --></label>
+        <name>Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- TestClassName --></label>
+        <name>TestClassName__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalLines --></label>
+        <name>Total__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

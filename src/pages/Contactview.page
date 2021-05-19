@@ -1,0 +1,11 @@
+<apex:page standardController="Contact" sidebar="false" >
+<apex:pageBlock >
+<apex:pageBlockSection >
+<br> FirstName: {! Contact.Firstname}</br>
+<br> LastName:  {! Contact.LastName} </br>
+<br> Email:     {! Contact.owner.email}</br>
+</apex:pageBlockSection>
+</apex:pageBlock>
+
+
+</apex:page>

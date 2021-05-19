@@ -1,74 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
-        <application>Lead_Generation</application>
+        <application>Armor_Decor_Console</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>ClassEnrollment</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>Relationship_Management</application>
+        <application>DreamHouse</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>Sales_Leadership</application>
+        <application>External_Orders</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>Sales_Operations</application>
+        <application>Garage</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado</application>
+        <application>In_Development</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Branch_Management</application>
+        <application>Recruiting</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Change_Management</application>
+        <application>Sample_App</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Compliance_Hub</application>
+        <application>Suggestion_Box</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Console</application>
+        <application>Trailblazer</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Permissioner</application>
+        <application>Trailhead</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copado__Copado_Selenium_Testing</application>
+        <application>ddcAssess__Data_com_Assessment</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>copadoccmint__Copado_Integrations</application>
+        <application>pi__ProspectInsight</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>lightningbuddy__Lightning_Buddy</application>
+        <application>pi__Sales_Reach</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__AllTabSet</application>
+        <application>rh2__PS_Rollup_Helper</application>
         <default>false</default>
         <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>rh2__Rollup_Helper_Lightning</application>
+        <default>false</default>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
@@ -86,7 +96,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__LightningBolt</application>
+        <application>standard__Content</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -97,11 +107,6 @@
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__LightningSales</application>
-        <default>true</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
-        <application>standard__LightningSalesConsole</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
@@ -123,7 +128,7 @@
     <applicationVisibilities>
         <application>standard__SalesforceCMS</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
         <application>standard__Service</application>
@@ -135,2779 +140,2796 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__Sites</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountAutomations</apexClass>
+        <apexClass>AWS_Upload</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>AccountAutomationsTest</apexClass>
+        <apexClass>AccountHandle1r</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ADD_DependencyHandler</apexClass>
+        <apexClass>AccountHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ADD_RecordMatchingFormulaOperations</apexClass>
+        <apexClass>AccountManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ADD_RecordMatchingFormulaOperations_Test</apexClass>
+        <apexClass>AccountManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AbstractArtifact</apexClass>
+        <apexClass>AccountProcessTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AbstractDXOrg</apexClass>
+        <apexClass>AccountProcesser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AbstractPackage</apexClass>
+        <apexClass>AccountProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AbstractTestData</apexClass>
+        <apexClass>AccountProcessorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AddCCHRuleCriteriaExt</apexClass>
+        <apexClass>AccountTrigger_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AddCCHRuleCriteriaExtTest</apexClass>
+        <apexClass>AccountTriggertest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ApexTestResultTriggerHandler</apexClass>
+        <apexClass>AccountUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ApexTestResultTriggerHelper</apexClass>
+        <apexClass>AccountbatchJobApex</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ApexTestTriggerHandler</apexClass>
+        <apexClass>AccountsController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ApplicationException</apexClass>
+        <apexClass>AccounttriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactFactory</apexClass>
+        <apexClass>AddPrimaryContact</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactManageMetadataController</apexClass>
+        <apexClass>AddPrimaryContactTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactMetadataService</apexClass>
+        <apexClass>AnimalLocator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactPackageController</apexClass>
+        <apexClass>AnimalLocatorMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactVersion</apexClass>
+        <apexClass>AnimalLocatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactVersionTriggerHandler</apexClass>
+        <apexClass>AnimalsCallouts</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ArtifactVersionTriggerHelper</apexClass>
+        <apexClass>AnimalsCalloutsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AttachmentTriggerHandler</apexClass>
+        <apexClass>AppleWatchtest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AttachmentTriggerHelper</apexClass>
+        <apexClass>AsyncCalculatorServices</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthenticateAnyOrgServiceController</apexClass>
+        <apexClass>AsyncParksServices</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationCheck</apexClass>
+        <apexClass>AutoUnqualifyLeads</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationException</apexClass>
+        <apexClass>AutoUnqualifyLeadstest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationUtils</apexClass>
+        <apexClass>AwesomeCalculator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationWithSharing</apexClass>
+        <apexClass>AwesomeCalculatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AuthorizationWithoutSharing</apexClass>
+        <apexClass>BatchLeadConvert</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AutomationTemplateCloneHandler</apexClass>
+        <apexClass>BatchLeadConvertTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AutomationTemplateExecuter</apexClass>
+        <apexClass>BotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__AutomationTemplateExportImportHelper</apexClass>
+        <apexClass>BotField</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BackupBatch</apexClass>
+        <apexClass>BotHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BackupNow</apexClass>
+        <apexClass>BotItem</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BatchHelper</apexClass>
+        <apexClass>BotMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BranchArtifact</apexClass>
+        <apexClass>BotMessageButton</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BranchManagementExt</apexClass>
+        <apexClass>BotRecord</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BranchManagementExtension</apexClass>
+        <apexClass>BotResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BranchMetadataService</apexClass>
+        <apexClass>BotTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BuildTaskEmailController</apexClass>
+        <apexClass>BtnDisableEnable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BuildTaskTriggerHandler</apexClass>
+        <apexClass>CalculatorCalloutMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BuildTaskTriggerHelper</apexClass>
+        <apexClass>CampingListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BurnDownItemBatchClass</apexClass>
+        <apexClass>CaseList</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BurnDownItemScheduler</apexClass>
+        <apexClass>CaseManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__BurndownItem</apexClass>
+        <apexClass>CaseManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCDFullCycleTestDefaults</apexClass>
+        <apexClass>CategorySearchController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_BackPromotionBatch</apexClass>
+        <apexClass>ChangePasswordController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_BackPromotionSchedule</apexClass>
+        <apexClass>ChangePasswordControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_BothPromotionQueueable</apexClass>
+        <apexClass>Changeownerrelationship</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_CreateMetadataGroupItemExtension</apexClass>
+        <apexClass>Checkrecursive</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_CreateQualityGateExtension</apexClass>
+        <apexClass>CommunitiesLandingController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_PromotionBatch</apexClass>
+        <apexClass>CommunitiesLandingControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CCD_PromotionSchedule</apexClass>
+        <apexClass>CommunitiesLoginController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CLIInterface</apexClass>
+        <apexClass>CommunitiesLoginControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CMTestMethodUtilities</apexClass>
+        <apexClass>CommunitiesSelfRegConfirmController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CMUtilities</apexClass>
+        <apexClass>CommunitiesSelfRegConfirmControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CalculateOrgDifferences</apexClass>
+        <apexClass>CommunitiesSelfRegController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CalculateSnapshotDifferences</apexClass>
+        <apexClass>CommunitiesSelfRegControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CheckFeaturesController</apexClass>
+        <apexClass>ConcurrentSessionsPolicyCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CliProxy</apexClass>
+        <apexClass>ContactAndLeadSearch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CliSecurityService</apexClass>
+        <apexClass>ContactMasterHandler_Undelete</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CliSfDataWrapper</apexClass>
+        <apexClass>ContactRelationship</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CloneAutomationTemplate</apexClass>
+        <apexClass>ContactSaveExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CloneAutomationTemplateTest</apexClass>
+        <apexClass>ContactSearch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CloneSeleniumTestCaseExtension</apexClass>
+        <apexClass>ContactsListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CodeScanHandshakeService</apexClass>
+        <apexClass>ContactsTodayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ColumnConfig</apexClass>
+        <apexClass>ContactsTodayController_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CommitService</apexClass>
+        <apexClass>Cover</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceFindingTestDefaults</apexClass>
+        <apexClass>Cover1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceFindingTriggerHandler</apexClass>
+        <apexClass>Ctrl_AccountSearch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceFindingTriggerHelper</apexClass>
+        <apexClass>DailyLeadProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceHelper</apexClass>
+        <apexClass>DailyLeadProcessorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceRuleCriteriaTriggerHandler</apexClass>
+        <apexClass>DataLoaderLeadExportCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceRuleCriteriaTriggerHelper</apexClass>
+        <apexClass>DeDupeTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceRuleTriggerHandler</apexClass>
+        <apexClass>DreamHouseSampleDataController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceScanResultTriggerHandler</apexClass>
+        <apexClass>ECCR__CodeCoverageReportController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ComplianceScanResultTriggerHelper</apexClass>
+        <apexClass>ECCR__CodeCoverageReportControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ConnectionBehaviorTriggerHandler</apexClass>
+        <apexClass>EinsteinVisionController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ConnectionBehaviorTriggerHelper</apexClass>
+        <apexClass>EinsteinVisionControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ConnectionBehaviorUsageInfoController</apexClass>
+        <apexClass>EmailManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationExtension</apexClass>
+        <apexClass>EmailMissionSpecialist</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationExtensionTest</apexClass>
+        <apexClass>ExportTestCoverage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationPermTrgHandler</apexClass>
+        <apexClass>FileUploadController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationPermTrgHelper</apexClass>
+        <apexClass>ForgotPasswordController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationTriggerHandler</apexClass>
+        <apexClass>ForgotPasswordControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ContinuousIntegrationTriggerHelper</apexClass>
+        <apexClass>HandlerAddTwoNumbers</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ConvertAutomationToDeployment</apexClass>
+        <apexClass>HandlerCostCenter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ConvertTypes</apexClass>
+        <apexClass>HandlerEmployeeId</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoAPI</apexClass>
+        <apexClass>HandlerFileUpload</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoCommitChangesTestDefaults</apexClass>
+        <apexClass>HandlerFindAccount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoDeploymentWizardTestDefaults</apexClass>
+        <apexClass>HandlerFindContact</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoLicensesComponentController</apexClass>
+        <apexClass>HandlerFindProperties</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoMassBackPromotionTestDefaults</apexClass>
+        <apexClass>HandlerFindPropertiesByBedrooms</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoNotificationHelper</apexClass>
+        <apexClass>HandlerHello</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoPipelineWizardTestDefaults</apexClass>
+        <apexClass>HandlerHelp</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoPromotionTestDefaults</apexClass>
+        <apexClass>HandlerHelpTopic</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoRollup</apexClass>
+        <apexClass>HandlerImageBasedSearch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoSetupController</apexClass>
+        <apexClass>HandlerMyOpenCases</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoSetupTestDefaults</apexClass>
+        <apexClass>HandlerNext</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoSmartHelpController</apexClass>
+        <apexClass>HandlerPipeline</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CopadoUserStoryTestDefaults</apexClass>
+        <apexClass>HandlerQuarter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CountryPicklistValues</apexClass>
+        <apexClass>HandlerSOQL</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CreateTestScriptStepsController</apexClass>
+        <apexClass>HandlerTopOpportunities</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CreateUserStoryScratchOrgController</apexClass>
+        <apexClass>HandlerTravelApproval</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CustomLookupComponentHelper</apexClass>
+        <apexClass>HelloWorld</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__CustomLookupQueryConfiguration</apexClass>
+        <apexClass>HelloWorldTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DML_Action</apexClass>
+        <apexClass>HttpFormBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_DeploymentExtension</apexClass>
+        <apexClass>JWT</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_IntermediaryExtension</apexClass>
+        <apexClass>JWTBearerFlow</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_OverrideFiltersExtension</apexClass>
+        <apexClass>LIFXController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_OverviewExtension</apexClass>
+        <apexClass>LIFXControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_SelectChangesExtension</apexClass>
+        <apexClass>LeadConvertValidationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_SelectDataTemplateExtension</apexClass>
+        <apexClass>LeadProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_SourceExtension</apexClass>
+        <apexClass>LeadProcessorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_SummaryExtension</apexClass>
+        <apexClass>LightningConnectQuickstart</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DW_TargetExtension</apexClass>
+        <apexClass>LightningForgotPasswordController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXExtensionStatusController</apexClass>
+        <apexClass>LightningForgotPasswordControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXLabel</apexClass>
+        <apexClass>LightningLoginFormController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXMetadataJsonWrapper</apexClass>
+        <apexClass>LightningLoginFormControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXOperationController</apexClass>
+        <apexClass>LightningSelfRegisterController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXOrgFactory</apexClass>
+        <apexClass>LightningSelfRegisterControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXPackageArtifactHelper</apexClass>
+        <apexClass>MyContactListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXPackageAsyncJobHandler</apexClass>
+        <apexClass>MyHelloWorld</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXPackageVersionHandler</apexClass>
+        <apexClass>MyOpptyTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXProject</apexClass>
+        <apexClass>MyProfilePageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DXTestOrgIntermediaryController</apexClass>
+        <apexClass>MyProfilePageControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataDeploymentService</apexClass>
+        <apexClass>MyRestResource</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataTemplateImportExtension</apexClass>
+        <apexClass>NewCaseListController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataTemplateObjectResultController</apexClass>
+        <apexClass>NotificationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataTemplateSetupExtension</apexClass>
+        <apexClass>ObjectNamesController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DataTemplateTaskComponentController</apexClass>
+        <apexClass>OlderAccountsUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DatabaseOperationType</apexClass>
+        <apexClass>OppOwnertest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DefineProductionOrgServiceController</apexClass>
+        <apexClass>OpportunityAlertController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DependencyHandler</apexClass>
+        <apexClass>OpportunityAlertController_test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeployAPI</apexClass>
+        <apexClass>OpportunityList2con</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeployCommits</apexClass>
+        <apexClass>OwnerManagertest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeployJobHelper</apexClass>
+        <apexClass>ParkLocator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeployLater</apexClass>
+        <apexClass>ParkLocatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentEmailController</apexClass>
+        <apexClass>ParkServiceMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentExt</apexClass>
+        <apexClass>PostPriceChangeToSlack</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentFlowStepTriggerHandler</apexClass>
+        <apexClass>PostPriceChangeToSlackTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentFlowStepTriggerHelper</apexClass>
+        <apexClass>PrefixDoctor_Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentFlowTriggerHandler</apexClass>
+        <apexClass>ProfileController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentFlowTriggerHelper</apexClass>
+        <apexClass>PropertyController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentHelper</apexClass>
+        <apexClass>PropertyControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentInterface</apexClass>
+        <apexClass>PropertyPagedResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentStatusExtension</apexClass>
+        <apexClass>PushPriceChangeNotification</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentStepsUtils</apexClass>
+        <apexClass>PushPriceChangeNotificationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentTaskExtension</apexClass>
+        <apexClass>QueueOwnerUpdate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentTriggerHandler</apexClass>
+        <apexClass>RandomContactFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentTriggerHelper</apexClass>
+        <apexClass>RecursiveHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DeploymentWizardExtension</apexClass>
+        <apexClass>RejectDuplicateFavoriteTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DescribeSObjectService</apexClass>
+        <apexClass>RemindOpptyOwners</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DescribeSObjectService_Test</apexClass>
+        <apexClass>RemindOppyOwnersTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DestinationOrgTriggerHandler</apexClass>
+        <apexClass>SOSLSearchController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DestinationOrgTriggerHelper</apexClass>
+        <apexClass>ScheduleDispatcher</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DevHubService</apexClass>
+        <apexClass>SecureApexRest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DxCommitService</apexClass>
+        <apexClass>ShowerrorMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DynamicDatatableController</apexClass>
+        <apexClass>SiteLoginController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DynamicDatatableQueryConfiguration</apexClass>
+        <apexClass>SiteLoginControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DynamicScratchOrgController</apexClass>
+        <apexClass>SiteRegisterController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__DynamicVariablesInterpreter</apexClass>
+        <apexClass>SiteRegisterControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditBackupExtension</apexClass>
+        <apexClass>SlackOpportunityPublisher</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditExternalCISetting</apexClass>
+        <apexClass>SlackOpportunityPublisherTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditGit</apexClass>
+        <apexClass>StringArrayTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditOrg</apexClass>
+        <apexClass>TaskUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditOrgDiffExtension</apexClass>
+        <apexClass>TaskUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EditSeleniumSettingOverride</apexClass>
+        <apexClass>TaskUtiltest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Encoder</apexClass>
+        <apexClass>TemperatureConverter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EnvironmentTriggerHandler</apexClass>
+        <apexClass>TemperatureConverterTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EnvironmentTriggerHelper</apexClass>
+        <apexClass>TestAccountDeletion</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EnvironmentalVariableTriggerHandler</apexClass>
+        <apexClass>TestCaseStatus</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__EnvironmentalVariableTriggerHelpler</apexClass>
+        <apexClass>TestDataFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ErrorHandlingComponentController</apexClass>
+        <apexClass>TestFindDupe</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExecuteDeployment</apexClass>
+        <apexClass>TestLightningConnectQuickstart</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExecuteFlow</apexClass>
+        <apexClass>TestOwnerManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExecuteTestRunExtension</apexClass>
+        <apexClass>TestRestrictContactByName</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExportAutomationTemplate</apexClass>
+        <apexClass>TestVerifyDate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExportAutomationTemplateTest</apexClass>
+        <apexClass>Test_ContactPhone</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExternalCIAPIFactory</apexClass>
+        <apexClass>TowerMapControllerClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ExternalCIJobsExtension</apexClass>
+        <apexClass>UpdateCloseDate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__FeatureAccessHelper</apexClass>
+        <apexClass>UpdateContactAddresses</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__FeatureHelper</apexClass>
+        <apexClass>UpdateContactAddressesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GenerateStaticCodeAnalysisRuleSet</apexClass>
+        <apexClass>UpdateParentAccount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GenericMDAPIDiffCSV</apexClass>
+        <apexClass>UpdateParentAccountTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitArtifact</apexClass>
+        <apexClass>UseWrapperCtr</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitBackupTriggerHandler</apexClass>
+        <apexClass>UtilityClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitBackupTriggerHelper</apexClass>
+        <apexClass>VerifyDate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommitChangesController</apexClass>
+        <apexClass>calculatorServices</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommitLookupController</apexClass>
+        <apexClass>ddcAssess__AccountCounter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_AdvancedController</apexClass>
+        <apexClass>ddcAssess__AssessmentBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_ComponentBase</apexClass>
+        <apexClass>ddcAssess__AssessmentCtlr</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_GridController</apexClass>
+        <apexClass>ddcAssess__AssessmentCtlrTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_HeaderController</apexClass>
+        <apexClass>ddcAssess__AssessmentDataHealth</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_IntermediaryController</apexClass>
+        <apexClass>ddcAssess__AssessmentDataHealthTests</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_MainController</apexClass>
+        <apexClass>ddcAssess__AssessmentLoader</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_MainPageController</apexClass>
+        <apexClass>ddcAssess__AssessmentMatcherAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_OperationsController</apexClass>
+        <apexClass>ddcAssess__AssessmentResultsCtlr</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitCommit_PageBase</apexClass>
+        <apexClass>ddcAssess__AssessmentResultsCtlrTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitHelper</apexClass>
+        <apexClass>ddcAssess__AssessmentResultsV1Ctlr</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitOrgCommitTriggerHandler</apexClass>
+        <apexClass>ddcAssess__AssessmentStatsUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitOrgCommitTriggerHelper</apexClass>
+        <apexClass>ddcAssess__AssessmentUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitRepositoryTriggerHandler</apexClass>
+        <apexClass>ddcAssess__DunsrightMatcherAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GitRepositoryTriggerHelper</apexClass>
+        <apexClass>ddcAssess__DupeCounter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GlobalAPI</apexClass>
+        <apexClass>ddcAssess__DupeRecordDeleter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GlobalAPI_Test</apexClass>
+        <apexClass>ddcAssess__IllegalStateException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__GlobalUtilities</apexClass>
+        <apexClass>ddcAssess__IndustryUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__HttpCalloutBuilder</apexClass>
+        <apexClass>ddcAssess__InvalidArgumentException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__HttpMock</apexClass>
+        <apexClass>ddcAssess__MatcherAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__HttpMock_Test</apexClass>
+        <apexClass>ddcAssess__MatcherAddress</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IAuthorization</apexClass>
+        <apexClass>ddcAssess__MatcherCompany</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IDXOrgBehavior</apexClass>
+        <apexClass>ddcAssess__MatcherContact</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IDXProjectBehavior</apexClass>
+        <apexClass>ddcAssess__MatcherField</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IExternalCIAPI</apexClass>
+        <apexClass>ddcAssess__MatcherLocation</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IPackageBehavior</apexClass>
+        <apexClass>ddcAssess__MatcherObject</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ITestDefaults</apexClass>
+        <apexClass>ddcAssess__MatcherToken</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ITrigger</apexClass>
+        <apexClass>ddcAssess__MatcherTokenAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ITypeConverter</apexClass>
+        <apexClass>ddcAssess__MatcherUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ImportAutomationTemplate</apexClass>
+        <apexClass>ddcAssess__ProspectorAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ImportAutomationTemplateTest</apexClass>
+        <apexClass>ddcAssess__ProspectorAPITest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__IndexMetadataJob</apexClass>
+        <apexClass>ddcAssess__ProspectorBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__InvokableMethods_Test</apexClass>
+        <apexClass>ddcAssess__RecordCounter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__JenkinsAPI</apexClass>
+        <apexClass>ddcAssess__RetrieveApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__JobWaitingExtension</apexClass>
+        <apexClass>ddcAssess__SearchAndReplace</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__JobsManager</apexClass>
+        <apexClass>ddcAssess__TestException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__JsRemotingController</apexClass>
+        <apexClass>ddcAssess__TestUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__KanbanBoard</apexClass>
+        <apexClass>duplicateclass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__KanbanBoardEditController</apexClass>
+        <apexClass>fileUploadAWS</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__LicenseHelper</apexClass>
+        <apexClass>newurlPolicyCondition</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__LicenseManagerController</apexClass>
+        <apexClass>parkService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__LightningReadyFieldsController</apexClass>
+        <apexClass>pi__AccessPardotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__LightningReadyRelatedListController</apexClass>
+        <apexClass>pi__AccessPardotControllerByOrg</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManageEnvVarsExt</apexClass>
+        <apexClass>pi__AccessPardotControllerByUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManageGitBranchesController</apexClass>
+        <apexClass>pi__AccessPardotControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManageRepositoryBranchesController</apexClass>
+        <apexClass>pi__AccountsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManageSeleniumTestingExt</apexClass>
+        <apexClass>pi__AccountsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ManualTaskComponentController</apexClass>
+        <apexClass>pi__ActiveUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MassAddDestOrgs</apexClass>
+        <apexClass>pi__ActiveUserEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MassAddRunsToGroup</apexClass>
+        <apexClass>pi__ActiveUserEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MassAddSuitesToGroup</apexClass>
+        <apexClass>pi__AlertsBPOPruningEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MassAddToReleaseExtension</apexClass>
+        <apexClass>pi__AlertsBPOPruningEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MergeVersionController</apexClass>
+        <apexClass>pi__Api</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MetadataDeploymentService</apexClass>
+        <apexClass>pi__ApiFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MetadataSource</apexClass>
+        <apexClass>pi__ApiFactoryTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MetadataTypeService</apexClass>
+        <apexClass>pi__ApplicationConfiguration</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MetadataTypesHelper</apexClass>
+        <apexClass>pi__ApplicationConfigurationController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MetadataselectorExtension</apexClass>
+        <apexClass>pi__ApplicationConfigurationException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MockHttpResponseGenerator</apexClass>
+        <apexClass>pi__ApplicationConfigurationTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__MultiselectController</apexClass>
+        <apexClass>pi__AssignSELicenseController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__NewApexTestResultEmailController</apexClass>
+        <apexClass>pi__AssignSELicenseControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__NewBuildTaskEmailController</apexClass>
+        <apexClass>pi__AsyncApexJobEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__NewDeploymentEmailController</apexClass>
+        <apexClass>pi__AsyncRequest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__NewEnvironmentServiceController</apexClass>
+        <apexClass>pi__AsyncRequestAlertsBPOPruning</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__NewPipelineExtension</apexClass>
+        <apexClass>pi__AsyncRequestAlertsBPOPruningTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OperatorTypeCodes</apexClass>
+        <apexClass>pi__AsyncRequestBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgApexTestResultsSummaryEmailController</apexClass>
+        <apexClass>pi__AsyncRequestBatchProcessor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgAuthenticationComponentController</apexClass>
+        <apexClass>pi__AsyncRequestBatchProcessorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgAuthenticationInterface</apexClass>
+        <apexClass>pi__AsyncRequestCategoryScoreDeleteBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgAuthenticationWrapper</apexClass>
+        <apexClass>pi__AsyncRequestCategoryScoreDeleteBatchTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgDiffExtension</apexClass>
+        <apexClass>pi__AsyncRequestOCLPruningBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgDiffTriggerHandler</apexClass>
+        <apexClass>pi__AsyncRequestOCLPruningBatchTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgMetadataService</apexClass>
+        <apexClass>pi__AsyncRequestScorigory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgPreferencesHandler</apexClass>
+        <apexClass>pi__AsyncRequestScorigoryTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgStatusIconsController</apexClass>
+        <apexClass>pi__AsyncRequestTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgTriggerHandler</apexClass>
+        <apexClass>pi__AuthenticatedPardotApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OrgTriggerHelper</apexClass>
+        <apexClass>pi__AuthenticatedPardotApiTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OverrideFiltersComponentController</apexClass>
+        <apexClass>pi__BaseController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__OverrideTemplateFiltersController</apexClass>
+        <apexClass>pi__BaseControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PackageArtifactOrgDefinitionController</apexClass>
+        <apexClass>pi__CampaignDeleteCheckTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PackageDependency</apexClass>
+        <apexClass>pi__CampaignDeleteCheckTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PackageDetail</apexClass>
+        <apexClass>pi__ChangeTaskFromPardotTaskTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PatchArtifact</apexClass>
+        <apexClass>pi__ChangeTaskFromPardotTaskTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PatchMetadataService</apexClass>
+        <apexClass>pi__CheckFieldLevelSecurity</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PermissionSchedulable</apexClass>
+        <apexClass>pi__CheckFieldLevelSecurityTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PermissionSetExplorerExt</apexClass>
+        <apexClass>pi__CheckPdAccess</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaAssignmentHelper</apexClass>
+        <apexClass>pi__CheckPdAccessTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaAssignmentTriggerHandler</apexClass>
+        <apexClass>pi__ConnectorPermAssigner</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaPermissionTriggerHandler</apexClass>
+        <apexClass>pi__Constants</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaPermissionTriggerHelper</apexClass>
+        <apexClass>pi__ContactDeleteScoresTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaTriggerHandler</apexClass>
+        <apexClass>pi__CreateTaskFromPardotTaskBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PersonaTriggerHelper</apexClass>
+        <apexClass>pi__CreateTaskFromPardotTaskBatchTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineComponentHelper</apexClass>
+        <apexClass>pi__CurrentUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineDiagramExtension</apexClass>
+        <apexClass>pi__CurrentUserTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineFiltersController</apexClass>
+        <apexClass>pi__DeleteScoresTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineHeaderController</apexClass>
+        <apexClass>pi__DeleteScoresTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineManagerExtension</apexClass>
+        <apexClass>pi__EHMailAppController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelinePagesHelper</apexClass>
+        <apexClass>pi__ESAPI</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineSettingsComponentController</apexClass>
+        <apexClass>pi__EmailSearchEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PipelineTemplateComponentController</apexClass>
+        <apexClass>pi__EmailSearchEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PostInstallClass</apexClass>
+        <apexClass>pi__EmailSearchEndpointV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ProductionOrgServiceController</apexClass>
+        <apexClass>pi__EmailSearchEndpointV2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ProjectArtifact</apexClass>
+        <apexClass>pi__EmailSearchUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ProjectTriggerHandler</apexClass>
+        <apexClass>pi__EmailTemplateEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ProjectTriggerHelper</apexClass>
+        <apexClass>pi__EmailTemplateEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromoteBetatoReleasedController</apexClass>
+        <apexClass>pi__EmailTemplateEndpointV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromoteChangesExtension</apexClass>
+        <apexClass>pi__EmailTemplateEndpointV2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromotionChangeEventTriggerHandler</apexClass>
+        <apexClass>pi__EmailTemplateMergedEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromotionEditExtension</apexClass>
+        <apexClass>pi__EmailTemplateMergedEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromotionTriggerHandler</apexClass>
+        <apexClass>pi__EmailTemplateMergedEndpointV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__PromotionTriggerHelper</apexClass>
+        <apexClass>pi__EmailTemplateMergedEndpointV2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__QueryEditor</apexClass>
+        <apexClass>pi__EmailTemplateReplaceTool</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__QueryEditorController</apexClass>
+        <apexClass>pi__EmailTemplateReplaceToolTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__QuickCreateUserStoriesController</apexClass>
+        <apexClass>pi__EmailTemplateRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RecalculateBranchStatus</apexClass>
+        <apexClass>pi__EmailTemplateRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RecalculateDeploymentFlowBranchStatuses</apexClass>
+        <apexClass>pi__EmailTrackingService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RefreshOrgMetadataCache</apexClass>
+        <apexClass>pi__EmailTrackingServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RegisterCopado</apexClass>
+        <apexClass>pi__EngageAlertsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RelatedListConfig</apexClass>
+        <apexClass>pi__EngageAlertsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RelatedListController</apexClass>
+        <apexClass>pi__EngageFilterMetadataWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RelatedListVisualPicklist</apexClass>
+        <apexClass>pi__EngagementAlertFilterActionWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ReleaseDetailService</apexClass>
+        <apexClass>pi__EngagementHistoryControllerV2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ReleaseExt</apexClass>
+        <apexClass>pi__EngagementHistoryControllerV2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ReleaseStatusService</apexClass>
+        <apexClass>pi__EngagementHistoryHydrator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ReleaseTailService</apexClass>
+        <apexClass>pi__EngagementHistoryHydratorFactory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ResolveConflictsController</apexClass>
+        <apexClass>pi__EngagementHistoryHydratorFactoryTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ResultTriggerHandler</apexClass>
+        <apexClass>pi__EngagementHistoryMetaGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ResultTriggerHelper</apexClass>
+        <apexClass>pi__EngagementHistoryMetaGeneratorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ReturnObject</apexClass>
+        <apexClass>pi__EngagementHistoryNameGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunAllOrgApexTests</apexClass>
+        <apexClass>pi__EngagementHistoryNameGeneratorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunContinuousIntegration</apexClass>
+        <apexClass>pi__EngagementHistoryNames</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunDeployPromotion</apexClass>
+        <apexClass>pi__EngagementHistoryPardotRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunOrgComplianceScan</apexClass>
+        <apexClass>pi__EngagementHistoryPardotRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunOrgStaticCodeAnalysis</apexClass>
+        <apexClass>pi__EngagementHistoryTypeValidator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunSeleniumTest</apexClass>
+        <apexClass>pi__EngagementHistoryTypeValidatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunSeleniumTestGroup</apexClass>
+        <apexClass>pi__EngagementHistoryTypes</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunSnapshotComplianceScan</apexClass>
+        <apexClass>pi__EngagementHistoryTypesTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunTestGroupsBatch</apexClass>
+        <apexClass>pi__FeatureFlagDefaultManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunUserStoryComplianceScan</apexClass>
+        <apexClass>pi__FeatureFlagDefaultManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunUserStoryStaticCodeAnalysis</apexClass>
+        <apexClass>pi__FilesController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__RunUserStoryTests</apexClass>
+        <apexClass>pi__FilterController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SalesforceFlowStepController</apexClass>
+        <apexClass>pi__FilterControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScheduleConnectionBehaviorController</apexClass>
+        <apexClass>pi__FilterEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScheduleCronExpressionController</apexClass>
+        <apexClass>pi__FilterEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScheduledJobExtension</apexClass>
+        <apexClass>pi__FilterRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Scheduler</apexClass>
+        <apexClass>pi__FilterRepoException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgCompletionController</apexClass>
+        <apexClass>pi__FilterRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgController</apexClass>
+        <apexClass>pi__FilterUserEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgDefinition</apexClass>
+        <apexClass>pi__FilterUserEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgDefinitionController</apexClass>
+        <apexClass>pi__FindPeopleMatchesProcedure</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgDetail</apexClass>
+        <apexClass>pi__FindPeopleMatchesProcedureTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgDisplayController</apexClass>
+        <apexClass>pi__Hash</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgExtensionsController</apexClass>
+        <apexClass>pi__HashTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgMetadataController</apexClass>
+        <apexClass>pi__HttpResponseParser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgOpen</apexClass>
+        <apexClass>pi__InvalidInputException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgProjectTemplateController</apexClass>
+        <apexClass>pi__LDFilter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgService</apexClass>
+        <apexClass>pi__LDFilterTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgSettings</apexClass>
+        <apexClass>pi__LFxHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgStatusCtrl</apexClass>
+        <apexClass>pi__LFxHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgWizardComponentBase</apexClass>
+        <apexClass>pi__LastScoredAtFieldTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ScratchOrgWizardPageBase</apexClass>
+        <apexClass>pi__LastScoredAtFieldTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SecondGenerationManagedArtifact</apexClass>
+        <apexClass>pi__LeadDeckController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SecondGenerationPackageService</apexClass>
+        <apexClass>pi__LeadDeckControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SecureOperations</apexClass>
+        <apexClass>pi__LeadDeleteScoresTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestCasePerSuite</apexClass>
+        <apexClass>pi__ListDripProgramsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestCasePromoteRollback</apexClass>
+        <apexClass>pi__ListDripProgramsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestCaseTriggerHandler</apexClass>
+        <apexClass>pi__ListDripProgramsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestCaseViewEdit</apexClass>
+        <apexClass>pi__ListMembershipEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestGroupExtension</apexClass>
+        <apexClass>pi__ListMembershipEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestGroupOCTriggerHandler</apexClass>
+        <apexClass>pi__ListMembershipsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestGroupTSTriggerHandler</apexClass>
+        <apexClass>pi__ListMembershipsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestGroupTriggerHandler</apexClass>
+        <apexClass>pi__ListsController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestGroupTriggerHelper</apexClass>
+        <apexClass>pi__ListsControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestQuickRun</apexClass>
+        <apexClass>pi__ListsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestResult</apexClass>
+        <apexClass>pi__ListsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestResultTriggerHandler</apexClass>
+        <apexClass>pi__ListsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestRunResults</apexClass>
+        <apexClass>pi__LocationTools</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestRunTriggerHandler</apexClass>
+        <apexClass>pi__LocationToolsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestRunTriggerHelper</apexClass>
+        <apexClass>pi__LogAccountDeleteTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SeleniumTestSuiteTriggerHandler</apexClass>
+        <apexClass>pi__LogAccountDeleteTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Settings</apexClass>
+        <apexClass>pi__LogAccountEmailFieldTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SetupWizardFinishController</apexClass>
+        <apexClass>pi__LogAccountObjectEmailFieldTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SetupWizardStartController</apexClass>
+        <apexClass>pi__LogContactObjectEmailFieldTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SfdxAPI</apexClass>
+        <apexClass>pi__LogLeadObjectEmailFieldTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SfdxAPIHelper</apexClass>
+        <apexClass>pi__LogObjectEmailFieldTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SfdxSchedulable</apexClass>
+        <apexClass>pi__LogObjectEmailFieldTriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ShowAttachmentDetailController</apexClass>
+        <apexClass>pi__Logger</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SnapshotCommitService</apexClass>
+        <apexClass>pi__LoggerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SnapshotDiffTriggerHandler</apexClass>
+        <apexClass>pi__LogsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__SprintVirtualWall</apexClass>
+        <apexClass>pi__LogsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__StaticCodeAnalysisSettingsExt</apexClass>
+        <apexClass>pi__LogsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__StepEditionController</apexClass>
+        <apexClass>pi__LogsRepoHttpCalloutMock</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__StepTriggerHandler</apexClass>
+        <apexClass>pi__LogsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__StepTriggerHelper</apexClass>
+        <apexClass>pi__MarketingActionRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TakeGitSnapshot</apexClass>
+        <apexClass>pi__MarketingActionRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TeamCityAPI</apexClass>
+        <apexClass>pi__MarketingActionSummaryController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestApexTestResultTriggerHandler</apexClass>
+        <apexClass>pi__MarketingActionSummaryControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestApexTestSummaryEmail</apexClass>
+        <apexClass>pi__MarketingActionsController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestAppHome</apexClass>
+        <apexClass>pi__MarketingActionsControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestArtifactVersionTrigger</apexClass>
+        <apexClass>pi__MarketingActionsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestAttachmentTrigger</apexClass>
+        <apexClass>pi__MarketingActionsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestBackupBatch</apexClass>
+        <apexClass>pi__MarketingActionsRequest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestBackupNow</apexClass>
+        <apexClass>pi__MarketingActionsRequestTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestBatch</apexClass>
+        <apexClass>pi__MicroCampaign</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestBuildTaskEmailController</apexClass>
+        <apexClass>pi__MicroCampaignCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestBuildTaskTrigger</apexClass>
+        <apexClass>pi__MicroCampaignCtrlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCMTestMethodUtilities</apexClass>
+        <apexClass>pi__MicroCampaignCustomCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCheckFeaturesController</apexClass>
+        <apexClass>pi__MicroCampaignCustomCtrlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCloneDeployment</apexClass>
+        <apexClass>pi__MicroCampaignRecipient</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCloneSeleniumTestCaseExtension</apexClass>
+        <apexClass>pi__MicroCampaignSetCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCodeScanHandshakeService</apexClass>
+        <apexClass>pi__MicroCampaignSetCtrlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestComplianceFindingTriggerHandler</apexClass>
+        <apexClass>pi__MicroCampaignStdCtrl</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestComplianceRuleTriggerHandler</apexClass>
+        <apexClass>pi__MicroCampaignStdCtrlTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestComplianceRuleTriggerHandler2</apexClass>
+        <apexClass>pi__MissingParamsException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestComplianceScanResultTriggerHandler</apexClass>
+        <apexClass>pi__MockAuthenticatedPardotApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestContinuousIntegrationExtension</apexClass>
+        <apexClass>pi__MockHttpResponseGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestContinuousIntegrationPermTrg</apexClass>
+        <apexClass>pi__MockPardotApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestContinuousIntegrationTrigger</apexClass>
+        <apexClass>pi__MockPardotApiResponseGenerator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestConvertAutomationToDeployment</apexClass>
+        <apexClass>pi__MockTaskInserter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCopadoAPI</apexClass>
+        <apexClass>pi__NoEngageLicenseException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCopadoSetup</apexClass>
+        <apexClass>pi__NullArgumentException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCopadoSetupController</apexClass>
+        <apexClass>pi__OutlookAuthController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCopadoSmartHelpController</apexClass>
+        <apexClass>pi__OutlookComposeController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCreateTestScriptStepsController</apexClass>
+        <apexClass>pi__OutlookComposeControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCreateUSScratchOrg</apexClass>
+        <apexClass>pi__OutlookEmail</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCreditComp</apexClass>
+        <apexClass>pi__OutlookEmailTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestCustomLookupComponentHelper</apexClass>
+        <apexClass>pi__PApiCommandExecutor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDataFactory</apexClass>
+        <apexClass>pi__PApiCommandExecutorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeployAPI</apexClass>
+        <apexClass>pi__PApiCommandResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeployCommits</apexClass>
+        <apexClass>pi__PApiCommandTypes</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeployJobHelper</apexClass>
+        <apexClass>pi__PApiCommandValidator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentEmailController</apexClass>
+        <apexClass>pi__PApiCommandValidatorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentExt</apexClass>
+        <apexClass>pi__PApiController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentFlowStepTrigger</apexClass>
+        <apexClass>pi__PApiControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentFlowStepTrigger2</apexClass>
+        <apexClass>pi__PardotAccount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentFlowTrigger</apexClass>
+        <apexClass>pi__PardotAccountsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentFlowTrigger2</apexClass>
+        <apexClass>pi__PardotAccountsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentStepsUtils</apexClass>
+        <apexClass>pi__PardotApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentTaskExtension</apexClass>
+        <apexClass>pi__PardotApiCalloutManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentTrigger</apexClass>
+        <apexClass>pi__PardotApiCalloutManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentWizard</apexClass>
+        <apexClass>pi__PardotApiException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentWizardFailures</apexClass>
+        <apexClass>pi__PardotApiTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDeploymentWizardUseCases</apexClass>
+        <apexClass>pi__PardotConnectorUserResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDxOperationController</apexClass>
+        <apexClass>pi__PardotEmailRedirect_CTRL</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDxPackaging</apexClass>
+        <apexClass>pi__PardotEmailTemplate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDxPackagingOperations</apexClass>
+        <apexClass>pi__PardotEmailTemplateList</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDynamicDatatableController</apexClass>
+        <apexClass>pi__PardotEndpointHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestDynamicVariablesInterpreter</apexClass>
+        <apexClass>pi__PardotEndpointHelperTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEditBackupExtension</apexClass>
+        <apexClass>pi__PardotExceptionData</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEditGit</apexClass>
+        <apexClass>pi__PardotFilterResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEditOrg</apexClass>
+        <apexClass>pi__PardotListMembershipUserAccessExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEditSeleniumSettingOverride</apexClass>
+        <apexClass>pi__PardotMailbox</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEncodePasswordTrigger</apexClass>
+        <apexClass>pi__PardotMailboxTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestEnvironmentTrigger</apexClass>
+        <apexClass>pi__PardotMergeTagsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestExecuteTestRunExtension</apexClass>
+        <apexClass>pi__PardotMergeTagsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestExternalCI</apexClass>
+        <apexClass>pi__PardotMultiEmailRedirect_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestFeatureAccessHelper</apexClass>
+        <apexClass>pi__PardotResourceBaseByUserExtension</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestFeatureHelper</apexClass>
+        <apexClass>pi__PardotResourceBaseControllerByUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestFeatureHelperNegative</apexClass>
+        <apexClass>pi__PardotSsoManager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGenerateStaticCodeAnalysisRuleSet</apexClass>
+        <apexClass>pi__PardotSsoManagerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGenericMDAPIDiffCSV</apexClass>
+        <apexClass>pi__PardotUserRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitBackupTrigger</apexClass>
+        <apexClass>pi__PardotVariableTagRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitCommitChangesController</apexClass>
+        <apexClass>pi__PardotVariableTagRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitCommitLookupController</apexClass>
+        <apexClass>pi__PartnerSettings</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitOrgCommitTriggerHandler</apexClass>
+        <apexClass>pi__PartnerSettingsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitRepositoryTrigger</apexClass>
+        <apexClass>pi__PeopleMatches</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGitSnapshot</apexClass>
+        <apexClass>pi__PeopleRecordsRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGlobalUtilities</apexClass>
+        <apexClass>pi__PeopleRecordsRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestGlobalUtilities_US_Behind</apexClass>
+        <apexClass>pi__PermissionSetInstaller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestHttpCalloutBuilder</apexClass>
+        <apexClass>pi__PersonAccountController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestIndexMetadataJob</apexClass>
+        <apexClass>pi__PersonAccountSendToPardotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestJobWaitingExtension</apexClass>
+        <apexClass>pi__PersonAccountSendToPardotControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestJobsManager</apexClass>
+        <apexClass>pi__PostInstallHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestJsRemotingController</apexClass>
+        <apexClass>pi__Prospect</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestLicenseHelper</apexClass>
+        <apexClass>pi__ProspectEmailOptOutChecker</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestLicenseManagerController</apexClass>
+        <apexClass>pi__ProspectEmailOptOutCheckerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestLightningReadyFieldsController</apexClass>
+        <apexClass>pi__ProspectQueryResponse</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestLightningReadyRelatedListController</apexClass>
+        <apexClass>pi__ProspectQueryResponseTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMaddAddOrg</apexClass>
+        <apexClass>pi__ProspectRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestManageEnvVarsExt</apexClass>
+        <apexClass>pi__ProspectRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestManageGitBranchesController</apexClass>
+        <apexClass>pi__ProspectTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestManageSeleniumTestingExt</apexClass>
+        <apexClass>pi__ProspectsEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestManualTaskComponentController</apexClass>
+        <apexClass>pi__ProspectsEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMassAddRunsToGroup</apexClass>
+        <apexClass>pi__RandomUtils</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMassAddToReleaseExtension</apexClass>
+        <apexClass>pi__RandomUtilsTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMassBackPromotion</apexClass>
+        <apexClass>pi__RecentEngagementActivityWrapper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMetadataTypesHelper</apexClass>
+        <apexClass>pi__SFDCAccessControlException</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestMetadataselectorExtension</apexClass>
+        <apexClass>pi__SFDCAccessControlResults</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestNewApexTestResultEmail</apexClass>
+        <apexClass>pi__SFDCAccessController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestNewBuildTaskEmailController</apexClass>
+        <apexClass>pi__SFDCPlugins</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestNewDeploymentEmailController</apexClass>
+        <apexClass>pi__SalesEdgeLicensedUserService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestNotificationsParser</apexClass>
+        <apexClass>pi__SalesEdgeReportingController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestOrgDiffTrigger</apexClass>
+        <apexClass>pi__ScheduleHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestOrgTrigger</apexClass>
+        <apexClass>pi__ScheduleHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPermissionSetExplorerExt</apexClass>
+        <apexClass>pi__ScheduledDispatcher</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPersonaAssignmentTrigger</apexClass>
+        <apexClass>pi__ScoringCategories</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPipelineSettingsComponentController</apexClass>
+        <apexClass>pi__ScoringCategoryCallout</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPipelineWizard</apexClass>
+        <apexClass>pi__ScoringCategoryCalloutTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPostInstallClass</apexClass>
+        <apexClass>pi__ScoringCategoryScoreCallout</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestProjectTrigger</apexClass>
+        <apexClass>pi__ScoringCategoryScoreCalloutTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromoteChangesExtension</apexClass>
+        <apexClass>pi__ScoringCategoryScores</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromotionEditExtension</apexClass>
+        <apexClass>pi__SendToPardotController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromotionTriggerHandler</apexClass>
+        <apexClass>pi__SendToPardotControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestPromotionUseCases</apexClass>
+        <apexClass>pi__SoboService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestQueryBuilderController</apexClass>
+        <apexClass>pi__SoboServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestQuickCreateUserStoriesController</apexClass>
+        <apexClass>pi__TaskInsertError</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRegisterCopado</apexClass>
+        <apexClass>pi__TaskInsertErrorTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestReleaseExt</apexClass>
+        <apexClass>pi__TaskInserter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestResolveConflictsController</apexClass>
+        <apexClass>pi__TaskSaveResult</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestReturnObject</apexClass>
+        <apexClass>pi__TaskSaveResultTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRunTestGroupBatch</apexClass>
+        <apexClass>pi__TestHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRunTriggerHandler</apexClass>
+        <apexClass>pi__TestUser</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestRunTriggerHelper</apexClass>
+        <apexClass>pi__TestUserTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSalesforceFlowStepController</apexClass>
+        <apexClass>pi__TrackableEmailSearchEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestScheduledJobs</apexClass>
+        <apexClass>pi__TrackableEmailSearchEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestScratchOrgSettings</apexClass>
+        <apexClass>pi__TrackedEmailEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumGroupTriggers</apexClass>
+        <apexClass>pi__TrackedEmailEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestCasePromoteRollback</apexClass>
+        <apexClass>pi__TrackedEmailRepo</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestCaseViewEdit</apexClass>
+        <apexClass>pi__TrackedEmailRepo2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestQuickRun</apexClass>
+        <apexClass>pi__TrackedEmailRepo2Test</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestResults</apexClass>
+        <apexClass>pi__TrackedEmailRepoTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunResults</apexClass>
+        <apexClass>pi__TrackedEmailRequestBuilder</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSeleniumTestRunTrigger</apexClass>
+        <apexClass>pi__TrackedEmailRequestBuilderTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSettings</apexClass>
+        <apexClass>pi__TrackingAbilityEndpoint</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSnapshotDifferenceExtension</apexClass>
+        <apexClass>pi__TrackingAbilityEndpointTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestSprintVirtualWall</apexClass>
+        <apexClass>pi__TriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestStaticCodeAnalysisSettingsExt</apexClass>
+        <apexClass>pi__TriggerHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestStepEditionController</apexClass>
+        <apexClass>pi__UnauthenticatedPardotApi</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestTestBatch</apexClass>
+        <apexClass>pi__UserAPIKeysHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestTestMethodsUtilities</apexClass>
+        <apexClass>pi__UserAPIKeysHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestTestRunTriggerHandler</apexClass>
+        <apexClass>pi__UserEncryptionHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryApexTestResultsExtension</apexClass>
+        <apexClass>pi__UserEncryptionHandlerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryAssignmentSetController</apexClass>
+        <apexClass>pi__Uuid</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryCodeAnalysisRequest</apexClass>
+        <apexClass>pi__UuidTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryCommitIntermediaryExt</apexClass>
+        <apexClass>pi__VisitController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryCommitTrigger</apexClass>
+        <apexClass>pi__VisitorController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryComplianceScan</apexClass>
+        <apexClass>pi__VisitorControllerTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryExt</apexClass>
+        <apexClass>pi__testAccessController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryImportSetController</apexClass>
+        <apexClass>rh2__Advanced_Currency_Helper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryManagement</apexClass>
+        <apexClass>rh2__AggregateFunctionHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryMetadataExt</apexClass>
+        <apexClass>rh2__AggregateFunctionHelper_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryReadyForPromotionExtension</apexClass>
+        <apexClass>rh2__AggregateFunctionWorker</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStorySelectCommits</apexClass>
+        <apexClass>rh2__BatchUpdateParents</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUserStoryTriggerHandler</apexClass>
+        <apexClass>rh2__CommonUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestUtilities</apexClass>
+        <apexClass>rh2__CommonUtil_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestValidateOrg</apexClass>
+        <apexClass>rh2__DescribeHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestViewDeploymentExtension</apexClass>
+        <apexClass>rh2__Describe_Helper_Default</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TestViewOrgDiffCSV</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestWebhookAPI</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>copado__TestWebhookLookupController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__Describe_Helper_Default_Behaviour</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_AutomationTemplate</apexClass>
+        <apexClass>rh2__Describe_Utility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_BranchManagementExtension</apexClass>
+        <apexClass>rh2__Describe_Utility_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_BurnDownItemScheduler</apexClass>
+        <apexClass>rh2__FilterHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CCDFullCycle</apexClass>
+        <apexClass>rh2__FilterHelper_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CCD_CreateMetadataGroupItem</apexClass>
+        <apexClass>rh2__FormatPageMessage</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CCD_CreateQualityGate</apexClass>
+        <apexClass>rh2__FormatPageMessageController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CMUtilities</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__HS_Custom_Field</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CliProxy</apexClass>
+        <apexClass>rh2__HS_Filter</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ConnectionBehaviorInfoController</apexClass>
+        <apexClass>rh2__HS_Filter_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ConnectionBehaviorTriggerHandler</apexClass>
+        <apexClass>rh2__HS_NFP_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CopadoAuthorization</apexClass>
+        <apexClass>rh2__HS_NFP_Controller_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CopadoLicensesComponentController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__HS_Query_Builder</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_CopadoRollup</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__HS_referAFriendHelper</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_DeploymentExtension</apexClass>
+        <apexClass>rh2__HelperUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_IntermediaryExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__HelperUtility_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_OverrideFiltersExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__MultiSelectListController</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_OverviewExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__MultiSelectListController_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_SelectChangesExtension</apexClass>
+        <apexClass>rh2__PS_AggregateFunction</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_SelectDataTemplateExtension</apexClass>
+        <apexClass>rh2__PS_AggregateFunction1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_SourceExtension</apexClass>
+        <apexClass>rh2__PS_AggregateFunction_Default</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_SummaryExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_AlternativeTrigger_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DW_TargetExtension</apexClass>
+        <apexClass>rh2__PS_Asynchronous_Job_Handler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DataTemplateImportExtension</apexClass>
+        <apexClass>rh2__PS_Asynchronous_Realtime_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DataTemplateObjectResultController</apexClass>
+        <apexClass>rh2__PS_Basic_Step</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DataTemplateSetupExtension</apexClass>
+        <apexClass>rh2__PS_Batch_Agent</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_DataTemplateTaskComponent</apexClass>
+        <apexClass>rh2__PS_Batch_Agent_Abort</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_Encoder</apexClass>
+        <apexClass>rh2__PS_Batch_Job</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ErrorHandlingComponentController</apexClass>
+        <apexClass>rh2__PS_Batch_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_GitCommitMain</apexClass>
+        <apexClass>rh2__PS_Batchable_Class</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_GitCommitMainNegative</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Clone_Rollup_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_KanbanUI</apexClass>
+        <apexClass>rh2__PS_ContextLogic_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ManageRepositoryBranchesController</apexClass>
+        <apexClass>rh2__PS_DefineFilterController_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_NewPipelineExtension</apexClass>
+        <apexClass>rh2__PS_DefineFilter_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_OrgAuthenticationController</apexClass>
+        <apexClass>rh2__PS_DefineFilter_Controller_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_OverrideTemplateFiltersController</apexClass>
+        <apexClass>rh2__PS_DefineJob_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_PipelineDiagramExtension</apexClass>
+        <apexClass>rh2__PS_DefineJob_Controller_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_PipelineManagerExtension</apexClass>
+        <apexClass>rh2__PS_DescribeHelper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_PipelineSettingsComponentController</apexClass>
+        <apexClass>rh2__PS_DescribeHelper1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_PipelineTemplatesController</apexClass>
+        <apexClass>rh2__PS_DescribeHelper2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ReleaseDetailService</apexClass>
+        <apexClass>rh2__PS_DescribeHelper3</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ReleaseStatusService</apexClass>
+        <apexClass>rh2__PS_DescribeHelper4</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ReleaseTailService</apexClass>
+        <apexClass>rh2__PS_Dynamic_Async_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_ScheduleCronExpressionController</apexClass>
+        <apexClass>rh2__PS_Error_Handler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_SetupWizardFinishController</apexClass>
+        <apexClass>rh2__PS_Error_Handler_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_SetupWizardStartController</apexClass>
+        <apexClass>rh2__PS_ExceptionDisplay_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_WorkDisplayService</apexClass>
+        <apexClass>rh2__PS_ExceptionDisplay_Controller_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_WorkPushService</apexClass>
+        <apexClass>rh2__PS_ExceptionEmail</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_WorkSetService</apexClass>
+        <apexClass>rh2__PS_ExportFileController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Test_WorkSubmitService</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Export_Behaviour</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__TriggerFactory</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Field_Check_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UIDesignHelper</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Field_Check_Controller_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UnlockPackageService</apexClass>
+        <apexClass>rh2__PS_FilterCondition_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UnlockedArtifact</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_FreeEdition_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UnmanagedPackageMetadataService</apexClass>
+        <apexClass>rh2__PS_ImportDataController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UpdateDeploymentJobs</apexClass>
+        <apexClass>rh2__PS_ImportExport_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoriesMetadataSelector</apexClass>
+        <apexClass>rh2__PS_ImportTriggerHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoriesSelector</apexClass>
+        <apexClass>rh2__PS_License_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryApexTestResultsExtension</apexClass>
+        <apexClass>rh2__PS_Manage_Trigger_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryAssignmentSetController</apexClass>
+        <apexClass>rh2__PS_Manage_Trigger_Controller_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryChangeEventTriggerHandler</apexClass>
+        <apexClass>rh2__PS_MetadataService</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCodeAnalysisRequestController</apexClass>
+        <apexClass>rh2__PS_MetadataServiceTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCommitFiles</apexClass>
+        <apexClass>rh2__PS_MultiCurrency_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCommitIntermediaryExt</apexClass>
+        <apexClass>rh2__PS_Overwrite_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCommitService</apexClass>
+        <apexClass>rh2__PS_Package_Handler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCommitTriggerHandler</apexClass>
+        <apexClass>rh2__PS_Package_Handler_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCommitTriggerHelper</apexClass>
+        <apexClass>rh2__PS_PaginateController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryComplianceScanController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_ParentFilter_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryCounter</apexClass>
+        <apexClass>rh2__PS_Parent_Record_WrapperClass</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryExt</apexClass>
+        <apexClass>rh2__PS_Parent_Record_WrapperClassBehavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryImportSetController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Preview_Rollups_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryMetadataExt</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Preview_Rollups_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryReadyForPromoteExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Queue_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStorySelectCommits</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Queue_Controller_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryTriggerHandler</apexClass>
+        <apexClass>rh2__PS_QueueableRollup</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__UserStoryTriggerHelper</apexClass>
+        <apexClass>rh2__PS_RH_Client_Access</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__Utilities</apexClass>
+        <apexClass>rh2__PS_RH_Client_Access_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ValidateOrgExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Read_Only_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__VersionPicklistValues</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Read_Only_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__ViewDeploymentExtension</apexClass>
+        <apexClass>rh2__PS_RealTime_Rollup_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WebhookAPI</apexClass>
+        <apexClass>rh2__PS_ReferAFriend_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WebhookSchedulable</apexClass>
+        <apexClass>rh2__PS_ReferAFriend_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WebhookSchedulable_Test</apexClass>
+        <apexClass>rh2__PS_RemoteSiteHelperController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WizardHelper</apexClass>
+        <apexClass>rh2__PS_Resource_Manager</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WizardUtilsController</apexClass>
+        <apexClass>rh2__PS_Resource_Manager_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkDisplayService</apexClass>
+        <apexClass>rh2__PS_Resource_Manager_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkManager</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Retry_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkManagerTest</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Retry_Rollups</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkPushService</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Retry_Rollups_Batch</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkSetService</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Retry_Rollups_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__WorkSubmitService</apexClass>
+        <apexClass>rh2__PS_Rollup_Batch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__appHome</apexClass>
+        <apexClass>rh2__PS_Rollup_Context</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__cloneDeploymentExtension</apexClass>
+        <apexClass>rh2__PS_Rollup_Context_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__creditsCompController</apexClass>
+        <apexClass>rh2__PS_Rollup_Engine</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_IDGenerator</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Rollup_Groups_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_IDGeneratorTest</apexClass>
+        <apexClass>rh2__PS_Rollup_Helper</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_ISObjectDomain</apexClass>
+        <apexClass>rh2__PS_Rollup_Query</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_ISObjectSelector</apexClass>
+        <apexClass>rh2__PS_Rollup_Query_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_QueryFactory</apexClass>
+        <apexClass>rh2__PS_Rollup_Query_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_QueryFactoryTest</apexClass>
+        <apexClass>rh2__PS_Rollup_Runner_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SObjectDescribe</apexClass>
+        <apexClass>rh2__PS_Rollup_Step</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SObjectDomain</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Run_Utility</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SObjectDomainTest</apexClass>
+        <apexClass>rh2__PS_SOQL_AggregateFunction_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SObjectSelector</apexClass>
+        <apexClass>rh2__PS_SOQL_Aggregate_Functions</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SObjectSelectorTest</apexClass>
+        <apexClass>rh2__PS_ScheduleHandler</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SecurityUtils</apexClass>
+        <apexClass>rh2__PS_ScheduleHandlerBehaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_SecurityUtilsTest</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_ScheduleManagement_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_StringBuilder</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_ScheduleManagement_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__fflib_StringBuilderTest</apexClass>
+        <apexClass>rh2__PS_Schedule_Parent_Rollups</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__queryBuilderController</apexClass>
+        <apexClass>rh2__PS_ScheduledDispatcher</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__rateCopadoController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_Schema_Helper</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__snapshotDifferenceExtension</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_SelectMaster_Config_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__testHttpCalloutMock</apexClass>
+        <apexClass>rh2__PS_SelectMaster_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__testMethodUtilities</apexClass>
+        <apexClass>rh2__PS_SelectMaster_Controller_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__usersStepController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_SelectMaster_Helper</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copado__webhookLookupController</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_SelectMaster_QueryPreview_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__CallIterable</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_SelectTarget_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__CommonIntegrationConstants</apexClass>
+        <apexClass>rh2__PS_SetRecordScopeSchedule</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__CopadoCCMutilities</apexClass>
+        <apexClass>rh2__PS_SetRecordScopeScheduleBehaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__CopadoMockHttpResponseGenerator</apexClass>
+        <apexClass>rh2__PS_SharedActivities_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__CustomIterable</apexClass>
+        <apexClass>rh2__PS_Step_Factory</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__ExecuteUserStoryUpsert</apexClass>
+        <apexClass>rh2__PS_Step_Schedule_Clean</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__IIntegration</apexClass>
+        <apexClass>rh2__PS_Step_v1</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__IntegrationFactory</apexClass>
+        <apexClass>rh2__PS_Step_v2</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__JiraIntegration</apexClass>
+        <apexClass>rh2__PS_Step_v3</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__JiraIntegrationConstants</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_System_Maint</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__Method</apexClass>
+        <apexClass>rh2__PS_Test_Utility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__ScheduleUserStoryFetch</apexClass>
+        <apexClass>rh2__PS_TextRollup_Behaviour</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__SyncUserStoriesController</apexClass>
+        <apexClass>rh2__PS_Trigger1_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__TestIntegration</apexClass>
+        <apexClass>rh2__PS_healthCheck_Controller</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__UserStoryHandler</apexClass>
+        <apexClass>rh2__PS_healthCheck_Controller_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__VSTSIntegration</apexClass>
+        <apexClass>rh2__PS_recordScopeUpdate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>copadoccmint__VSTSIntegrationConstants</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_rollupCreation_Utility</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__ActionUserPreferenceController</apexClass>
+        <apexClass>rh2__PS_scheduleHealthCheck</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__ActionUserPreferenceControllerTest</apexClass>
+        <apexClass>rh2__PS_scheduleUpdate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__BreadCrumbController</apexClass>
+        <apexClass>rh2__PS_scheduledRollupMonitor</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__BreadCrumbControllerTest</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_selectRollupTarget_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__BreadCrumbSettings</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__PS_selectTargetField_Controller</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__LightningBuddyActionController</apexClass>
+        <apexClass>rh2__PS_settingManagementController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__LightningBuddyActionControllerTest</apexClass>
+        <apexClass>rh2__PS_settingManagementController_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateAlertParamConfigHandlerTest</apexClass>
+        <apexClass>rh2__PS_settingManagementController_TEST</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateImageConfigJsonHandler</apexClass>
+        <apexClass>rh2__PaginateController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateImageConfigJsonHandlerTest</apexClass>
+        <apexClass>rh2__PaginateController_Behavior</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateRecordCriteriaConfigJsonHandler</apexClass>
+        <apexClass>rh2__ParentUtil</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateRecordJSONConfigHandlerTest</apexClass>
+        <apexClass>rh2__ScheduledParentBatch</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateTileConfigJsonHandler</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__SuperSort_Behavior</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateTileConfigJsonHandlerTest</apexClass>
+        <apexClass>rh2__Test_Utility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>lightningbuddy__UpdateToasterAlertParamConfigJsonHandler</apexClass>
-        <enabled>true</enabled>
+        <apexClass>rh2__Test_Utility_Behaviour</apexClass>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_GsPilotV1__GettingStartedConstants</apexClass>
+        <apexClass>rh2__superSort</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_GsPilotV1__GettingStartedController</apexClass>
+        <apexClass>sample</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_GsPilotV1__GettingStartedControllerTest</apexClass>
+        <apexClass>scheduledBatchable</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_GsPilotV1__GettingStartedPostInstall</apexClass>
+        <apexClass>testAccountphoneupdate</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>sf_GsPilotV1__GettingStartedPostInstallTest</apexClass>
+        <apexClass>testrecentcase</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
+        <field>AT_Adoption_Trend__c.Editing_User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AT_Adoption_Trend__c.Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AT_Adoption_Trend__c.Record_Count__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AT_Adoption_Trend__c.Snapshot_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AccountNumber</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2915,13 +2937,68 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Amount_of_won_deals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.AnnualRevenue</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CSR__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Call_for_Service__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Contact_last_Updates__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.CustomerPriority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Customer_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.DandbCompanyId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Deal_win_percent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2931,8 +3008,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.DunsNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Fax</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Hello__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2940,8 +3027,33 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.IsExcludedFromRealign</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Account.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Last_won_deal_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Match_Billing_Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NaicsCode</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NaicsDesc</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2950,9 +3062,29 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Number_of_Locations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Number_of_contacts__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Number_of_deals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Number_of_won_deals__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Ownership</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2966,8 +3098,38 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Account.Potential_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Principal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Rating</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SLAExpirationDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SLASerialNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.SLA__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Sales_Rep__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2975,9 +3137,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Sic</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2985,19 +3147,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Site</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Test1__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.TickerSymbol</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Tradestyle</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3006,7 +3168,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.UpsellOpportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Website</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.YearStarted</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Zip_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.calculateopty__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3017,11 +3199,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AccountContactRelation.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AccountContactRelation.Relationship_Strength__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3040,19 +3217,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Asset.AssetLevel</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Asset.AssetProvidedById</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Asset.AssetServicedById</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3085,13 +3262,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Asset.IsInternal</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>false</editable>
-        <field>Asset.LocationId</field>
+        <field>Asset.IsInternal</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3110,9 +3282,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Asset.ProductCode</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3165,8 +3337,133 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>AssetRelationship.RelationshipType</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.DefaultAuthFormTextId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.EffectiveFromDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.EffectiveToDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.IsSignatureRequired</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationForm.RevisionNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormConsent.DocumentVersionId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormConsent.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.ContentDocumentId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.FullAuthorizationFormUrl</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.Locale</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>AuthorizationFormText.SummaryAuthFormText</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BatchLeadConvertErrors__c.AsyncApexJobId__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BatchLeadConvertErrors__c.Records__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>BatchLeadConvertErrors__c.StackTrace__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Book__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bot_Command__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bot_Command__c.Apex_Class__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bot_Command__c.Pattern__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bot_Command__c.Sample_Utterance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Mobile_Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Picture_IMG__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Picture__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Broker__c.Title__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3175,18 +3472,28 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.AmountAllOpportunities</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.AmountWonOpportunities</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Campaign.BudgetedCost</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.CampaignImageId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.DB_Campaign_Tactic__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3275,32 +3582,32 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfContacts</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfConvertedLeads</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfLeads</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfOpportunities</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfResponses</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Campaign.NumberOfWonOpportunities</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3331,17 +3638,137 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CampaignInfluence.ContactId</field>
+        <field>Campaign.pi__Pardot_Campaign_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CampaignInfluence.Influence</field>
+        <field>Campaign.pi__Pardot_Has_Dependencies__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CampaignInfluence.RevenueShare</field>
+        <field>Camping_Item__c.Packed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campsite_Reservation__c.End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campsite_Reservation__c.Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campsite_Reservation__c.User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Campsite__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.AWS_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Country__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Current_Employer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Currently_Employed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Education__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Email__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Fax__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.First_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Last_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Mobile__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Phone__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Prospect_Rating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.SSN__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.State_Province__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Street__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.US_Citizen__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Visa_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Years_of_Experience__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Candidate__c.Zip_Postal_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3350,9 +3777,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Case.AssetId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3375,8 +3802,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Days_Since_Last_Update__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.EngineeringReqNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.EntitlementId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3390,6 +3832,46 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.IsSelfServiceClosed</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.IsStopped</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.IsVisibleInCss</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.IsVisibleInSelfService</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.Last_Day_of_Month__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Lead__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.MilestoneStatus</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.MilestoneStatusIcon</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Case.Origin</field>
         <readable>true</readable>
@@ -3401,7 +3883,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.PotentialLiability__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Priority</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.ProductId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Product__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3410,8 +3907,38 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Reason_for_Escalating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.SLAViolation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
+        <field>Case.ServiceContractId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SlaExitDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.SlaStartDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.SourceId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.StopStartDate</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3446,23 +3973,133 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>CodeCoverage__c.NumLinesCovered__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CodeCoverage__c.NumLinesUncovered__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CodeCoverage__c.Percent__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CodeCoverage__c.TestClassName__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>CodeCoverage__c.Total__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CommSubscription.DataUsePurposeId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>CommSubscription.IsDefault</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Comparable__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Comparable__c.Close_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Comparable__c.Comparable_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Comparable__c.Comparable_opp_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Comparable__c.Industry__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionRate.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionRate.UpperBound</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.IsActive</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.MatchingAttribute</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ConsumptionSchedule.UnitOfMeasure</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Account_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.AssistantName</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.AssistantPhone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Birthdate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.CanAllowPortalSelfReg</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contact.Birthdate</field>
-        <readable>false</readable>
+        <field>Contact.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Relationship__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3470,14 +4107,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.Description</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Contact.DoNotCall</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Do_Not_Contact__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3500,9 +4142,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.HomePhone</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3510,9 +4152,24 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
+        <field>Contact.Languages__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.LeadSource</field>
-        <readable>false</readable>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Location__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3525,18 +4182,23 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.OtherAddress</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Contact.OtherPhone</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Contact.Phone</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Primary_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3546,7 +4208,177 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Contact.Secret_Key__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.Title</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__Needs_Score_Synced__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__Pardot_Last_Scored_At__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__conversion_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__conversion_object_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__conversion_object_type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__created_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__first_activity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__first_search_term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__first_search_type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__first_touch_url__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__grade__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__last_activity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__pardot_hard_bounced__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__url__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__utm_campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__utm_content__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__utm_medium__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__utm_source__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.pi__utm_term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.rh2__Currency_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.rh2__Describe__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.rh2__Formula_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.rh2__Integer_Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.DataUsePurposeId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.DoubleConsentCaptureDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.EffectiveFrom</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContactPointTypeConsent.EffectiveTo</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>ContactPointTypeConsent.EngagementChannelTypeId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact_Relationship__c.Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3620,9 +4452,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Contract.ShippingAddress</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3636,6 +4468,231 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>ContractLineItem.AssetId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Discount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.ListPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.ParentContractLineItemId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.RootContractLineItemId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.StatusIndicator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.Subtotal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ContractLineItem.TotalPrice</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Project__c.Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Project__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Satisfaction_Survey__c.Comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Satisfaction_Survey__c.Satisfaction__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer_Satisfaction_Survey__c.Service__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Customer__c.Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUseLegalBasis.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUseLegalBasis.Source</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerContactPoint</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerParty</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.IsMaintainablePerType</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>DataUsePurpose.LegalBasisId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Energy_Audit__c.Audit_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Energy_Audit__c.Type_of_Installation__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>EngagementChannelType.ContactPointType</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.AssetId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.BusinessHoursId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.CasesPerEntitlement</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.ContractLineItemId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.EndDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.IsPerIncident</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.RemainingCases</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Entitlement.RemainingWorkOrders</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.ServiceContractId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.SlaProcessId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.StartDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.StatusIndicator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Entitlement.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Entitlement.WorkOrdersPerEntitlement</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.CustomLead__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.DB_Activity_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Event.Description</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3645,14 +4702,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Event.IsVisibleInSelfService</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Event.Location</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Event.Type</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3663,6 +4725,41 @@
         <editable>true</editable>
         <field>Event.WhoId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense__c.Client__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense__c.Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Expense__c.Reimbursed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Favorite__c.Property__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Favorite__c.User__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Goal.OrigGoalId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3676,18 +4773,193 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Lead.Address</field>
+        <field>Individual.BirthDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.CanStorePiiElsewhere</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ChildrenCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConsumerCreditScore</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConsumerCreditScoreProviderName</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ConvictionsCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.DeathDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutGeoTracking</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutProcessing</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutProfiling</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutSolicit</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.HasOptedOutTracking</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.IndividualsAge</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.InfluencerRating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.IsHomeOwner</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.MasterRecordId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.MilitaryService</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.Occupation</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.SendIndividualData</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.ShouldForget</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Individual.Website</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Lead.AnnualRevenue</field>
-        <readable>false</readable>
+        <field>Job_Application__c.Average_Rating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Job_Application__c.Candidate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Job_Application__c.Cover_Letter__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Job_Application__c.Number_of_Reviews__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Job_Application__c.Position__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Job_Application__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Job_Application__c.Total_Rating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Address</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.AnnualRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CleanStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.CompanyDunsNumber</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.Count_of_Open_Activities__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.CurrentGenerators__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.DB_Created_Date_without_Time__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.DB_Lead_Age__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.DandbCompanyId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Description</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3696,13 +4968,18 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Dupe_contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Email</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Lead.Fax</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -3735,6 +5012,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Lead_Quality_Helper__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.Lead_Quality__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Lead.MobilePhone</field>
         <readable>true</readable>
@@ -3746,12 +5033,37 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.NumberofLocations__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Lead.PartnerAccountId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Phone</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Lead.Primary__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.ProductInterest__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Lead.Rating</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.SICCode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3765,73 +5077,378 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.CloseDate</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>Lead.pi__Needs_Score_Synced__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__Pardot_Last_Scored_At__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__conversion_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__conversion_object_name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__conversion_object_type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__created_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__first_activity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__first_search_term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__first_search_type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__first_touch_url__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__grade__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__last_activity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__pardot_hard_bounced__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__score__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__url__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__utm_campaign__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__utm_content__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__utm_medium__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__utm_source__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.pi__utm_term__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqAssigned</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqDeclined</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqEngaged</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.ChatReqTimedOut</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagLoweredAgent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagLoweredSupervisor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.NumFlagRaised</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeAtCapacity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeIdle</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInAwayStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInChats</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveAgentSession.TimeInOnlineStatus</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Abandoned</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.AccountId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.AverageResponseTimeOperator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.AverageResponseTimeVisitor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Body</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Browser</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.BrowserLanguage</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.CaseId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ChatDuration</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ChatKey</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ContactId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.EndTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.EndedBy</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.IpAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.LeadId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Lifecycle</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.LiveChatButtonId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.LiveChatDeploymentId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Location</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.MaxResponseTimeOperator</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.MaxResponseTimeVisitor</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.OperatorMessageCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Platform</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ReferrerUri</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.RequestTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.ScreenResolution</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.SkillId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.StartTime</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.SupervisorTranscriptBody</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.UserAgent</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.VisitorMessageCount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.VisitorNetwork</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>LiveChatTranscript.WaitTime</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Location.ConstructionEndDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.ConstructionStartDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.Description</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.DrivingDirections</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.Location</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.LocationLevel</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.OpenDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.ParentLocationId</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.PossessionDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.RemodelEndDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.RemodelStartDate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Location.TimeZone</field>
+        <field>Metric.OrigMetricId__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Obj1__c.Qunatity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Obj1__c.obj2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Obj2__c.Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.AccountId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Active_Customer_project__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3841,7 +5458,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Budget_Confirmed__c</field>
+        <field>Opportunity.Approved__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3856,23 +5473,63 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.Contract_Length_months__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CurrentGenerators__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Cylinder_Volume__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.DB_Competitor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Days_to_Close__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.DeliveryInstallationStatus__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Discovery_Completed__c</field>
+        <field>Opportunity.Discount_Percent_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Discount_Percentage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Opportunity.ExpectedRevenue</field>
-        <readable>false</readable>
+        <field>Opportunity.Discounted_Amount__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
+        <field>Opportunity.ExpectedRevenue</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.IsPrivate</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3881,7 +5538,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Loss_Reason__c</field>
+        <field>Opportunity.Lead_Enquiry_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.MainCompetitors__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3891,22 +5553,72 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.One_time_activity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Opportunity_Progress__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.OrderNumber__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.PartnerAccountId</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Percent_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.Probability</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.ROI_Analysis_Completed__c</field>
+        <field>Opportunity.TotalOpportunityQuantity</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Opportunity.TotalOpportunityQuantity</field>
-        <readable>false</readable>
+        <editable>true</editable>
+        <field>Opportunity.Track__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.TrackingNumber__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.X120_After_RCD__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.deal_status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.height__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.radius__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3925,6 +5637,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Number_of_Months__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.ProductCode</field>
         <readable>true</readable>
@@ -3940,7 +5657,7 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>OpportunityLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3955,9 +5672,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.BillToContactId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3970,19 +5687,19 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.CompanyAuthorizedDate</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Order.ContractEndDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Order.ContractName</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -3990,9 +5707,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.CustomerAuthorizedDate</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4000,9 +5717,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.Name</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4010,19 +5727,19 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.OrderReferenceNumber</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.PoDate</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.PoNumber</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4030,9 +5747,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Order.ShipToContactId</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4047,6 +5764,31 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Order.Type</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OrderDetails__x.orderID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.orderLine__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.product__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.quantity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OrderDetails__x.unitPrice__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4080,29 +5822,209 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Planet__c.Create_issue__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Planet__c.Distance_to_Earth__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
-        <field>Planet__c.Distance_to_sun__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Planet__c.Galaxy__c</field>
+        <field>Orders__x.customerID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Planet__c.Issue2__c</field>
+        <field>Orders__x.orderDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Orders__x.orderID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Orders__x.shippedDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundAllocation.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundClaim.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundClaim.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Activity</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.AllocationId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Amount</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.BudgetId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.CampaignId</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.DesiredOutcome</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerFundRequest.Status</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PartnerMarketingBudget.Description</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PartnerMarketingBudget.ParentMdfBudgetId</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PartyConsent.DoubleConsentCaptureDate</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PartyConsent.EffectiveFrom</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PartyConsent.EffectiveTo</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Apex__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.C__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Close_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Position__c.Days_Open__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Educational_Requirements__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Functional_Area__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Hire_By__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Hiring_Manager__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.JavaScript__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Java__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Job_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Job_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Max_Pay__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Min_Pay__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Open_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Responsibilities__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Skills_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Travel_Required__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Position__c.Type__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -4145,7 +6067,137 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
+        <field>Project__c.Priority__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Address__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Assessed_Value__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Baths__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Beds__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Broker__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.City__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Date_Agreement__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Date_Closed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Date_Contracted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Date_Listed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Date_Pre_Market__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Days_On_Market__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Picture_IMG__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Picture__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Price__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Record_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.State__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Tags__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Thumbnail_IMG__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Thumbnail__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Title__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Property__c.Zip__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Quote.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4185,7 +6237,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.Discount</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4205,7 +6257,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.GrandTotal</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4245,7 +6297,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4255,7 +6307,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Quote.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4270,7 +6322,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>QuoteLineItem.ListPrice</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4285,363 +6337,203 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>QuoteLineItem.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>QuoteLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.AreWeFollowing</field>
+        <field>Review__c.Assessment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.AuthorLabels</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.Bio</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.Followers</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.Following</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.InfluencerScore</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.IsBlacklisted</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.IsFollowingUs</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.IsVerified</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.Klout</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.ListedCount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.MediaProvider</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.MediaType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.NumberOfFriends</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.NumberOfTweets</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.ProfileType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.R6SourceId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPersona.RealName</field>
+        <editable>false</editable>
+        <field>Review__c.Candidate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.SourceApp</field>
+        <field>Review__c.H_R__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.TopicType</field>
+        <field>Review__c.Interview_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPersona.UserId</field>
+        <field>Review__c.Interviewer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.AnalyzerScore</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.AssignedTo</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.AttachmentType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.AttachmentUrl</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.Classification</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.CommentCount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.Content</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.DeletedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.EngagementLevel</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.ExternalPostId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.HarvestDate</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.HiddenById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.InboundLinkCount</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.IsOutbound</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.KeywordGroupName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.Language</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>SocialPost.LikesAndVotes</field>
+        <editable>false</editable>
+        <field>Review__c.Position__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.MediaProvider</field>
+        <field>Review__c.Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.MediaType</field>
+        <field>Robot_Setup__c.Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.MessageType</field>
+        <field>Robot_Setup__c.Day_of_the_week__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.Notes</field>
+        <field>Robot_Setup__c.Notes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.OutboundSocialAccountId</field>
+        <field>SFDC_Class__c.Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ParentId</field>
+        <field>SFDC_Class__c.Date_Offered__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.PersonaId</field>
+        <field>SFDC_Class__c.Facility__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.PostPriority</field>
+        <field>SFDC_Class__c.Max_Capacity__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.PostTags</field>
+        <field>SFDC_Class__c.Product2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.PostUrl</field>
+        <field>SFDC_Enrollment__c.Class__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.R6PostId</field>
+        <field>SFDC_Enrollment__c.Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.R6SourceId</field>
+        <field>ServiceContract.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.R6TopicId</field>
+        <field>ServiceContract.ActivationDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.Recipient</field>
+        <field>ServiceContract.ApprovalStatus</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.RecipientType</field>
+        <field>ServiceContract.BillingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ReplyToId</field>
+        <field>ServiceContract.ContactId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ResponseContextExternalId</field>
+        <field>ServiceContract.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ReviewScale</field>
+        <field>ServiceContract.Discount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ReviewScore</field>
+        <field>ServiceContract.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ReviewedStatus</field>
+        <field>ServiceContract.GrandTotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.Sentiment</field>
+        <field>ServiceContract.ParentServiceContractId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.Shares</field>
+        <field>ServiceContract.RootServiceContractId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.SourceTags</field>
+        <field>ServiceContract.ShippingAddress</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.SpamRating</field>
+        <field>ServiceContract.ShippingHandling</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.Status</field>
+        <field>ServiceContract.SpecialTerms</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.StatusMessage</field>
+        <field>ServiceContract.StartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ThreadSize</field>
+        <field>ServiceContract.Status</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.TopicProfileName</field>
+        <field>ServiceContract.StatusIndicator</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.TopicType</field>
+        <field>ServiceContract.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.UniqueCommentors</field>
+        <field>ServiceContract.Tax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.ViewCount</field>
+        <field>ServiceContract.Term</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>SocialPost.WhoId</field>
+        <field>ServiceContract.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4661,13 +6553,68 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Stakeholder__c.Contact__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Stakeholder__c.NPS_ID_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Stakeholder__c.Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Suggestion__c.Implemented_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Suggestion__c.Number_of_Days_Open__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Suggestion__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Suggestion__c.Suggestion_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Suggestion__c.Suggestion_Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Task.ActivityDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.CustomLead__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.DB_Activity_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>Task.Description</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Task.IsVisibleInSelfService</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -4686,4344 +6633,1599 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.copado__API_URL__c</field>
+        <field>Tower__c.Tower_Location__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.copado__Hide_Copado_feedback__c</field>
+        <field>Trail__c.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.copado__Show_Copado_Tips__c</field>
+        <field>Trail__c.Distance__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>User.copado__Work_Manager_Panels__c</field>
+        <field>Trail__c.Last_Inspection_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Details__c</field>
+        <field>User.DB_Region__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Failures__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Successes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Tests_run__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__Total_time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Apex_Test_Result__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Application__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Architect__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Complexity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Epic__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Estimated_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Priority__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Product_Owner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Technical_Assumptions__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Users__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application_Feature__c.copado__Value_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Parent_Application__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Product_Manager__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Release_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Stability_Icon__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Application__c.copado__Stability__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Dependency__c.copado__Depending_Artifact_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Dependency__c.copado__Depending_Artifact__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Dependency__c.copado__Depends_on_the_latest_version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Is_released__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Package_Version_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Production_Installation_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Release_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Sandbox_Installation_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Subscriber_Version_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Tag__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Version_Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Version_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__Version_number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact_Version__c.copado__View_In_Git__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Artifact_Repository__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Artifact_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__No_Namespace__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Package_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Package_Namespace__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Package_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Sfdc_Login_Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Source_Api_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Artifact__c.copado__Target_Dev_Hub_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Continuous_Integration__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Data_Template__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Date_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Default_Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Default_String__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Default_Text__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Deployment_Flow__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Git_Backup__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Git_Repository__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Org_Difference__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Package_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Selenium_Test_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Selenium_Test_Run__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Snapshot_Difference__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__Static_Code_Analysis_Settings__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__AuxiliaryObject__c.copado__User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Branch_Management_Permission__c.copado__Allow_Deployments__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Branch_Management_Permission__c.copado__User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Build_Task__c.copado__Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Build_Task__c.copado__Duration__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Build_Task__c.copado__Start_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Build_Task__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Build_Task__c.copado__Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Burndown_Item__c.copado__Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Burndown_Item__c.copado__Expected_Story_Point__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Burndown_Item__c.copado__Sprint__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Burndown_Item__c.copado__Total_Story_Point__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Finding__c.copado__Rule_Error_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Finding__c.copado__Severity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Field_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Node__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Operator__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Order__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule_Criteria__c.copado__Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Action__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Error_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Filter_Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Is_Valid__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Last_Validation_Date_time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Last_Validation_Status_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Matching_Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Metadata_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Record_Count_Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Record_Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Risk_Details__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Rule__c.copado__Severity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Deployment_Step__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Findings__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Git_Snapshot__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Highest_Rule_Action__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Highest_Severity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Resolution_Details__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Scan_Duration_in_Minutes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Scan_End__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Scan_Start__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Compliance_Scan_Result__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Back_Promotion_Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Back_Promotion_Schedule__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Back_Promotion_Scheduled_Job_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Execute_back_promotions_in_parallel__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Execute_promotions_in_parallel__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Max_Scheduled_Back_Promotion_Batch_Size__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Max_Scheduled_Promotion_Batch_Size__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Promotion_Criteria__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Promotion_Schedule__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Promotion_Scheduled_Job_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Schedule_Back_Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Schedule_Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Connection_Behavior__c.copado__Story_Status_After_Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration_Permission__c.copado__Access__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration_Permission__c.copado__Email_Notification__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration_Permission__c.copado__Email_Template_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration_Permission__c.copado__User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Check_Only__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Destination_Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Files_to_be_deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Git_Repository__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Last_Build_Task_Duration__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Post_Failed_Deployment_Jobs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Post_Success_Deployment_Jobs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Pre_Deployment_Jobs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Pre_Deployment_Options__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Run_All_Tests__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Continuous_Integration__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Application__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Architect__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Complexity__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Epic__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Estimated_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Feature_Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Priority__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Product_Owner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Technical_Assumptions__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Users__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Feature__c.copado__Value_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__AttachmentId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__Matching_Key__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__Parent2Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__ParentId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__isFinished__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__isSuccess__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Copado_Notification__c.copado__status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Attachment_Options__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Batch_Size__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Continue_on_Error__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Filter_Logic__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Main_Object__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Match_Owners__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Match_Record_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Max_Record_Limit__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Data_Template__c.copado__Template_Source_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Automatically_Merge_and_Deploy__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Commits_Ahead__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Commits_Behind__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Connection_Behavior_Override__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Connection_Behavior__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Destination_Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Destination_Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Enable_as_Scratch_Org_Destination__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Last_Merge_Base__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Last_Merge_CBM_Sync__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Last_Pull_CBM_Sync__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Merge_Auto_Resolved_Files__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Pull_Auto_Resolved_Files__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Source_Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Sync_Merge_State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Sync_Pull_State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow_Step__c.copado__Test_Level__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Block_Commits__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Branch_Management_Coordinates__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Calculate_Based_on__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Copado_DX_Mode__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Disable_Validations__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Enable_Copado_DX__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Enable_Smart_Conflict_Resolution__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Equal_Branch_Environment_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Exclude_From_Auto_Resolve__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Flow_Step_Coordinates__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Git_Repository__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Hide_Tabs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Main_Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Manage_Branches__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Merge_Strategy__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Order_by__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Flow__c.copado__Static_Code_Analysis_Settings__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Deployment_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Event__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Field__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__New_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Object__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__Old_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_History__c.copado__User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Async_Job_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Early_Completion_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__External_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Last_Result__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Status_Flag__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__To_Org_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Job__c.copado__Validation_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Notify_Task_Owner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Order__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Perform_Manual_Task__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Perform_in_Destination_Orgs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Perform_in_Source_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Task_Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment_Task__c.copado__dataJSON__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Active__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Build_Task__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Completed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Compliance_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Count_Completed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_Completed_email_sent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_Jobs_Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_Last_Step__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_Source_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Deployment_command_sent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Execution_Context__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Flag_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__From_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Last_Compliance_Scan_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Paused__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__SUM_Deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Schedule__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Send_Deployment_Complete_email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Server_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Source_Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Deployment__c.copado__Template__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Completed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Count_Completed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__SUM_Deployed__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Status_Flag__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__Step_Count__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Destination_Org__c.copado__To_Org_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Compliance_Rule_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Compliance_Scan_Events__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Compliance_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Connection_Behavior__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Current_Code_Coverage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Current_SCA_Score__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Index_Back_Promotion_metadata__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Last_Compliance_Scan_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Latest_Deployment_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Latest_Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Maximum_SCA_Score__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Minimum_Apex_Test_Coverage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Namespace__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Org_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Promotion_Default_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Run_all_tests__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environment__c.copado__Validation_Promotion_Default_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environmental_Variable__c.copado__Scope__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Environmental_Variable__c.copado__Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Application__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Cancelled_Reason__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Epic_Details__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Epic_Title__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Epic__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Duration__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__End_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__External_CI_Job_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Job_URL_Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Job_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Start_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job_Result__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Continue_on_failure__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Invoke_on__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Job_Api_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Order__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__Timeout_in_minutes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Job__c.copado__dataJSON__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Setting__c.copado__Credential_Validated__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__External_CI_Setting__c.copado__Endpoint__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Filter__c.copado__Owner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Filter__c.copado__Parameters__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Filter__c.copado__Share_With__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Compliance_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Frequency__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Git_Snapshot_Permissions__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Last_Backup__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Last_Compliance_Scan_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__Metadata_Types__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Backup__c.copado__View_in_Git__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Changes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Commit_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Commit_Datetime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Commit_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Commit_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Commit__c.copado__Git_Repository__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Changes__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Commit_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Commit_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Commit_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Git_Backup__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Git_Operation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Org_Commit__c.copado__View_in_Git__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Branch_Base_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Commit_Base_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Git_Provider__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Pull_Request_Base_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Source_Format__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__Tag_Base_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.copado__URI__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board_View__c.copado__Kanban_Board__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board_View__c.copado__SOQL_Json__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board__c.copado__Columns_SOQL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board__c.copado__Field_to_read_update__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board__c.copado__JSON_Settings__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Kanban_Board__c.copado__SOQL_Query__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Metadata_Group_Item__c.copado__Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Metadata_Group__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__From_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__From_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__Last_Modified_By_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__Metadata_Types__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__To_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__OrgDiff__c.copado__To_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Compliance_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Custom_Domain__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Default_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Default_Scratch_Org_Definition__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Developer_Hub_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Disable_Validation__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Error__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Last_Apex_Tests_Datetime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Last_Apex_Tests_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Last_Compliance_Scan_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Last_Git_Backup_Datetime__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Last_Git_Backup_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Metadata_Types__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Minimum_Apex_Test_Coverage__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Oauth_Signature__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Org_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Profile_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__SFDC_Org_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Scratch_Org_Expiration_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Scratch_Org_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Test_Frequency__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Token__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Type_Icon__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Username__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Validated_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__Validated_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Org__c.copado__is_Developer_Hub_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Persona_Permission__c.copado__Permission_Set_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Persona__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Deployment_Flow__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__End_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Exclude_Tabs_from_Promotion_Page__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Index_Metadata__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Start_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copadoccmint__Enable_Logs__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copadoccmint__JQL_Extended_Filter__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copadoccmint__Project_External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copadoccmint__Team_Info__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Project__c.copadoccmint__Workspace_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promoted_User_Story__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Back_Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Connection_Behavior__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Create_Full_Permission_Sets_Step__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Create_Full_Profiles_Step__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Destination_Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Destination_Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Exclude_From_Auto_Resolve__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Merge_Conflict__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Order_by__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Project__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Release__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Send_Deployment_Complete_email__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Source_Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Source_Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Promotion__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__Body__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__Review_Action__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__Review_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__URL_Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__User_Avatar_Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__User_Avatar__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request_Review__c.copado__Username__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Assignees__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Changed_Files__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Closed_At__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Commits__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Mergeable__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Merged_At__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Merged_By__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Merged__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Request_Number__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Requested_Reviewers__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__State__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Target_Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__URL_Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__User_Avatar_Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__User_Avatar__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Pull_Request__c.copado__Username__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Automation_Template__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Compliance_Rule_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__DataJSON__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Execution_Event__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Execution_Sequence__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Manual_Task_Owner__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Metadata_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Score_Threshold__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Selenium_Test_Group__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Static_Code_Analysis_Settings__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Quality_Gate__c.copado__Test_Level__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Configuration_Source_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Field_1__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Field_2__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Field_3__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Hash_Formula__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Record_Matching_Formula__c.copado__Object__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Base_Branch__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Planned_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Project__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copado__Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Release__c.copadoccmint__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Deployment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Duration__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__End_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Error_Code__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Error_Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Job_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Link__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Promotion__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Start_Time__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Result__c.copado__User_Story__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job_Run__c.copado__Called_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job_Run__c.copado__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job_Run__c.copado__Run_as_User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job_Run__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Apex_Job_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Cron_Expression__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Delete_Runs_after_days__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Run_as_User__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scheduled_Job__c.copado__Webhook_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Definition__c.copado__Duration_in_days__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Definition__c.copado__Scratch_Org_Definition_JSON__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Api_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Developer_Hub_Org__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Namespace__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Project_JSON__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__SFDC_Login_Url__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Source_Metadata_Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Scratch_Org_Project_Template__c.copado__Source_Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Group_Org_Credential__c.copado__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Group_Test_Suite__c.copado__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Group_Variable__c.copado__Display_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Group_Variable__c.copado__Hide_Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Group_Variable__c.copado__Value__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator_Reference__c.copado__External_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator_Reference__c.copado__Selenium_Test_Case_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator__c.copado__External_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator__c.copado__Locator_ID__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator__c.copado__Locator__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Locator__c.copado__Page__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Default_Org_Credential__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Desired_Capabilities__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Device_Screen_Size__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Provider__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Selected_Platforms__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Settings__c.copado__Webdriver_Proxy__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Case_Per_Suite__c.copado__Order__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Case_Per_Suite__c.copado__Test_Dataset_Name__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Case__c.copado__Open_with_Copado_Recorder__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Case__c.copado__Previous_Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Case__c.copado__Version__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Description__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Environment__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__External_Id__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Manage_Test_Runs_manually__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Run_Sequentially__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Status_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Status_Icon__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Group__c.copado__Type__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Result__c.copado__Batch_No__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Result__c.copado__Elapsed_Time_Seconds__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Result__c.copado__Message__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Result__c.copado__Result_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Result__c.copado__Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Base_URL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Batch_No__c</field>
+        <editable>false</editable>
+        <field>User.Unique_Users__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Environment__c</field>
+        <field>User.pi__Can_View_Not_Assigned_Prospects__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__External_ID__c</field>
+        <field>User.pi__Pardot_Api_Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Last_Status_Date__c</field>
+        <field>User.pi__Pardot_Api_Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Last_Status_Icon__c</field>
+        <field>User.pi__Pardot_User_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Last_Status__c</field>
+        <field>User.pi__Pardot_User_Key__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Org_Credential__c</field>
+        <field>User.pi__Pardot_User_Role__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Run__c.copado__Selenium_Test_Group__c</field>
+        <field>WorkOrder.AccountId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Suite__c.copado__Apex_code_after_test__c</field>
+        <field>WorkOrder.Address</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Suite__c.copado__Apex_code_before_test__c</field>
+        <field>WorkOrder.AssetId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Suite__c.copado__Notes__c</field>
+        <field>WorkOrder.BusinessHoursId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Selenium_Test_Suite__c.copado__Test_Script__c</field>
+        <field>WorkOrder.CaseId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Destination_Git_Commit__c</field>
+        <field>WorkOrder.ContactId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Destination_Option__c</field>
+        <field>WorkOrder.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Destination_Org_Credential__c</field>
+        <field>WorkOrder.Discount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Format__c</field>
+        <field>WorkOrder.Duration</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Last_Run__c</field>
+        <field>WorkOrder.DurationInMinutes</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Partial_Selection__c</field>
+        <field>WorkOrder.DurationType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Source_Git_Commit__c</field>
+        <field>WorkOrder.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Source_Option__c</field>
+        <field>WorkOrder.EntitlementId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Snapshot_Difference__c.copado__Source_Org_Credential__c</field>
+        <field>WorkOrder.GrandTotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Days_in_sprint__c</field>
+        <field>WorkOrder.IsClosed</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__End_Date__c</field>
+        <field>WorkOrder.IsStopped</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Full_time_resources_in_sprint__c</field>
+        <field>WorkOrder.LineItemCount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Objective__c</field>
+        <field>WorkOrder.MilestoneStatus</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Project__c</field>
+        <field>WorkOrder.MilestoneStatusIcon</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Release__c</field>
+        <field>WorkOrder.ParentWorkOrderId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Start_Date__c</field>
+        <field>WorkOrder.Pricebook2Id</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Status__c</field>
+        <field>WorkOrder.Priority</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Story_points__c</field>
+        <field>WorkOrder.RootWorkOrderId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Team__c</field>
+        <field>WorkOrder.ServiceAppointmentCount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copado__Working_days_in_sprint__c</field>
+        <field>WorkOrder.ServiceContractId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Sprint__c.copadoccmint__External_Id__c</field>
+        <field>WorkOrder.SlaExitDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Blocker__c</field>
+        <field>WorkOrder.SlaStartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Bugs__c</field>
+        <field>WorkOrder.StartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Closed__c</field>
+        <field>WorkOrder.Status</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Code_Smells__c</field>
+        <field>WorkOrder.StatusCategory</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Confirmed__c</field>
+        <field>WorkOrder.StopStartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Critical__c</field>
+        <field>WorkOrder.Subject</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Deployment_Step__c</field>
+        <field>WorkOrder.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Details__c</field>
+        <field>WorkOrder.Tax</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__False_Positive__c</field>
+        <field>WorkOrder.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Fixed__c</field>
+        <field>WorkOrderLineItem.Address</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Highest_Priority_Violation__c</field>
+        <field>WorkOrderLineItem.AssetId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Info__c</field>
+        <field>WorkOrderLineItem.Description</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Major__c</field>
+        <field>WorkOrderLineItem.Discount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Minor__c</field>
+        <field>WorkOrderLineItem.EndDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Number_of_Violations__c</field>
+        <field>WorkOrderLineItem.IsClosed</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Open__c</field>
+        <field>WorkOrderLineItem.ListPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Org_Credential__c</field>
+        <field>WorkOrderLineItem.OrderId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Removed__c</field>
+        <field>WorkOrderLineItem.ParentWorkOrderLineItemId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Reopened__c</field>
+        <field>WorkOrderLineItem.PricebookEntryId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Resolved__c</field>
+        <field>WorkOrderLineItem.Priority</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Score_v11__c</field>
+        <field>WorkOrderLineItem.Product2Id</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Unresolved__c</field>
+        <field>WorkOrderLineItem.Quantity</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__User_Story__c</field>
+        <field>WorkOrderLineItem.RootWorkOrderLineItemId</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Vulnerabilities__c</field>
+        <field>WorkOrderLineItem.ServiceAppointmentCount</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Result__c.copado__Wont_fix__c</field>
+        <field>WorkOrderLineItem.StartDate</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Rule__c.copado__Message__c</field>
+        <field>WorkOrderLineItem.Status</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Rule__c.copado__Rule_Reference__c</field>
+        <field>WorkOrderLineItem.StatusCategory</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Settings__c.copado__Cloud_Organization__c</field>
+        <field>WorkOrderLineItem.Subject</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Settings__c.copado__CodeScan_Token__c</field>
+        <field>WorkOrderLineItem.Subtotal</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Settings__c.copado__CodeScan_URL__c</field>
+        <field>WorkOrderLineItem.TotalPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Settings__c.copado__CodeScan_Version__c</field>
+        <field>WorkOrderLineItem.UnitPrice</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__File__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Available_Accounts_By_Industry__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Info_URL_Link__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Available_Contacts_By_Industry__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Info_URL__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Available_Contacts__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Line__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Available_Executive_Contacts_By_Industry__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Message__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Batch_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Priority__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Complete__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Resolution__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Completion_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Rule__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__DUNSRight_Result__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Score__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Dunsright__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Severity__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Dupe_Check__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Status__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Employee_Range_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Static_Code_Analysis_Violation__c.copado__Type__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Error_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Attachment_Id__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Failed_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Automated_Behaviour__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Industry_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Branch__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Revenue_Range_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__CheckOnly__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Total__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Commit_Id__c</field>
+        <field>ddcAssess__Assessment_Summary__c.ddcAssess__Version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Commit_Name__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Different__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Completed__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Different_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Count_Completed__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Duplicate__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Deployed__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Entity_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Git_Repository__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Error_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Manual_Task_Notified__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Error_Messages__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Notify_Task_Owner__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__In_Sync__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Org_Count__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__In_Sync_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Read_Only__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Inactive__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Run_all_tests__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Inactive_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__SUM_Deployed__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__International__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Status_Flag__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__International_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Status__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Matched__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__Type__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Matched_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__View_Attachment__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Person__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Step__c.copado__dataJson__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Person_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Child_User_Story_Status__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Personal_Email__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Deliverable__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Personal_Email_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Dependency_Status__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Total__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Dependent_Team__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Unmatched__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Dependent_User_Story__c</field>
+        <field>ddcAssess__Entity_Assessment__c.ddcAssess__Unmatched_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Needed_by_Date__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Blank__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Notes__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Blank_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Parent_User_Story_Status__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Different__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Provider_Team__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Different_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Provider_User_Story__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Unmatched_Blank__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Release__c</field>
+        <field>ddcAssess__Field_Assessment__c.ddcAssess__Unmatched_Blank_pcnt__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Dependency__c.copado__Skip_Dependency__c</field>
+        <field>ddcAssess__Matched_Record__c.ddcAssess__Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Member__c.copado__Member__c</field>
+        <field>ddcAssess__Matched_Record__c.ddcAssess__Dupes__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team_Member__c.copado__Role__c</field>
+        <field>ddcAssess__Matched_Record__c.ddcAssess__Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team__c.copado__Active__c</field>
+        <field>pi__AsyncRequest__c.pi__AsyncType__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team__c.copado__Department__c</field>
+        <field>pi__AsyncRequest__c.pi__Params__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Team__c.copado__Vision__c</field>
+        <field>pi__Category_Contact_Score__c.pi__Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Action_Description__c</field>
+        <field>pi__Category_Contact_Score__c.pi__Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Actual_Result__c</field>
+        <field>pi__Category_Contact_Score__c.pi__Scoring_Category_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Expected_Result__c</field>
+        <field>pi__Category_Lead_Score__c.pi__Lead__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Guidance_notes__c</field>
+        <field>pi__Category_Lead_Score__c.pi__Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Order__c</field>
+        <field>pi__Category_Lead_Score__c.pi__Scoring_Category_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Script_Step__c</field>
+        <field>pi__EngageCampaignRecipient__c.pi__ContactId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run_Step__c.copado__Status__c</field>
+        <field>pi__EngageCampaignRecipient__c.pi__LeadId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Environment__c</field>
+        <field>pi__EngageCampaignRecipient__c.pi__Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Overall_Test_Comments__c</field>
+        <field>pi__EngageCampaignRecipient__c.pi__UserId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Percent_Passed__c</field>
+        <field>pi__LDFilter__c.pi__User__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Project__c</field>
+        <field>pi__LDFilter__c.pi__assignedToAllUsers__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Sprint__c</field>
+        <field>pi__LDFilter__c.pi__criteria__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Status__c</field>
+        <field>pi__LDFilter__c.pi__defaultFilter__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Steps_Completed__c</field>
+        <field>pi__LDFilter__c.pi__displayMode__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Steps_Passed__c</field>
+        <field>pi__LDFilter__c.pi__metadata__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Test_Completion__c</field>
+        <field>pi__LDFilter__c.pi__pardotOwnerId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Test_Phase__c</field>
+        <field>pi__LDFilter__c.pi__showNotifications__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Tester__c</field>
+        <field>pi__LDFilter__c.pi__version__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Total_Steps__c</field>
+        <field>pi__ObjectChangeLog__c.pi__ObjectMasterRecordEmail__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__Type__c</field>
+        <field>pi__ObjectChangeLog__c.pi__ObjectMasterRecordId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Run__c.copado__User_Story__c</field>
+        <field>pi__PardotTask__c.pi__ErrorMessage__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Action_Description__c</field>
+        <field>pi__PardotTask__c.pi__SerializedTask__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Expected_Result__c</field>
+        <field>pi__PardotTask__c.pi__TaskId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Guidance_notes__c</field>
+        <field>pi__Pardot_Scoring_Category__c.pi__Category_Pardot_Record_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Order__c</field>
+        <field>pi__Pardot_Scoring_Category__c.pi__Pardot_Account_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Result__c</field>
+        <field>rh2__Filter__c.rh2__Condition__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script_Step__c.copado__Step_Title__c</field>
+        <field>rh2__Filter__c.rh2__Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Expected_Result__c</field>
+        <field>rh2__Filter__c.rh2__ImportId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Introduction__c</field>
+        <field>rh2__Filter__c.rh2__JSON__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Org__c</field>
+        <field>rh2__Filter__c.rh2__Logic__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Overall_Outcome__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__Filter__c.rh2__Newline_Formula__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Peer_Reviewer__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__Filter__c.rh2__PS_Exception__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Prerequisites__c</field>
+        <field>rh2__Filter__c.rh2__Test_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Project__c</field>
+        <field>rh2__Filter__c.rh2__Test_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Risk__c</field>
+        <field>rh2__Filter__c.rh2__Test_Describe__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Sprint__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__Filter__c.rh2__Test_Multi_Picklist__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Test_Description__c</field>
+        <field>rh2__PS_Describe__c.rh2__Asynchronous__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__Test_Title__c</field>
+        <field>rh2__PS_Describe__c.rh2__Contact2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Test_Script__c.copado__User_Story__c</field>
+        <field>rh2__PS_Describe__c.rh2__Contact3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Theme__c.copado__Active__c</field>
+        <field>rh2__PS_Describe__c.rh2__Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Theme__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Data_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__Theme__c.copado__Theme_Details__c</field>
+        <field>rh2__PS_Describe__c.rh2__Disable_Realtime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Apply_Schedule__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Describe__c.rh2__Disable_Trigger__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__End_Schedule_ID__c</field>
+        <field>rh2__PS_Describe__c.rh2__Foreign_Key_Test_Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__End_Time__c</field>
+        <field>rh2__PS_Describe__c.rh2__Hierarchy_Test_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__External_Id__c</field>
+        <field>rh2__PS_Describe__c.rh2__Hierarchy_Test__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Persona__c</field>
+        <field>rh2__PS_Describe__c.rh2__Label__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Start_Schedule_ID__c</field>
+        <field>rh2__PS_Describe__c.rh2__Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Start_Time__c</field>
+        <field>rh2__PS_Describe__c.rh2__Real_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Status_Message__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_10__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_11__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__Type__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_12__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Persona_Assignment__c.copado__User__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_13__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Commit__c.copado__External_Id__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_14__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Commit__c.copado__View_in_Git__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_15__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Metadata__c.copado__Last_Commit_Date__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_16__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Metadata__c.copado__Metadata_API_Name__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_17__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Metadata__c.copado__Status_Icon__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_18__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Metadata__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_19__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Metadata__c.copado__Unique_ID__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Selenium_Test__c.copado__External_Id__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_20__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Task__c.copado__Comments__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_21__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Task__c.copado__Hours_Remaining__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_22__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Task__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_23__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story_Task__c.copado__Subject__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_24__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Acceptance_Criteria_Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_25__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Acceptance_Criteria__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_26__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Apex_Code_Coverage__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_27__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Apex_Tests_Passed__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_28__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Backburner_Rank__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_29__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Backlog_Rank__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Base_Branch__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_30__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Business_Analyst__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_31__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Cancellation_Reason__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_32__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Classes_Without_Coverage__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_33__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Close_Date__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_34__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Compliance_Criteria__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_35__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Compliance_Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_36__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Compliance__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_37__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Data_Privacy__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_38__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Developer__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_39__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Documentation_Complete__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_3__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Environment_Type__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_40__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Environment__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_41__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Epic__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_42__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Exclude_From_CBM__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_43__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Failing_Methods__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_44__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Feature__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_45__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Functional_Specifications__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_46__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Git_Merge_Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_47__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Has_Apex_Code__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_48__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Last_Compliance_Scan_Date__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_49__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Last_Promotion_Date__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_4__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Last_Validation_Deployment_Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_50__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Last_Validation_Deployment__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_51__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Last_Validation_Promotion__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_52__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Latest_Commit_Date__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_53__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Legal__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_54__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Manual_Step_Required__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_55__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Manual_Tests_Passed__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_56__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Metadata_Types_in_Selection__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_57__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Minimum_Apex_Code_Coverage__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_58__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Order__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_59__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Org_Credential__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_5__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Parent_Epic_Title__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_60__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Priority__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_61__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Progress_Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_62__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Progress__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_63__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Project__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_64__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Promote_Change__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_65__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Promote_and_Deploy__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_66__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Promote_as_Single_Step__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_6__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Promotion_Test_Level__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_7__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Pull_Requests_Approved__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_8__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__QR_Code__c</field>
+        <field>rh2__PS_Describe__c.rh2__Rollup_9__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Release__c</field>
+        <field>rh2__PS_Describe__c.rh2__Selected__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Sprint__c</field>
+        <field>rh2__PS_Describe__c.rh2__Sum_Integer_Double__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Status__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Checkbox__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Stop_Indexing_Metadata__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Story_Points_Other__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Date_Time__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Story_Points_SFDC__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Team__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Double__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Technical_Specifications__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_End_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Test_Script_Owner__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Formula_FK_Currency__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Theme__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Formula__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Total_Story_Points__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Integer2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Triggers_Without_Coverage__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Integer__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__US_Feature__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Long_Text__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__User_Story_Title__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Multi_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__Validate_Only__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Percent__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__View_in_Git__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__userStory_Role__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Rich_Text__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__userStory_need__c</field>
+        <field>rh2__PS_Describe__c.rh2__Test_Small_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copado__userStory_reason__c</field>
+        <field>rh2__PS_Describe__c.rh2__User__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copadoccmint__Enable_Logs__c</field>
+        <field>rh2__PS_Describe__c.rh2__Validation_Test_Int__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copadoccmint__External_Id__c</field>
+        <field>rh2__PS_Exception__c.rh2__DML_Exception_Message__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copado__User_Story__c.copadoccmint__JIRA_key__c</field>
+        <field>rh2__PS_Exception__c.rh2__DML_Failed_Record_Ids__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Callout_Log__c.copadoccmint__Project__c</field>
+        <field>rh2__PS_Exception__c.rh2__DML_Failed_Records_Count__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Callout_Log__c.copadoccmint__Response_Body__c</field>
+        <field>rh2__PS_Exception__c.rh2__DML_Problem_Field_Names__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Callout_Log__c.copadoccmint__Status_Code__c</field>
+        <field>rh2__PS_Exception__c.rh2__DML_Status_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Callout_Log__c.copadoccmint__Status__c</field>
+        <field>rh2__PS_Exception__c.rh2__Exception_Stack_Trace__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>copadoccmint__Callout_Log__c.copadoccmint__User_Story__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Exception__c.rh2__Exception_Type__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Field_Mapping__c.copadoccmint__Exclude_from_su__c</field>
+        <field>rh2__PS_Exception__c.rh2__Formatted_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Field_Mapping__c.copadoccmint__Exclude_from_tpu__c</field>
+        <field>rh2__PS_Exception__c.rh2__Line_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>copadoccmint__Field_Mapping__c.copadoccmint__Target_Field_Type__c</field>
+        <field>rh2__PS_Exception__c.rh2__Number_of_Occurrences__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Action_User_Preference__c.lightningbuddy__Dismissed_Date__c</field>
+        <field>rh2__PS_Exception__c.rh2__Object__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Action_User_Preference__c.lightningbuddy__User__c</field>
+        <field>rh2__PS_Exception__c.rh2__Potential_Affected_Target_Fields__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Action_Text__c</field>
+        <field>rh2__PS_Exception__c.rh2__Record_Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Enabled_Profiles__c</field>
+        <field>rh2__PS_Exception__c.rh2__Record_Link__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__External_Id__c</field>
+        <field>rh2__PS_Exception__c.rh2__Rollup_Link__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__File_Id__c</field>
+        <field>rh2__PS_Exception__c.rh2__Rollup_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Image_Carousel_Config__c</field>
+        <field>rh2__PS_Export_Rollups__c.rh2__RollupOrFilterData__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Lightning_Flow_API_Name__c</field>
+        <field>rh2__PS_Export_Rollups__c.rh2__filterJobRollupKey__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Popover_Text__c</field>
+        <field>rh2__PS_Queue__c.rh2__Batch_Class__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Quick_Action_API_Name__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Queue__c.rh2__Filter__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Record_Id__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Queue__c.rh2__Max_Record_Scope__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Record_Type_Name__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Queue__c.rh2__Notification_Email__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Record_Type__c</field>
+        <field>rh2__PS_Queue__c.rh2__Params__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Record_Update_Criteria__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Queue__c.rh2__ParentFilter__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Recurrence_Date__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Queue__c.rh2__Prevent_Merge__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Recurrence_Days__c</field>
+        <field>rh2__PS_Queue__c.rh2__Query__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Recurrence__c</field>
+        <field>rh2__PS_Queue__c.rh2__Source_Object__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Subtab_Name__c</field>
+        <field>rh2__PS_Queue__c.rh2__Step_JSON__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Duration__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Condition__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Icon__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Field_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Message__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Field__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Mode__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__ImportId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Param_Config__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__JSON__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Title__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Logic__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert_Type__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Test_Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Type__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Test_Contact__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Use_Custom_Criteria_Handler__c</field>
+        <field>rh2__PS_Rollup_Conditions__c.rh2__Test_Describe__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Video_Link__c</field>
+        <field>rh2__PS_Rollup_Dummy__c.rh2__Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Video_Type__c</field>
+        <field>rh2__PS_Rollup_Dummy__c.rh2__Parent_Dummy__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat_Background_Image__c</field>
+        <field>rh2__PS_Rollup_Dummy__c.rh2__Test_Numeric__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat_Body__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__PS_Rollup_Group__c.rh2__Rollup_Group_Label__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat_Main_Image__c</field>
+        <field>rh2__RH_Job__c.rh2__Active__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat_Tile_Config__c</field>
+        <field>rh2__RH_Job__c.rh2__BatchSize__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat_Title__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__RH_Job__c.rh2__Filter__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Carousel_Image__c.lightningbuddy__Description__c</field>
+        <field>rh2__RH_Job__c.rh2__Increment__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Carousel_Image__c.lightningbuddy__Image_Url__c</field>
+        <field>rh2__RH_Job__c.rh2__NextFireTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Record_Criteria__c.lightningbuddy__Field_Name__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__RH_Job__c.rh2__ParentFilter__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Record_Criteria__c.lightningbuddy__Field_Value__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__RH_Job__c.rh2__Parent_Condition_Name__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Toaster_Alert_Param__c.lightningbuddy__Link__c</field>
+        <field>rh2__RH_Job__c.rh2__PreviousFireTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Toaster_Alert_Param__c.lightningbuddy__Order__c</field>
+        <field>rh2__RH_Job__c.rh2__Rollup_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>lightningbuddy__Welcome_Mat_Tile__c.lightningbuddy__Body__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>rh2__RH_Job__c.rh2__Rollup_Status__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Welcome_Mat_Tile__c.lightningbuddy__Icon__c</field>
+        <field>rh2__RH_Job__c.rh2__RunForAllRecords__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Welcome_Mat_Tile__c.lightningbuddy__Link__c</field>
+        <field>rh2__RH_Job__c.rh2__Schedule_Name__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>lightningbuddy__Welcome_Mat_Tile__c.lightningbuddy__Title__c</field>
+        <field>rh2__RH_Job__c.rh2__Unit__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>AT_Adoption_Trend__c-Adoption Trend Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Account-Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountBrand-Account Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountContactRelation-Account Contact Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AccountContactRole-Account Contact Role Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>AccountTeamMember-Account Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>AssetRelationship-Asset Relationship Layout</layout>
+        <layout>BatchLeadConvertErrors__c-Batch Lead Convert Errors Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Book__c-Book Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bot_Command__c-Bot Action Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Broker__c-Broker Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CampaignInfluenceModel-Campaign Influence Model Layout</layout>
+        <layout>CampaignMember-Campaign Member Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CampaignMember-Campaign Member Page Layout</layout>
+        <layout>Camping_Item__c-Camping Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campsite_Reservation__c-Campsite Reservation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campsite__c-Campsite Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Candidate__c-Candidate Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
@@ -9032,28 +8234,82 @@
         <layout>CaseClose-Close Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CaseInteraction-Case Feed Layout</layout>
+        <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CodeCoverage__c-CodeCoverage Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CollaborationGroup-Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Communication__c-Communication Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CommunityMemberLayout-Community Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Comparable__c-Comparable Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionRate-Consumption Rate Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ConsumptionSchedule-Consumption Schedule Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ContentVersion-Content Version</layout>
+        <layout>Contact_Relationship__c-Contact Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ContentVersion-General</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ContractLineItem-Contract Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer_Project__c-Customer Project Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer_Satisfaction_Survey__c-Customer Satisfaction Survey Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Customer__c-Customer Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DandBCompany-D%26B Company Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>DelegatedAccount-External Managed Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DuplicateRecordSet-Duplicate Record Set Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>EmailMessage-Email Message Layout</layout>
+        <layout>Employment_Website__c-Employment Website Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Energy_Audit__c-Energy Audit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Entitlement-Entitlement Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>EntityMilestone-Object Milestone Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Expense__c-Expense Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Favorite__c-Favorite Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>FeedItem-Feed Item Layout</layout>
@@ -9062,28 +8318,104 @@
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Goal-Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalLink-Goal Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Individual-Individual Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Job_Application__c-Job Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Job_Posting__c-Job Posting Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ListEmail-List Email Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveAgentSession-Live Agent Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscript-Live Chat Transcript Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptActive-Live Chat Transcript %28In Progress%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptEvent-Live Chat Transcript Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatTranscriptWaiting-Live Chat Transcript %28Waiting%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>LiveChatVisitor-Live Chat Visitor Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Completion Metric Layout</layout>
+        <recordType>Metric.Completion</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+        <recordType>Metric.Progress</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MetricDataLink-Metric Data Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Obj1__c-Obj1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Obj2__c-Obj2 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Hide</layout>
+        <recordType>Opportunity.Hide</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.RB_Robotics_Process_RT</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityTeamMember-Opportunity Team Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-Order Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>OrderDetails__x-OrderDetails Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>OrderItem-Order Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Planet__c-Planet Layout</layout>
+        <layout>Orders__x-Orders Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Position__c-Position Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Pricebook2-Price Book Layout</layout>
@@ -9092,19 +8424,16 @@
         <layout>PricebookEntry-Price Book Entry Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProcessException-Process Exception Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProfileSkill-Skill Layout</layout>
+        <layout>ProductConsumptionSchedule-Product Consumption Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProfileSkillEndorsement-Endorsement Layout</layout>
+        <layout>Project__c-Project Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProfileSkillUser-Skill User Layout</layout>
+        <layout>Property__c-Property Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
@@ -9116,6 +8445,18 @@
         <layout>QuoteLineItem-Quote Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Review__c-Review Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Robot_Setup__c-Robot Setup Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SFDC_Class__c-Class Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SFDC_Enrollment__c-Enrollment Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -9125,16 +8466,40 @@
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SocialPersona-Social Persona Layout</layout>
+        <layout>ServiceContract-Service Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>SocialPost-Social Post Layout</layout>
+        <layout>SocialPersona-Social Persona Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Stakeholder__c-Stakeholder Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Suggestion__c-Suggestion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2-Territory Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Model-Territory Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Type-Territory Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Top_X_Designation__c-Top X Designation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Tower__c-Tower Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Trail__c-Trail Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -9146,26 +8511,51 @@
         <layout>UserAppMenuItem-Application Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserProvAccount-User Provisioning Account Layout</layout>
+        <layout>Vehicle__c-Vehicle Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserProvisioningLog-User Provisioning Log Layout</layout>
+        <layout>Waypoint__c-Waypoint Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>UserProvisioningRequest-User Provisioning Request Layout</layout>
+        <layout>WorkCoaching-Coaching Layout 194</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkAccess-Access Layout</layout>
+        <layout>WorkFeedback-Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkBadge-Badge Received Layout 192</layout>
+        <layout>WorkFeedbackQuestion-Feedback Question Layout - Winter %2716</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkBadgeDefinition-Badge Layout 192</layout>
+        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>WorkThanks-Thanks Layout</layout>
+        <layout>WorkFeedbackRequest-Feedback Request Layout - Winter %2716</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackTemplate-Feedback Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrder-Work Order Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkOrderLineItem-Work Order Line Item Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <loginIpRanges>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AT_Adoption_Trend__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -9173,6 +8563,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Account</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AccountBrand</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9199,6 +8598,78 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>AuthorizationForm</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AuthorizationFormConsent</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AuthorizationFormDataUse</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AuthorizationFormText</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>BatchLeadConvertErrors__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Book__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Bot_Command__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Broker__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Campaign</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9208,7 +8679,124 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Camping_Item__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Campsite_Reservation__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Campsite__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Candidate__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Case</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ChannelProgram</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ChannelProgramLevel</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ChannelProgramMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CodeCoverage__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CommSubscription</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>CommSubscriptionChannelType</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Communication__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Comparable__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ConsumptionSchedule</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9226,6 +8814,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>ContactPointTypeConsent</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>ContactRequest</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9235,7 +8832,88 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Contact_Relationship__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Contract</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ContractLineItem</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Customer_Project__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Customer_Satisfaction_Survey__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Customer__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DandBCompany</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DataUseLegalBasis</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DataUsePurpose</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>DelegatedAccount</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9262,6 +8940,69 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Employment_Website__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Energy_Audit__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>EngagementChannelType</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Entitlement</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>EntitlementContact</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Expense__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Favorite__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Idea</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9280,6 +9021,33 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Individual</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Job_Application__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Job_Posting__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Lead</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9289,7 +9057,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Location</object>
+        <object>LiveAgentSession</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9298,7 +9066,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>LocationTrustMeasure</object>
+        <object>LiveChatTranscript</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>LiveChatVisitor</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9308,6 +9085,33 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Macro</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Notification__e</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Obj1__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Obj2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9334,7 +9138,70 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>Planet__c</object>
+        <object>OrderDetails__x</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Orders__x</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundAllocation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundClaim</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerMarketingBudget</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>PartyConsent</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Position__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9352,15 +9219,6 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ProcessException</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
         <object>Product2</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9370,7 +9228,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ProfileSkill</object>
+        <object>Project__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9379,16 +9237,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>ProfileSkillEndorsement</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>ProfileSkillUser</object>
+        <object>Property__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9424,7 +9273,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>SocialPersona</object>
+        <object>Review__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9433,7 +9282,34 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>SocialPost</object>
+        <object>Robot_Setup__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SFDC_Class__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>SFDC_Enrollment__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>ServiceContract</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9451,6 +9327,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Stakeholder__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>StreamingChannel</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -9460,7 +9345,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Apex_Test_Result__c</object>
+        <object>Suggestion__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9469,7 +9354,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Application_Feature__c</object>
+        <object>Top_X_Designation__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9478,7 +9363,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Application__c</object>
+        <object>Tower__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9487,7 +9372,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Artifact_Dependency__c</object>
+        <object>Trail__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9496,7 +9381,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Artifact_Version__c</object>
+        <object>Vehicle__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9505,7 +9390,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Artifact__c</object>
+        <object>Waypoint__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9514,7 +9399,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__AuxiliaryObject__c</object>
+        <object>WorkOrder</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9523,7 +9408,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Branch_Management_Permission__c</object>
+        <object>ddcAssess__Assessment_Summary__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9532,7 +9417,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Build_Task__c</object>
+        <object>ddcAssess__Entity_Assessment__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9541,7 +9426,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Burndown_Item__c</object>
+        <object>ddcAssess__Field_Assessment__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9550,7 +9435,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Finding__c</object>
+        <object>ddcAssess__Matched_Record__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9559,7 +9444,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Rule_Criteria__c</object>
+        <object>pi__AsyncRequest__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9568,7 +9453,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Rule_Group_Item__c</object>
+        <object>pi__Category_Contact_Score__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9577,7 +9462,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Rule_Group__c</object>
+        <object>pi__Category_Lead_Score__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9586,7 +9471,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Rule__c</object>
+        <object>pi__EngageCampaignRecipient__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9595,7 +9480,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Compliance_Scan_Result__c</object>
+        <object>pi__LDFilter__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9604,7 +9489,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Connection_Behavior__c</object>
+        <object>pi__ObjectChangeLog__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9613,7 +9498,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Continuous_Integration_Permission__c</object>
+        <object>pi__PardotTask__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9622,7 +9507,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Continuous_Integration__c</object>
+        <object>pi__Pardot_Scoring_Category__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9631,7 +9516,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Copado_Feature__c</object>
+        <object>rh2__Filter__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9640,7 +9525,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Copado_Notification__c</object>
+        <object>rh2__PS_Describe__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9649,7 +9534,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Data_Template__c</object>
+        <object>rh2__PS_Exception__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9658,7 +9543,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment_Flow_Step__c</object>
+        <object>rh2__PS_Export_Rollups__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9667,7 +9552,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment_Flow__c</object>
+        <object>rh2__PS_Queue__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9676,7 +9561,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment_History__c</object>
+        <object>rh2__PS_Rollup_Conditions__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9685,7 +9570,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment_Job__c</object>
+        <object>rh2__PS_Rollup_Dummy__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9694,7 +9579,7 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment_Task__c</object>
+        <object>rh2__PS_Rollup_Group__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -9703,1330 +9588,655 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Deployment__c</object>
+        <object>rh2__RH_Job__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Destination_Org__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Environment__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Environmental_Variable__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Epic__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__External_CI_Job_Result__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__External_CI_Job__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__External_CI_Setting__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Filter__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Git_Backup__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Git_Commit__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Git_Org_Commit__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Git_Repository__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Kanban_Board_View__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Kanban_Board__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Metadata_Group_Item__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Metadata_Group__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__OrgDiff__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Org__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Persona_Permission__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Persona__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Project__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Promoted_User_Story__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Promotion__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Pull_Request_Review__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Pull_Request__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Quality_Gate__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Record_Matching_Formula__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Release__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Result__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Scheduled_Job_Run__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Scheduled_Job__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Scratch_Org_Definition__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Scratch_Org_Project_Template__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Group_Org_Credential__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Group_Test_Suite__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Group_Variable__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Locator_Reference__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Locator__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Settings__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Case_Per_Suite__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Case__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Group__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Result__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Run__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Selenium_Test_Suite__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Snapshot_Difference__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Sprint__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Static_Code_Analysis_Result__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Static_Code_Analysis_Rule__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Static_Code_Analysis_Settings__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Static_Code_Analysis_Violation__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Step__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Team_Dependency__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Team_Member__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Team__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Test_Run_Step__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Test_Run__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Test_Script_Step__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Test_Script__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__Theme__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Persona_Assignment__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Story_Commit__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Story_Metadata__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Story_Selenium_Test__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Story_Task__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copado__User_Story__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copadoccmint__Callout_Log__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copadoccmint__Copado_Integration_Setting__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>copadoccmint__Field_Mapping__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Action_User_Preference__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Actions__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Carousel_Image__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Record_Criteria__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Toaster_Alert_Param__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
-    <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
-        <modifyAllRecords>true</modifyAllRecords>
-        <object>lightningbuddy__Welcome_Mat_Tile__c</object>
-        <viewAllRecords>true</viewAllRecords>
-    </objectPermissions>
     <pageAccesses>
-        <apexPage>copado__AddCCHRuleCriteria</apexPage>
+        <apexPage>AWS_SucessRedirectPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__AddTestClasses</apexPage>
+        <apexPage>AccountSummaryo</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ArtifactManageMetadata</apexPage>
+        <apexPage>Accountedit</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ArtifactMetadata</apexPage>
+        <apexPage>Accountlist</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ArtifactPackage</apexPage>
+        <apexPage>AnswersHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__BranchManagement</apexPage>
+        <apexPage>BandwidthExceeded</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__BranchManagementDialog</apexPage>
+        <apexPage>BtnDisableEnable</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CCD_CreateMetadataGroupItem</apexPage>
+        <apexPage>CandidateResumeUploadPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CCD_CreateQualityGate</apexPage>
+        <apexPage>CaseList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ClassicSessionId</apexPage>
+        <apexPage>ChangePassword</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CloneDeployment</apexPage>
+        <apexPage>CodeCover</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CloneSeleniumTestCase</apexPage>
+        <apexPage>CommunitiesLanding</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CommittedMetadata</apexPage>
+        <apexPage>CommunitiesLogin</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ComplianceGettingStarted</apexPage>
+        <apexPage>CommunitiesSelfReg</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ConnectionBehaviorUsageInformation</apexPage>
+        <apexPage>CommunitiesSelfRegConfirm</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ContinuousIntegration</apexPage>
+        <apexPage>CommunitiesTemplate</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CopadoLicensesWizard</apexPage>
+        <apexPage>ContactForm</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CopadoSetup</apexPage>
+        <apexPage>ContactSaveExtension</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CreatePackageDefinition</apexPage>
+        <apexPage>ContactsListWithController</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CreateTestScriptSteps</apexPage>
+        <apexPage>Contactview</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__CreateUserStoryScratchOrg</apexPage>
+        <apexPage>DisplayUserInfo</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Deployment</apexPage>
+        <apexPage>DreamHouseSampleData</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Intermediary</apexPage>
+        <apexPage>ECCR__CodeCoverageReport</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_OverrideFilters</apexPage>
+        <apexPage>ECCR__ExportCodeCoverageReport</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Overview</apexPage>
+        <apexPage>Exception</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_SelectChanges</apexPage>
+        <apexPage>ExportTestCoverage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_SelectDataTemplate</apexPage>
+        <apexPage>FileNotFound</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Source</apexPage>
+        <apexPage>FlightSystemsChecklist</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Summary</apexPage>
+        <apexPage>ForgotPassword</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DW_Target</apexPage>
+        <apexPage>ForgotPasswordConfirm</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DXOperation</apexPage>
+        <apexPage>HeatMap</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DXPackageVersion</apexPage>
+        <apexPage>HeatMapMock</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DXTestOrgIntermediary</apexPage>
+        <apexPage>HelloJequery</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DataTemplateImport</apexPage>
+        <apexPage>HelloWorld1</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DataTemplateObjectResult</apexPage>
+        <apexPage>IdeasHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DataTemplateSetup</apexPage>
+        <apexPage>InMaintenance</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeleteOrgCredentialScratchOrg</apexPage>
+        <apexPage>Job_Candidate_Help</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeleteUserStoryScratchOrg</apexPage>
+        <apexPage>LightningConnectQuickstart</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeployCommits</apexPage>
+        <apexPage>MyProfilePage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__Deployment</apexPage>
+        <apexPage>NewCaseList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentFlowBranchSelection</apexPage>
+        <apexPage>ObjctNamespage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentFlowConnections</apexPage>
+        <apexPage>OppView</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentFlowStepBranchSelection</apexPage>
+        <apexPage>ProfileSwitch</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentJobResults</apexPage>
+        <apexPage>QueueOwnerUpdate</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentStatus</apexPage>
+        <apexPage>SOSLSearchController</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__DeploymentWizard</apexPage>
+        <apexPage>SearchAccount</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditDeploymentTask</apexPage>
+        <apexPage>ShowImage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditExternalCIJob</apexPage>
+        <apexPage>ShowerrorMessgae</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditExternalCISetting</apexPage>
+        <apexPage>SiteLogin</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditGit</apexPage>
+        <apexPage>SiteRegister</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditGitBackup</apexPage>
+        <apexPage>SiteRegisterConfirm</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditOrg</apexPage>
+        <apexPage>SiteTemplate</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditOrgDiff</apexPage>
+        <apexPage>StartChatting</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__EditUserStoryMetadataSelection</apexPage>
+        <apexPage>StationCheck</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__Environment_FindAndReplaceEditor</apexPage>
+        <apexPage>StdExceptionTemplate</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ExecuteTestRun</apexPage>
+        <apexPage>Trailhead_SLDS_Basic</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__FindingsMetadataGrid</apexPage>
+        <apexPage>Trailhead_SLDS_Contacts</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__Flow_FindAndReplaceEditor</apexPage>
+        <apexPage>Trailhead_SLDS_Listview</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GenerateStaticCodeAnalysisRuleSet</apexPage>
+        <apexPage>Unauthorized</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GettingStarted</apexPage>
+        <apexPage>UnderConstruction</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitChanges</apexPage>
+        <apexPage>UseWrapperctr</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitChangesDX</apexPage>
+        <apexPage>VFPAge</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitLookup</apexPage>
+        <apexPage>c1</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__GitCommitMain</apexPage>
+        <apexPage>c2</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__KanbanBoardEdit</apexPage>
+        <apexPage>c3</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__KanbanBoardView</apexPage>
+        <apexPage>contactlist</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__LicenseManager</apexPage>
+        <apexPage>createcontact</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ManageEnvVars</apexPage>
+        <apexPage>ddcAssess__AssessmentHome</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ManageGitBranches</apexPage>
+        <apexPage>ddcAssess__ResultV1</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ManageSeleniumTesting</apexPage>
+        <apexPage>ddcAssess__Results</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MassAddDestOrgs</apexPage>
+        <apexPage>display</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MassAddRunsToGroup</apexPage>
+        <apexPage>displayimage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MassAddSuitesToGroup</apexPage>
+        <apexPage>flow</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MassAddToRelease</apexPage>
+        <apexPage>flowpage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MergeVersion</apexPage>
+        <apexPage>jQueryMobileResources</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__MetadataSelector</apexPage>
+        <apexPage>liveagent</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__NewPipeline</apexPage>
+        <apexPage>pi__AddContactToList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__NewScratchOrgDefinition</apexPage>
+        <apexPage>pi__AddLeadToList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__NewScratchOrgProjectTemplate</apexPage>
+        <apexPage>pi__AddPersonAccountToList</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__OrgApexTestResultsSummary</apexPage>
+        <apexPage>pi__ApplicationConfiguration</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__OrgAuthenticationInstallWizard</apexPage>
+        <apexPage>pi__EngageSalesTools</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__OrgAuthenticationWizard</apexPage>
+        <apexPage>pi__Error</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__OrgDiffDeployment</apexPage>
+        <apexPage>pi__LeadDeck</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__OverrideTemplateFilters</apexPage>
+        <apexPage>pi__LeadDeckNotifier</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PackageArtifactOrgDefinition</apexPage>
+        <apexPage>pi__LeadDeckTab</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PageMessagesEnvironment</apexPage>
+        <apexPage>pi__MarketingActionSummaryContact</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PermissionSetExplorer</apexPage>
+        <apexPage>pi__MarketingActionSummaryLead</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PersonaPermissionOverride</apexPage>
+        <apexPage>pi__MarketingActionSummaryPersonAccount</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineDiagram</apexPage>
+        <apexPage>pi__MicroCampaignContact</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineManager</apexPage>
+        <apexPage>pi__MicroCampaignCustom</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineManagerDialog</apexPage>
+        <apexPage>pi__MicroCampaignLead</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelinePromotion</apexPage>
+        <apexPage>pi__MicroCampaignPersonAccount</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineSettingsWizard</apexPage>
+        <apexPage>pi__MicroCampaignSingleContact</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PipelineTemplatesWizard</apexPage>
+        <apexPage>pi__MicroCampaignSingleLead</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PromoteBetatoReleased</apexPage>
+        <apexPage>pi__MicroCampaignSinglePersonAccount</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PromoteChanges</apexPage>
+        <apexPage>pi__OutlookAuth</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__PromotionEdit</apexPage>
+        <apexPage>pi__OutlookCompose</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__QuickCreateUserStories</apexPage>
+        <apexPage>pi__Pardot</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ReleaseBranchSelection</apexPage>
+        <apexPage>pi__PardotAccountListMembership</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ResolveConflicts</apexPage>
+        <apexPage>pi__PardotAccountListMembershipMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduleConnectionBehavior</apexPage>
+        <apexPage>pi__PardotAccountSendToPardot</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduleCopadoScheduledJob</apexPage>
+        <apexPage>pi__PardotAccountSocialData</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduledJobSchedule</apexPage>
+        <apexPage>pi__PardotAccountSocialDataMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScheduledJobViewOverride</apexPage>
+        <apexPage>pi__PardotCompatibleWithClickjack</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScratchOrgLoadMetadataErrors</apexPage>
+        <apexPage>pi__PardotContactListMembership</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ScratchOrgOpen</apexPage>
+        <apexPage>pi__PardotContactListMembershipMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumGettingStartedPage</apexPage>
+        <apexPage>pi__PardotContactSocialData</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumRunGroup</apexPage>
+        <apexPage>pi__PardotContactSocialDataMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumSettingSelections</apexPage>
+        <apexPage>pi__PardotEmailSendRedirect</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumSettings</apexPage>
+        <apexPage>pi__PardotLeadDeck</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCase</apexPage>
+        <apexPage>pi__PardotLeadListMembership</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCaseEditor</apexPage>
+        <apexPage>pi__PardotLeadListMembershipMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCasePerSuiteJson</apexPage>
+        <apexPage>pi__PardotLeadSocialData</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCasePromote</apexPage>
+        <apexPage>pi__PardotLeadSocialDataMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCaseRollback</apexPage>
+        <apexPage>pi__PardotSSOError</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestCasesPerSuite</apexPage>
+        <apexPage>pi__Pardot_Contact_Activities_Page</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestGroupDetailOverride</apexPage>
+        <apexPage>pi__Pardot_Lead_Activities_Page</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestQuickRun</apexPage>
+        <apexPage>pi__ProspectInsightAccountActivities</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestResult</apexPage>
+        <apexPage>pi__ProspectInsightAccountActivitiesMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestRunDetailOverride</apexPage>
+        <apexPage>pi__ProspectInsightContactActivities</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SeleniumTestSuite</apexPage>
+        <apexPage>pi__ProspectInsightContactActivitiesMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__Selenium_Test_Result</apexPage>
+        <apexPage>pi__ProspectInsightLeadActivities</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SetupWizardFinish</apexPage>
+        <apexPage>pi__ProspectInsightLeadActivitiesMobile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SetupWizardStart</apexPage>
+        <apexPage>pi__SCE_LicenseAssignmentPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SnapshotBranchSelection</apexPage>
+        <apexPage>pi__SControlRedirect</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SnapshotDifference</apexPage>
+        <apexPage>pi__SalesEdgeReporting</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SnapshotDifferenceCSV</apexPage>
+        <apexPage>pi__SalespackLicenseError</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SnapshotWaitingFor</apexPage>
+        <apexPage>pi__SendPardotEmailContact</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__SprintVirtualWall</apexPage>
+        <apexPage>pi__SendPardotEmailLead</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__StaticCodeAnalysisSettingsEdit</apexPage>
+        <apexPage>pi__SendToPardot</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__TestRunScratchOrg</apexPage>
+        <apexPage>pi__filters</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStory</apexPage>
+        <apexPage>pi__init</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryApexTestResults</apexPage>
+        <apexPage>pi__marketing_actions</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryAssignment</apexPage>
+        <apexPage>pi__visit</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryBranchSelection</apexPage>
+        <apexPage>pi__visitor</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryCodeAnalysisRequested</apexPage>
+        <apexPage>rh2__PS_AllSettings</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryCommitIntermediary</apexPage>
+        <apexPage>rh2__PS_Behaviour_Runner</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryComplianceScan</apexPage>
+        <apexPage>rh2__PS_Case_Action</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryImportSelection</apexPage>
+        <apexPage>rh2__PS_DefineFilter</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryMetadata</apexPage>
+        <apexPage>rh2__PS_ExportFile</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryPageWaitingFor</apexPage>
-        <enabled>true</enabled>
+        <apexPage>rh2__PS_GettingStarted</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStoryReadyForPromote</apexPage>
+        <apexPage>rh2__PS_Home</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStorySelectCommits</apexPage>
+        <apexPage>rh2__PS_ImportData</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__UserStorySelectedMetadata</apexPage>
+        <apexPage>rh2__PS_Job</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewDeployment</apexPage>
+        <apexPage>rh2__PS_Manage_Trigger</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewDeploymentTasks</apexPage>
-        <enabled>true</enabled>
+        <apexPage>rh2__PS_Read_Only_Rollups</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewExternalCIJob</apexPage>
+        <apexPage>rh2__PS_ReferAFriend</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewExternalCISetting</apexPage>
-        <enabled>true</enabled>
+        <apexPage>rh2__PS_RollupQueue</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewGitBackup</apexPage>
+        <apexPage>rh2__PS_RollupType</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewOrgDiff</apexPage>
+        <apexPage>rh2__PS_Run</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewOrgDiffCSV</apexPage>
-        <enabled>true</enabled>
+        <apexPage>rh2__PS_ScheduleManagement</apexPage>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__ViewRelease</apexPage>
+        <apexPage>rh2__PS_SelectMaster</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__WorkManager</apexPage>
+        <apexPage>rh2__PS_SelectTargetField</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__appHome</apexPage>
+        <apexPage>rh2__PS_Select_Object</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__editScheduledJobsOverride</apexPage>
+        <apexPage>rh2__PS_healthCheck</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__editSeleniumSettingOverride</apexPage>
+        <apexPage>rh2__PS_helpPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__newEnvironmentOverride</apexPage>
+        <apexPage>rh2__PS_landingPage</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__validateOrg</apexPage>
+        <apexPage>rh2__PS_viewExceptions</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__viewGit</apexPage>
+        <apexPage>rh2__ParentSync</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copado__viewOrg</apexPage>
+        <apexPage>rh2__Thank_You</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>copadoccmint__SyncUserStories</apexPage>
+        <apexPage>testcc</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
-        <apexPage>sf_GsPilotV1__Getting_Started</apexPage>
+        <apexPage>userstatus</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
@@ -11035,411 +10245,284 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <default>false</default>
-        <recordType>copado__Artifact__c.copado__Package_Artifact</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Finding__c.copado__Copado</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Finding__c.copado__Other</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Rule__c.copado__Copado</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Rule__c.copado__Other</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Scan_Result__c.copado__Copado</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Compliance_Scan_Result__c.copado__Other</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Deployment__c.copado__Advanced_multi_step</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Deployment__c.copado__Automation_Template</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Deployment__c.copado__Data_Deployment</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Deployment__c.copado__Metadata_Deployment</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+        <recordType>Metric.Completion</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Result__c.copado__CodeScan</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Settings__c.copado__CodeScan</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Settings__c.copado__PMD</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Violation__c.copado__CodeScan</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__Static_Code_Analysis_Violation__c.copado__PMD</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__User_Story__c.copado__Bug</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__User_Story__c.copado__Investigation</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>copado__User_Story__c.copado__User_Story</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__File</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Flow</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Image_Carousel</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Object_Quick_Action</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Popover</recordType>
+        <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>true</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Rich_Text</recordType>
+        <personAccountDefault>true</personAccountDefault>
+        <recordType>Opportunity.Hide</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Toaster_Alert</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Video</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>lightningbuddy__Actions__c.lightningbuddy__Welcome_Mat</recordType>
-        <visible>true</visible>
+        <recordType>Opportunity.RB_Robotics_Process_RT</recordType>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Planet__c</tab>
+        <tab>AboutClassEnrollment</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Account_Summary</tab>
+        <tab>Book__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Application_Feature__c</tab>
+        <tab>Bot_Command__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Application__c</tab>
+        <tab>Broker__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Artifact__c</tab>
+        <tab>Campsite_Reservation__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Burndown_Item__c</tab>
+        <tab>Campsite__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Finding__c</tab>
+        <tab>Candidate__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Getting_Started</tab>
+        <tab>CodeCoverage__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Rule_Group__c</tab>
+        <tab>Command_Center</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Rule__c</tab>
+        <tab>Communication__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Compliance_Scan_Result__c</tab>
+        <tab>Comparable__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Connection_Behavior__c</tab>
+        <tab>Contact_Relationship__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Continuous_Integration__c</tab>
+        <tab>Customer_Flow</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Copado_DX_Panel</tab>
+        <tab>Customer_Project__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Copado_Feature__c</tab>
+        <tab>Customer_Satisfaction_Survey__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Copado_License_Manager</tab>
+        <tab>ECCR__Code_Coverage_Result</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Copado_Notification__c</tab>
+        <tab>Einstein_Vision</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Data_Template__c</tab>
+        <tab>Employment_Website__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Deployment_Flow__c</tab>
+        <tab>Energy_Audit__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Deployment__c</tab>
+        <tab>Field_Sales_App</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Environment__c</tab>
+        <tab>Heat_Map</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Epic__c</tab>
+        <tab>Heat_Map_Mock</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__External_CI_Job__c</tab>
+        <tab>House_Explorer</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__External_CI_Setting__c</tab>
+        <tab>Job_Application__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Getting_Started</tab>
+        <tab>Job_Posting__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Git_Backup__c</tab>
+        <tab>MyData</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Git_Repository__c</tab>
+        <tab>Obj1__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Kanban_Board__c</tab>
+        <tab>Obj2__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Metadata_Group__c</tab>
+        <tab>OrderDetails__x</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__OrgDiff__c</tab>
+        <tab>Orders__x</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Org__c</tab>
+        <tab>Position__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Permission_Set_Explorer</tab>
+        <tab>Project__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Persona__c</tab>
+        <tab>Property_Explorer1</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Pipeline_Manager</tab>
+        <tab>Property__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Project__c</tab>
+        <tab>Quick_Account</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Promotion__c</tab>
+        <tab>Quickstart</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Record_Matching_Formula__c</tab>
+        <tab>Reassign_Account_Ownership</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Release__c</tab>
+        <tab>Review__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Result__c</tab>
+        <tab>Robot_Setup__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Scheduled_Job__c</tab>
+        <tab>SFDC_Class__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Scratch_Org_Definition__c</tab>
+        <tab>SFDC_Enrollment__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Scratch_Org_Project_Template__c</tab>
+        <tab>Sample_Data_Import</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__SeleniumGettingStarted</tab>
+        <tab>Suggestion__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Locator__c</tab>
+        <tab>Top_Accounts_and_Opportunities</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Settings__c</tab>
+        <tab>Tower__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Test_Case__c</tab>
+        <tab>Trail__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Test_Group__c</tab>
+        <tab>Vehicle__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Test_Run__c</tab>
+        <tab>Waypoint__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Selenium_Test_Suite__c</tab>
+        <tab>ddcAssess__Assessment_Summary__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Snapshot_Difference__c</tab>
+        <tab>ddcAssess__Data_com_Assessment</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Sprint__c</tab>
+        <tab>pi__EngageSalesTools</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Static_Code_Analysis_Settings__c</tab>
+        <tab>pi__Lead_Deck</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Team__c</tab>
+        <tab>pi__Pardot_LeadDeck</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Test_Run__c</tab>
+        <tab>pi__ProspectInsight</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Test_Script__c</tab>
+        <tab>pi__Sales_Cloud_Engage_License_Assignment</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Theme__c</tab>
+        <tab>pi__Sales_Edge</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__User_Story_Metadata__c</tab>
+        <tab>pi__Sales_Edge_Reports</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__User_Story__c</tab>
+        <tab>rh2__PS_All_Rollups</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Work_Manager</tab>
+        <tab>rh2__PS_Enable_Real_Time</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copadoccmint__Copado_Integration_Setting__c</tab>
+        <tab>rh2__PS_Getting_Started</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>lightningbuddy__Actions__c</tab>
+        <tab>rh2__PS_Import_Export</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>sf_GsPilotV1__Getting_Started</tab>
+        <tab>rh2__PS_Rollup_Helper</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>rh2__Rollup_Helper_Exceptions</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>rh2__Rollup_Helper_Help</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>rh2__Rollup_Helper_Home</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -11447,12 +10530,32 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AccountBrand</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AppLauncher</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Asset</tab>
-        <visibility>DefaultOff</visibility>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationForm</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormConsent</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormDataUse</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-AuthorizationFormText</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Campaign</tab>
@@ -11463,6 +10566,14 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ChannelProgram</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ChannelProgramLevel</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Chatter</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -11471,11 +10582,39 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-CommSubscription</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-CommSubscriptionChannelType</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ConsumptionSchedule</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Contact</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ContactPointTypeConsent</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ContactRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentContribute</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSearch</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ContentSubscriptions</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -11483,8 +10622,24 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DandBCompany</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Dashboard</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DataUseLegalBasis</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DataUsePurpose</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-DelegatedAccount</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Document</tab>
@@ -11492,6 +10647,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DuplicateRecordSet</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-EngagementChannelType</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Entitlement</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -11512,7 +10675,15 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Image</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Individual</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-JigsawSearch</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Lead</tab>
@@ -11523,16 +10694,24 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Location</tab>
+        <tab>standard-LiveAgentSession</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-LocationTrustMeasure</tab>
+        <tab>standard-LiveAgentSupervisor</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatTranscript</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatVisitor</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Macro</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
@@ -11551,12 +10730,28 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Pricebook2</tab>
+        <tab>standard-PartnerFundAllocation</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ProcessException</tab>
-        <visibility>DefaultOn</visibility>
+        <tab>standard-PartnerFundClaim</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PartnerFundRequest</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PartnerMarketingBudget</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PartyConsent</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Pricebook2</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
@@ -11571,10 +10766,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ProfileSkill</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-QuickText</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -11583,19 +10774,15 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-Recognition</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Recommendation</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ServiceContract</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-SocialPersona</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-SocialPost</tab>
+        <tab>standard-Sites</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -11616,22 +10803,14 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProvisioningRequest</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-WorkOrder</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-VoiceCall</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WorkBadge</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-WorkBadgeDefinition</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-home</tab>
+        <tab>standard-Workspace</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -11654,6 +10833,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -11681,10 +10868,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>BulkMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CanInsertFeedSystemFields</name>
     </userPermissions>
     <userPermissions>
@@ -11697,15 +10880,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ChangeDashboardColors</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ChatterEditOwnPost</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ChatterEditOwnRecordPost</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -11726,10 +10901,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ConnectOrgToEnvironmentHub</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ConsentApiUpdate</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -11774,10 +10945,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreateWorkBadgeDefinition</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -11833,6 +11000,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EditKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EditMyDashboards</name>
     </userPermissions>
     <userPermissions>
@@ -11877,6 +11048,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
@@ -11898,10 +11073,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>InboundMigrationToolsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -11933,14 +11104,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageC360AConnections</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageCMS</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageCallCenters</name>
     </userPermissions>
     <userPermissions>
@@ -11954,10 +11117,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCertificates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageClearbitIntegration</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12001,15 +11160,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageEntitlements</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageExchangeConfig</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageHealthCheck</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHubConnections</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12022,6 +11181,14 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageIpAddresses</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageKnowledgeImportExport</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12042,6 +11209,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManagePackageLicenses</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePartners</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12069,10 +11240,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageReleaseUpdates</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageRemoteAccess</name>
     </userPermissions>
     <userPermissions>
@@ -12085,7 +11252,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageSandboxes</name>
+        <name>ManageSearchPromotionRules</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12105,7 +11272,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageTrustMeasures</name>
+        <name>ManageTerritories</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12114,10 +11281,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageZapierIntegration</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12149,19 +11312,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>OutboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>Packaging2</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>Packaging2Delete</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12185,10 +11340,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ScheduleJob</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ScheduleReports</name>
     </userPermissions>
     <userPermissions>
@@ -12197,23 +11348,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SendCustomNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SendSitRequests</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ShowCompanyNameAsUserBadge</name>
+        <name>ShareInternalArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SocialInsightsLogoAdmin</name>
+        <name>ShowCompanyNameAsUserBadge</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12245,11 +11388,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubscribeToLightningDashboards</name>
+        <name>SubscribeToLightningReports</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubscribeToLightningReports</name>
+        <name>TraceXdsQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12285,10 +11428,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewAllProfiles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewAllUsers</name>
     </userPermissions>
     <userPermissions>
@@ -12301,11 +11440,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewEventLogFiles</name>
+        <name>ViewDataLeakageEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewFlowUsageAndFlowEventData</name>
+        <name>ViewEventLogFiles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12318,6 +11457,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPlatformEvents</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -12337,10 +11480,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewTrustMeasures</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewUserPII</name>
+        <name>WorkCalibrationUser</name>
     </userPermissions>
 </Profile>

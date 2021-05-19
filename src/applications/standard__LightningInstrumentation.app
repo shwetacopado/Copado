@@ -6,5 +6,8 @@
     <label>LightningInstrumentation</label>
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
+    <tabs>Tower__c</tabs>
+    <tabs>Orders__x</tabs>
+    <tabs>OrderDetails__x</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

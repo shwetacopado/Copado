@@ -9,7 +9,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Chatter</name>
+        <name>standard__Service</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -17,59 +17,7 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Service</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__Community</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>standard__ServiceConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSales</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Sales_Leadership</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Lead_Generation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Sales_Operations</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>Relationship_Management</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningSalesConsole</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__LightningBolt</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>CPQIntegrationUserApp</name>
-        <type>ConnectedApp</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>standard__SalesforceCMS</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>lightningbuddy__Lightning_Buddy</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -77,39 +25,31 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__AllTabSet</name>
+        <name>standard__Community</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado</name>
+        <name>standard__Sites</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Branch_Management</name>
+        <name>standard__Chatter</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Change_Management</name>
+        <name>standard__Content</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Compliance_Hub</name>
+        <name>Recruiting</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Console</name>
+        <name>Garage</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>copado__Copado_Permissioner</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copado__Copado_Selenium_Testing</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>copadoccmint__Copado_Integrations</name>
+        <name>ddcAssess__Data_com_Assessment</name>
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
@@ -143,5 +83,73 @@
     <appMenuItems>
         <name>Workbench</name>
         <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Armor_Decor_Console</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningSales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Sample_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Trailhead</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Suggestion_Box</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Trailblazer</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>External_Orders</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>DreamHouse</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>In_Development</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>rh2__PS_Rollup_Helper</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__LightningInstrumentation</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>rh2__Rollup_Helper_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>pi__ProspectInsight</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>pi__Sales_Reach</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>ClassEnrollment</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Test</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__SalesforceCMS</name>
+        <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

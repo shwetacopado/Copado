@@ -1,0 +1,31 @@
+<apex:page StandardController="Account" >
+  <apex:pageBlock title="Hello {!$User.FirstName}!">
+   You are displaying contacts from the {!account.name} account.
+   Click a contact's name to view his details.
+  </apex:pageBlock>
+ <apex:pageblock title="Contacts">
+ <apex:form >
+ <apex:datatable value="{!account.Contacts}" var="contact" cellpadding="4" border="1">
+ <apex:column >
+ <apex:facet name="header">Name</apex:facet>
+ <apex:commandLink rerender="detail" >
+ {!contact.Name}
+ <apex:param name="cid" value="{!contact.id}"/>
+ </apex:commandLink>
+ </apex:column>
+ <apex:column >
+ <apex:facet name="header">Phone</apex:facet>
+ {!contact.Phone}
+ </apex:column>
+ </apex:datatable>
+ </apex:form> 
+ </apex:pageblock>
+ <apex:outputpanel id="detail">
+ <apex:actionstatus Starttext="requesting..">
+ <apex:facet name="stop">
+   <apex:detail subject="{!$CurrentPage.parameters.cid}" relatedList="false" title="false"/>
+ </apex:facet>
+ </apex:actionstatus>
+ </apex:outputpanel>
+
+</apex:page>

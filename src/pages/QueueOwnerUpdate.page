@@ -1,0 +1,15 @@
+<apex:page controller="QueueOwnerUpdate" showHeader="true" sidebar="true" tabStyle="Case">
+    <apex:form >
+        <apex:pageBlock title="Select a Queue For Update  Owner" >
+                    <apex:pageMessages />
+            <apex:pageBlockSection title="Select a Queue">
+                <apex:selectList size="1" value="{!queue1}">
+                    <apex:selectOptions value="{!QueueList}"></apex:selectOptions>
+                </apex:selectList> <br /><br /><br/>
+                <center>
+                    <apex:commandButton value="Change Owner" action="{!saveCase}" id="save" />
+                </center>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form> 
+</apex:page>

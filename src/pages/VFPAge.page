@@ -1,0 +1,19 @@
+<apex:page standardController="Account" >
+    <h1>
+         Account:
+    </h1>
+    
+    <apex:pageBlock title="Contacts">
+        <apex:pageBlockTable value="{!Account.Contacts}" var="con" columns="2" title="Contacts" headerClass="Contacts" >
+        <apex:column value="{!con.FirstName }"/>
+        <apex:column value="{!con.LastName}"/>    
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+    
+    <apex:pageBlock title="Opportunities">
+        <apex:pageBlockTable value="{!Account.Opportunities}" var="opp" columns="2" title="Opportunities" headerClass="Opportunities">
+            <apex:column value="{!opp.Name}"/>
+            <apex:column value="{!opp.StageName}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>
