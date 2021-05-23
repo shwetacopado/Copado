@@ -9166,6 +9166,10 @@
     <layoutAssignments>
         <layout>WorkThanks-Thanks Layout</layout>
     </layoutAssignments>
+    <loginIpRanges>
+        <endAddress>18.233.58.2</endAddress>
+        <startAddress>18.233.58.2</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
