@@ -11,7 +11,6 @@
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
-        <logo>Lead_generation</logo>
         <logoVersion>1</logoVersion>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
@@ -27,6 +26,7 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Campaign</tabs>
     <tabs>standard-CollaborationGroup</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Lead_Generation_UtilityBar</utilityBar>
 </CustomApplication>

@@ -22,7 +22,6 @@ public virtual with sharing class VSTSIntegrationConstants extends CommonIntegra
     protected final String ATTRIBUTES_KEYWORD = 'attributes';
     protected final String URL_KEYWORD = 'url';
     protected final String REV_KEYWORD = 'rev';
-    protected final String RECORD_TYPE_ID_KEYWORD = 'recordtypeid';
     protected final String OPENING_TAG = '<';
     protected final String CLOSING_TAG = '>';
     protected final String VALUE_KEYWORD = 'value';
@@ -68,7 +67,6 @@ public virtual with sharing class VSTSIntegrationConstants extends CommonIntegra
     //Json template to use on string.format function
     protected final String JsonTemplate = '"op": "add","path": "/fields/{0}","value": "{1}"';
 
-    public static final String USER_STORY_OBJECT_API = 'copado__user_story__c';
     //Implemented to bypass lack of functionality to place 2 mock response on a flow with one execution point.
     //  --  check testMethodToFetchSprints_VSTS method in TestIntegration.cls
     protected final String MOCK_WORK_ITEM_RESPONSE_FOR_SPRINT = '{"count":2,"value":[{"id":9,"rev":2,"fields":{"System.TeamProject":"MyFirstProject","System.IterationPath":"MyFirstProject\\\\Sprint Test 1","System.WorkItemType":"User Story","System.State":"New","System.Reason":"New","System.Title":"Test Sprint Us1","Microsoft.VSTS.Common.Priority":2},"url":"https://copadointegrationspoc.visualstudio.com/_apis/wit/workItems/9"},{"id":10,"rev":4,"fields":{"System.TeamProject":"MyFirstProject","System.IterationPath":"MyFirstProject\\\\Sprint Test 1","System.WorkItemType":"User Story","System.State":"New","System.Reason":"New","System.AssignedTo":{"displayName":"Mert Yaltı","url":"https://spsprodweu1.vssps.visualstudio.com/Adbb5dbbd-c945-4f70-8c19-049005f7e80a/_apis/Identities/989c055f-77c9-4f21-bfd8-8b8d1590232e","_links":{"avatar":{"href":"https://copadointegrationspoc.visualstudio.com/_apis/GraphProfile/MemberAvatars/msa.NDBkZDlkY2YtOWVmMC03NjA4LTllZWUtOWIxNDI4YzAyNmM3"}},"id":"989c055f-77c9-4f21-bfd8-8b8d1590232e","uniqueName":"mertyalti@hotmail.com","imageUrl":"https://copadointegrationspoc.visualstudio.com/_apis/GraphProfile/MemberAvatars/msa.NDBkZDlkY2YtOWVmMC03NjA4LTllZWUtOWIxNDI4YzAyNmM3","descriptor":"msa.NDBkZDlkY2YtOWVmMC03NjA4LTllZWUtOWIxNDI4YzAyNmM3"},"System.Title":"Test Sprint Us2","Microsoft.VSTS.Common.Priority":2},"url":"https://copadointegrationspoc.visualstudio.com/_apis/wit/workItems/10"}]}';

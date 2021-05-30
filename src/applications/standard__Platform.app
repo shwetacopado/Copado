@@ -9,4 +9,5 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

@@ -6,7 +6,6 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Copado Pipeline Manager</label>
-    <logo>copado__Copado/copado__Copado_Logo.png</logo>
     <tabs>copado__Pipeline_Manager</tabs>
     <tabs>copado__Deployment_Flow__c</tabs>
     <tabs>copado__Snapshot_Difference__c</tabs>
@@ -20,4 +19,5 @@
     <tabs>copado__Artifact__c</tabs>
     <tabs>copado__Account_Summary</tabs>
     <tabs>standard-report</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

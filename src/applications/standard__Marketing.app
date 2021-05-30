@@ -12,4 +12,5 @@
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>standard-Quote</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>
