@@ -194,7 +194,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Field Analytic Config</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
