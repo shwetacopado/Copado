@@ -15,4 +15,5 @@
     <tabs>standard-Product2</tabs>
     <tabs>standard-Forecasting3</tabs>
     <tabs>standard-Quote</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

@@ -122,14 +122,24 @@ public with sharing class CopadoCCMutilities {
     private static String applySalesforceDateTimeFormatString(Object param) {
         return String.valueOf(param).replace('T', ' ');
     }
-    //usermap to match lookup values via third party users' mail addresses
-    public static final Map<String, Id> userMap;
-    static {
-        userMap = new Map<String, id>();
-        for (User u : [SELECT Id, Email FROM User WHERE IsActive = TRUE AND Email != NULL]) {
+
+    public static Map<String, Id> returnUsers(Boolean enableCommunityUsers){
+        //usermap to match lookup values via third party users' mail addresses
+        Map<String, Id> userMap = new Map<String, id>();
+        List<User> users;
+        try {
+            users = Database.query('SELECT Id, Email FROM User WHERE IsActive = TRUE AND Email != NULL' + (enableCommunityUsers ? '' : ' AND IsPortalEnabled = FALSE '));
+        } catch(QueryException exp) {
+            //portal or community is not enabled for the org, hence IsPortalEnabled is not available for the environment yet
+            //no need to handle this
+            users = [SELECT Id, Email FROM User WHERE IsActive = TRUE AND Email != NULL];
+        }
+        for (User u : users) {
             userMap.put(u.Email, u.Id);
         }
+        return userMap;
     }
+
     //Field mapping values between salesforce and third party platform fields under related project
     public static Map<String, String> returnFieldMap(id pid, String additionalWhereClause) {
         Map<String, String> fieldMap;
@@ -146,8 +156,42 @@ public with sharing class CopadoCCMutilities {
         }
         return fieldMap;
     }
+
+    //returns Name/DeveloperName to Id map of User Story object's recordTypes 
+    public static Map<String, String> returnUserStoryRecordTypeMap(Boolean forJIRA){
+        Map<String, String> userStoryRecordTypes = new Map<String, String>();
+        for(RecordType recordType : [SELECT Id, Name, DeveloperName FROM RecordType WHERE IsActive = TRUE AND SobjectType = 'copado__User_Story__c']){
+            if(!forJIRA){
+                userStoryRecordTypes.put(recordType.DeveloperName, recordType.Id);
+                userStoryRecordTypes.put(recordType.Name, recordType.Id);
+            } else {
+                userStoryRecordTypes.put(recordType.Id, recordType.Name);
+            }
+        }
+        return userStoryRecordTypes;
+    }
+
+    //Record Type mapping values between salesforce and third party platform work Items under related project
+    public static Map<String, String> returnRecordTypeMap(Id pid, Boolean forThirdParty) {
+        Map<String, String> recordTypeMap;
+        if (null == recordTypeMap) {
+            recordTypeMap = new Map<String, String>();
+            for (
+                Record_Type_Mapping__c recordType : database.query(
+                    'SELECT Salesforce_Record_Type_Name__c, Third_Party_Record_Type_Name__c FROM Record_Type_Mapping__c WHERE project__c =: pid '
+                )
+            ) {
+                if(!forThirdParty){
+                    recordTypeMap.put(recordType.Third_Party_Record_Type_Name__c, recordType.Salesforce_Record_Type_Name__c);
+                } else {
+                    recordTypeMap.put(recordType.Salesforce_Record_Type_Name__c, recordType.Third_Party_Record_Type_Name__c);
+                }
+            }
+        }
+        return recordTypeMap;
+    }
     //returns a map with sf field api name to target field type, (if the target field on the third party program expect String or a json Object as a value **** defined by "target field type" field on the field mapping Object ****)
-    public static Map<String, String> returnTargetTypeMap(id pid, String additionalWhereClause) {
+    public static Map<String, String> returnTargetTypeMap(Id pid, String additionalWhereClause) {
         Map<String, String> fieldMap;
         if (null == fieldMap) {
             fieldMap = new Map<String, String>();
@@ -185,6 +229,9 @@ public with sharing class CopadoCCMutilities {
     }
     public static String replaceFromCurly(String strwcurly) {
         return strwcurly.replace('lcurly', '{').replace('rcurly', '}');
+    }
+    public static String escapeDoubleQuotes(String value){
+        return value.replace('"', '\\"');
     }
     public static Date convertLongDateToDate(String longDate) {
         return Date.newInstance(

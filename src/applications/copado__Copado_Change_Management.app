@@ -30,4 +30,5 @@
     <tabs>copado__Burndown_Item__c</tabs>
     <tabs>copado__Application__c</tabs>
     <tabs>copado__Application_Feature__c</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

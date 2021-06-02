@@ -832,6 +832,17 @@ IMAGE(&apos;/resource/1516617568000/&apos;+IF($Setup.copado__Settings__c.copado_
     </fields>
     <label>Org Credential</label>
     <listViews>
+        <fullName>Vlocity</fullName>
+        <columns>NAME</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>vlocity</value>
+        </filters>
+        <label>Vlocity</label>
+    </listViews>
+    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Org_Type__c</columns>
