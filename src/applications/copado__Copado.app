@@ -25,4 +25,5 @@
     <tabs>copado__Data_Template__c</tabs>
     <tabs>copado__Record_Matching_Formula__c</tabs>
     <tabs>copado__Application__c</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

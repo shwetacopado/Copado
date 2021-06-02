@@ -65,6 +65,11 @@
         <relationshipLabel><!-- Projects --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- Enable to sync User Stories assigned to community users. --></help>
+        <label><!-- Enable Community Users --></label>
+        <name>copadoccmint__Enable_Community_User__c</name>
+    </fields>
+    <fields>
         <help><!-- If you are fetching more then 500 records from the third party platform, we recommend you to disable this checkbox to be able to prevent heap size too large issue. --></help>
         <label><!-- Enable Logs --></label>
         <name>copadoccmint__Enable_Logs__c</name>

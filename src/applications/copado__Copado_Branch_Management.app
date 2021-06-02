@@ -20,4 +20,5 @@
     <tabs>copado__Artifact__c</tabs>
     <tabs>copado__Account_Summary</tabs>
     <tabs>standard-report</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>

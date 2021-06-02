@@ -14,6 +14,15 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
     //will be filled with related project/user Story record
     public String projectExtId;
     public String namedCredential;
+    public Map<String, Id> userMap {
+        get {
+            if(null == userMap){
+                Boolean unableCommunityUser = [SELECT Id, Enable_Community_User__c FROM copado__Project__c WHERE Id = :pId].Enable_Community_User__c;
+                userMap = CopadoCCMutilities.returnUsers(unableCommunityUser);
+            }
+            return userMap;
+        } private set;
+    }
     public Map<String, Map<String, String>> keyValuepairsByExternalId {
         get {
             if (null == keyValuepairsByExternalId) {
@@ -57,6 +66,28 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         set;
     }
 
+    public Map<String, String> recordTypeMap {
+        get{
+            if(null == recordTypeMap){
+                Boolean forThirdParty = true;
+                recordTypeMap = CopadoCCMUtilities.returnRecordTypeMap(pId, forThirdParty);
+            }
+            return recordTypeMap;
+        } 
+        private set;
+    }
+
+    public Map<String, String> userStoryRecordTypeMap {
+        get{
+            if(null == userStoryRecordTypeMap){
+                Boolean forThirdParty = true;
+                userStoryRecordTypeMap = CopadoCCMUtilities.returnUserStoryRecordTypeMap(forThirdParty);
+            }
+            return userStoryRecordTypeMap;
+        } 
+        private set;
+    }
+
     //salesforce field api to third party field Mapping to use on third party record update operation
     public Map<String, String> fieldMap {
         get {
@@ -71,18 +102,14 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
     public String fieldsToFetch {
         get {
             if (String.isBlank(fieldsToFetch)) {
-                fieldsToFetch =
-                    String.join(fieldMap.values(), COMMA) +
-                    COMMA +
-                    ASSIGNEE +
-                    COMMA +
-                    ID_KEYWORD +
-                    COMMA +
-                    KEY_STRING +
-                    COMMA +
-                    PROJECT_ID +
-                    COMMA +
-                    RELEASE_REST_NAME;
+                Set<String> fields = new Set<String>(fieldMap.values());
+                fields.add(ASSIGNEE);
+                fields.add(ID_KEYWORD);
+                fields.add(KEY_STRING);
+                fields.add(PROJECT_ID);
+                fields.add(RELEASE_REST_NAME);
+                fields.add(ISSUE_TYPE);
+                fieldsToFetch = String.join(new List<String>(fields), COMMA);
             }
             return fieldsToFetch;
         }
@@ -118,7 +145,9 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         set;
     }
 
-    //INTEGRATION CORE METHODS
+    
+
+    //INTEGRATION CORE METHODS - START
     /**
      * Updates single record based on external Id on Jira.
      * This method will be triggered by the SendUpdatedValues2TP Process Builder Flow on User Story change criteria (customizable in the flow).
@@ -131,20 +160,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         namedCredential = usItem.copado__Project__r.Copado_Integration_Setting__r.Named_Credential__c;
         Id usId = usItem.Id;
         sObject cUserStory = database.query('SELECT ' + queryFields + ' FROM copado__User_Story__c WHERE Id = : usId');
-        String finalJson = JSON_TEMPLATE_OUTER;
-        for (String s : fieldMap.keyset()) {
-            if (null != cUserStory.get(s) && fieldMap.get(s) != STATUS) {
-                finalJson +=
-                    String.format(
-                        (typeMap.get(s) == OBJECT_STRING
-                            ? JSON_TEMPLATE_INNER_OBJECT
-                            : (typeMap.get(s) == INTEGER_STRING ? JSON_TEMPLATE_INNER_INTEGER : JSON_TEMPLATE_INNER_STRING)),
-                        new List<String>{ fieldMap.get(s), String.escapeSingleQuotes(String.valueOf(cUserStory.get(s))) }
-                    ) + COMMA;
-            }
-        }
-        //callout body to update Jira record which is created from field mappings under related project and current field values
-        finalJson = CopadoCCMutilities.replaceFromCurly(finalJson.substring(0, finalJson.length() - 1) + JSON_TEMPLATE_OUTER_CLOSURE);
+
         String responseText = CopadoCCMutilities.MakeCallout(
             namedCredential,
             CALLOUT_API_VERSION,
@@ -169,7 +185,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
             EMPTY_CHAR,
             new List<String>{ CONTENT_TYPE_HEADER },
             Method.PUT,
-            finalJson,
+            prepareFinalJSON(cUserStory),
             cUserStory,
             null
         );
@@ -215,55 +231,9 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
         //Returns list to executeUserStoryUpsert batch class
         return this.userStoryList;
     }
-    /**
-     * fetches planned sprints
-     *
-     * @param selectedProject
-     *
-     */
-    public void fetchSprints(copado__Project__c selectedProject) {
-        namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
-        projectExtId = null != selectedProject.Project_External_Id__c ? selectedProject.Project_External_Id__c : EMPTY_CHAR;
-        List<copado__Sprint__c> sprints = getSprints(selectedProject);
-    }
-
-    /**
-     * Updates Jira fields
-     *
-     * @param responseText
-     * @param cUserStory
-     */
-    public void updateStatus(String responseText, sObject cUserStory) {
-        String statusfinalJson = EMPTY_CHAR;
-        JSONParser parser = JSON.createParser(responseText);
-        //Wrapper class direct parse
-        TransitionWrapper transitionWrapperItem = (TransitionWrapper) parser.readValueAs(TransitionWrapper.class);
-        String currentStatusValue = (String) cUserStory.get(COPADO_STATUS);
-        Boolean calloutFlag = false;
-        for (Transitions tw : transitionWrapperItem.Transitions) {
-            //Checks if the current status is available on Jira workflow, if not, does not do the callout
-            if (tw.name.toLowerCase() == currentStatusValue.toLowerCase()) {
-                statusfinalJson = CopadoCCMutilities.replaceFromCurly(String.format(transitionTemplate, new List<String>{ tw.id }));
-                calloutFlag = true;
-                break;
-            }
-        }
-        if (calloutFlag) {
-            CopadoCCMutilities.MakeCallout(
-                namedCredential,
-                CALLOUT_API_VERSION,
-                EMPTY_CHAR,
-                String.format(updateParameter4TransitionString, new List<String>{ (String) cUserStory.get(EXTERNAL_ID) }),
-                EMPTY_CHAR,
-                new List<String>{ CONTENT_TYPE_HEADER },
-                Method.POST,
-                statusfinalJson,
-                cUserStory,
-                null
-            );
-        }
-    }
-    //INTEGRATION HELPER METHODS
+    //INTEGRATION CORE METHODS - END
+    
+    //INTEGRATION HELPER METHODS - START
     private void iterateThroughCallouts(copado__Project__c selectedProject) {
         Integer startIndex = 0;
         Boolean shouldContinue = true;
@@ -342,9 +312,9 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
                 if (null != tempObject.get(EMAIL_ADDRESS)) {
                     //Fills up user look up fields, if email address in use on Third Party Platform matches any of the email addresses on current salesforce org.
                     String cuEmail = (String) tempObject.get(EMAIL_ADDRESS);
-                    if (CopadoCCMutilities.userMap.containsKey(cuEmail)) {
+                    if (userMap.containsKey(cuEmail)) {
                         String mapKey = (cf == ASSIGNEE ? DEVELOPER_KEYWORD : cf);
-                        keyValuepairs.put(mapKey, CopadoCCMutilities.userMap.get(cuEmail));
+                        keyValuepairs.put(mapKey, userMap.get(cuEmail));
                     } else {
                         keyValuepairs.put(cf, (String) tempObject.get(EMAIL_ADDRESS));
                     }
@@ -365,6 +335,73 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
             }
         }
         return keyValuepairs;
+    }
+
+    /**
+     * prepares callout body from field Mappings 
+     */
+    private String prepareFinalJSON(SObject cUserStory){
+        String finalJson = JSON_TEMPLATE_OUTER;
+        for (String fieldName : fieldMap.keyset()) {
+            if (null != cUserStory.get(fieldName) && fieldMap.get(fieldName) != STATUS) {
+                String fieldKey = fieldMap.get(fieldName),
+                       fieldValue = String.escapeSingleQuotes(String.valueOf(cUserStory.get(fieldName)));
+                if(fieldName == RECORD_TYPE_ID){
+                    String recordTypeId = fieldValue;
+                    String recordTypeName = userStoryRecordTypeMap.get(recordTypeId);
+                    fieldValue = recordTypeMap.get(recordTypeName);
+                }
+                
+                finalJson +=
+                    String.format(
+                        (typeMap.get(fieldName) == OBJECT_STRING
+                            ? JSON_TEMPLATE_INNER_OBJECT
+                            : (typeMap.get(fieldName) == INTEGER_STRING ? JSON_TEMPLATE_INNER_INTEGER : JSON_TEMPLATE_INNER_STRING)),
+                        new List<String>{ fieldKey, CopadoCCMUtilities.escapeDoubleQuotes(fieldValue) }
+                    ) + COMMA;
+            }
+        }
+        //callout body to update Jira record which is created from field mappings under related project and current field values
+        finalJson = CopadoCCMutilities.replaceFromCurly(finalJson.substring(0, finalJson.length() - 1) + JSON_TEMPLATE_OUTER_CLOSURE);
+        return finalJson;
+    }
+
+    /**
+     * Updates Jira workItem status
+     *
+     * @param responseText
+     * @param cUserStory
+     */
+    public void updateStatus(String responseText, sObject cUserStory) {
+        String statusfinalJson = EMPTY_CHAR;
+        JSONParser parser = JSON.createParser(responseText);
+        //Wrapper class direct parse
+        TransitionWrapper transitionWrapperItem = (TransitionWrapper) parser.readValueAs(TransitionWrapper.class);
+        String currentStatusValue = (String) cUserStory.get(COPADO_STATUS);
+        Boolean calloutFlag = false;
+        for (Transitions tw : transitionWrapperItem.Transitions) {
+            //Checks if the current status is available on Jira workflow, if not, does not do the callout
+            if (tw.name.toLowerCase() == currentStatusValue.toLowerCase()) {
+                statusfinalJson = CopadoCCMutilities.replaceFromCurly(String.format(transitionTemplate, new List<String>{ tw.id }));
+                calloutFlag = true;
+                break;
+            }
+        }
+        
+        if (calloutFlag) {
+            CopadoCCMutilities.MakeCallout(
+                namedCredential,
+                CALLOUT_API_VERSION,
+                EMPTY_CHAR,
+                String.format(updateParameter4TransitionString, new List<String>{ (String) cUserStory.get(EXTERNAL_ID) }),
+                EMPTY_CHAR,
+                new List<String>{ CONTENT_TYPE_HEADER },
+                Method.POST,
+                statusfinalJson,
+                cUserStory,
+                null
+            );
+        }
     }
 
     /**
@@ -390,6 +427,18 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
 
         Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(responseText);
         return upsertSprints((List<Object>) results.get(SPRINTS_STRING), selectedProject.Id);
+    }
+
+    /**
+     * fetches planned sprints
+     *
+     * @param selectedProject
+     *
+     */
+    public void fetchSprints(copado__Project__c selectedProject) {
+        namedCredential = selectedProject.Copado_Integration_Setting__r.Named_Credential__c;
+        projectExtId = null != selectedProject.Project_External_Id__c ? selectedProject.Project_External_Id__c : EMPTY_CHAR;
+        List<copado__Sprint__c> sprints = getSprints(selectedProject);
     }
 
     /**
@@ -431,6 +480,7 @@ public with sharing class JiraIntegration extends JiraIntegrationConstants imple
             }
         }
     }
+    //INTEGRATION HELPER METHODS - END
 
     /**
      * Wrapper classes for direct casting of Transition Callout response

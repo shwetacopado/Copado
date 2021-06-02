@@ -6,6 +6,7 @@
     <label>LightningBolt</label>
     <navType>Standard</navType>
     <tabs>standard-LightningBoltHome</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningBolt_UtilityBar</utilityBar>
 </CustomApplication>
