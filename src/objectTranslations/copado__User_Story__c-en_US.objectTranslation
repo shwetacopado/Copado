@@ -49,6 +49,19 @@
         <name>copado__Work_Manager_Relations</name>
     </fieldSets>
     <fields>
+        <label><!-- Bundle User Story --></label>
+        <name>Bundle_User_Story__c</name>
+        <relationshipLabel><!-- Bundled User Stories --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Bundle --></label>
+        <name>Is_Bundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- SCA_Passed --></label>
+        <name>SCA_Passed__c</name>
+    </fields>
+    <fields>
         <label><!-- Acceptance Criteria Status --></label>
         <name>copado__Acceptance_Criteria_Status__c</name>
         <picklistValues>
@@ -830,6 +843,14 @@
         <name>copado__User_Story</name>
     </recordTypes>
     <validationRules>
+        <errorMessage><!-- The user story status cannot be changed to Cancelled since it is part of a bundle and the bundle will continue moving the changes committed in this user story. You need to cancel the parent user story bundle first in order to cancel this user story. --></errorMessage>
+        <name>Cancelling_a_child_user_story_bundled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure you have run static code analysis --></errorMessage>
+        <name>SCA_Not_Pased</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- A cancellation reason must be given. --></errorMessage>
         <name>copado__Cancellation_reason_required</name>
     </validationRules>
@@ -841,6 +862,10 @@
         <errorMessage><!-- Test scratch orgs cannot be used for developments --></errorMessage>
         <name>copado__Test_scratch_orgs_cannot_be_used_for_dev</name>
     </validationRules>
+    <webLinks>
+        <label><!-- User_Story_Bundle --></label>
+        <name>User_Story_Bundle</name>
+    </webLinks>
     <webLinks>
         <label><!-- Add_Apex_Tests --></label>
         <name>copado__Add_Apex_Tests</name>

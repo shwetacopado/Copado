@@ -21,6 +21,29 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
         }
         set;
     }
+    //Record Type mapping values between salesforce and third party platform Work Items under related project
+    global Map<String, String> recordTypeMap {
+        get {
+            if (null == recordTypeMap) {
+                recordTypeMap = CopadoCCMutilities.returnRecordTypeMap(gProject.Id, false);
+            }
+            return recordTypeMap;
+        }
+        set;
+    }
+
+    //User Story object record Type name=>Id Map
+    global Map<String, String> UserStoryRecordTypeMap {
+        get {
+            if (null == UserStoryRecordTypeMap) {
+                Boolean forJIRA = false;
+                UserStoryRecordTypeMap = CopadoCCMutilities.returnUserStoryRecordTypeMap(forJIRA);
+            }
+            return UserStoryRecordTypeMap;
+        }
+        set;
+    }
+    
     //constructor to have the project via schedule class
     global ExecuteUserStoryUpsert(copado__Project__c proParam, Boolean isSprint) {
         gProject = proParam;
@@ -40,16 +63,23 @@ global class ExecuteUserStoryUpsert extends CommonIntegrationConstants implement
             Map<String, String> tempMap = (Map<String, String>) usItem;
             sObject sobj = new copado__User_Story__c();
             //loops among field Mapping items under related project
-            for (String s : fieldMap.keyset()) {
-                s = s.toLowerCase();
+            for (String fieldName : fieldMap.keyset()) {
+                fieldName = fieldName.toLowerCase();
                 //puts the value on sf Object if the current user story item value Map stores current field Map keyset
-                if (tempMap.containsKey(fieldMap.get(s))) {
-                    if(s == 'copado__release__c' && CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(s)),s) != null){
-                        Sobject releaseObj = Schema.getGlobalDescribe().get(s).newSObject();
-                        releaseObj.put('External_Id__c', CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(s)),s));
+                if (tempMap.containsKey(fieldMap.get(fieldName))) {
+                    if(fieldName == COPADO_RELEASE && CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)),fieldName) != null){
+                        Sobject releaseObj = Schema.getGlobalDescribe().get(fieldName).newSObject();
+                        releaseObj.put(EXTERNAL_ID, CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)),fieldName));
                         sobj.putsObject(copado__User_Story__c.copado__Release__c.getDescribe().getSObjectField(), releaseObj);
+                    } else if(fieldName == RECORD_TYPE_ID && !recordTypeMap.isEmpty()){
+                        String jiraType = tempMap.get(fieldMap.get(fieldName));
+                        String sfType = recordTypeMap.get(jiraType);
+                        if(null != sfType){
+                            Id sfTypeId = UserStoryRecordTypeMap.get(sfType);
+                            sobj.put(fieldName, sfTypeId);
+                        }
                     } else {
-                        sobj.put(s, CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(s)), s));
+                        sobj.put(fieldName, CopadoCCMutilities.returnCastedValue(tempMap.get(fieldMap.get(fieldName)), fieldName));
                     }
                 }
             }

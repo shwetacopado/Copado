@@ -7,4 +7,5 @@
     <label>Copado Permissioner</label>
     <tabs>copado__Persona__c</tabs>
     <tabs>copado__Permission_Set_Explorer</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
 </CustomApplication>
