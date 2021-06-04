@@ -366,7 +366,7 @@ IF(Field_Trip__Object_Analysis__r.Field_Trip__Records__c = 0, &quot;&quot;, TEXT
         <type>Text</type>
     </nameField>
     <pluralLabel>Field Analyses</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
