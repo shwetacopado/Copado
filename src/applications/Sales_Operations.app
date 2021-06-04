@@ -28,6 +28,7 @@
     <tabs>standard-Product2</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-Feed</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Operations_UtilityBar</utilityBar>
 </CustomApplication>

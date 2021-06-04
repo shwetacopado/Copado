@@ -179,7 +179,11 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>copado__Promoted_User_Story__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
