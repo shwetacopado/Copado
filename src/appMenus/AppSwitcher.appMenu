@@ -77,6 +77,10 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
+        <name>standard__OnlineSales</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>copado__Copado</name>
         <type>CustomApplication</type>
     </appMenuItems>
