@@ -2925,7 +2925,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.Copado_ExternalID__c</field>
         <readable>true</readable>
     </fieldPermissions>
