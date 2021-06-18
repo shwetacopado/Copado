@@ -30,6 +30,7 @@
     <tabs>standard-report</tabs>
     <tabs>standard-CollaborationGroup</tabs>
     <tabs>standard-Feed</tabs>
+    <tabs>copado__Promoted_User_Story__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Sales_Leadership_UtilityBar</utilityBar>
 </CustomApplication>

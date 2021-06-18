@@ -53,6 +53,10 @@
                 <behavior>Edit</behavior>
                 <field>copado__Org_Credential__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SCA_Passed__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

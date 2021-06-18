@@ -4746,6 +4746,41 @@
         <label>Work Manager Relations</label>
     </fieldSets>
     <fields>
+        <fullName>Bundle_User_Story__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Lookup to Bundle (Parent) User Story</description>
+        <externalId>false</externalId>
+        <label>Bundle User Story</label>
+        <referenceTo>copado__User_Story__c</referenceTo>
+        <relationshipLabel>Bundled User Stories</relationshipLabel>
+        <relationshipName>Bundle_User_Stories</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Is_Bundle__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Indicates when a User Story is a Bundle</description>
+        <externalId>false</externalId>
+        <label>Is Bundle</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SCA_Passed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SCA_Passed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -6273,16 +6308,18 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <listViews>
         <fullName>copado__Cli_Listview</fullName>
         <columns>NAME</columns>
+        <columns>RECORDTYPE</columns>
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
         <columns>copado__Project__c</columns>
         <columns>copado__Org_Credential__c</columns>
         <columns>CREATED_DATE</columns>
+        <columns>copado__Promote_Change__c</columns>
         <filterScope>Everything</filterScope>
         <filters>
-            <field>copado__Status__c</field>
+            <field>RECORDTYPE</field>
             <operation>equals</operation>
-            <value>In Progress</value>
+            <value>copado__User_Story__c.copado__User_Story</value>
         </filters>
         <label>Cli Listview</label>
     </listViews>
@@ -7673,6 +7710,34 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
+        <fullName>Cancelling_a_child_user_story_bundled</fullName>
+        <active>true</active>
+        <description>Cancelling a child user story is not allowed.</description>
+        <errorConditionFormula>NOT( ISBLANK( Bundle_User_Story__c ) )  &amp;&amp;   ISPICKVAL(copado__Status__c, &apos;Cancelled&apos;)</errorConditionFormula>
+        <errorMessage>The user story status cannot be changed to Cancelled since it is part of a bundle and the bundle will continue moving the changes committed in this user story. You need to cancel the parent user story bundle first in order to cancel this user story.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>SCA_Not_Pased</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND(
+copado__Has_Apex_Code__c = true,
+OR(
+AND(
+PRIORVALUE(copado__Promote_Change__c) = false,
+copado__Promote_Change__c = true
+),
+AND(
+PRIORVALUE(copado__Promote_and_Deploy__c) = false,
+copado__Promote_and_Deploy__c = true
+)
+),
+OR(
+SCA_Passed__c = false
+)
+)</errorConditionFormula>
+        <errorMessage>Please make sure you have run static code analysis</errorMessage>
+    </validationRules>
+    <validationRules>
         <fullName>copado__Cancellation_reason_required</fullName>
         <active>true</active>
         <errorConditionFormula>AND(
@@ -7684,7 +7749,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>If User Story has apex code, validate that the minimum code coverage has been met.</description>
         <errorConditionFormula>AND(
   copado__Has_Apex_Code__c = true,
@@ -7714,6 +7779,18 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <errorMessage>Test scratch orgs cannot be used for developments</errorMessage>
     </validationRules>
     <visibility>Public</visibility>
+    <webLinks>
+        <fullName>User_Story_Bundle</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Bundle User Stories</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/apex/CUSB_UserStoryBundle</url>
+    </webLinks>
     <webLinks>
         <fullName>copado__Add_Apex_Tests</fullName>
         <availability>online</availability>
