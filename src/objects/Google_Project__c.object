@@ -143,57 +143,22 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <deprecated>false</deprecated>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
+    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>Field_Trip__Field_Name__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Field Name</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Field_Trip__Field_Weight__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Field Weight</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>0</scale>
-        <trackTrending>false</trackTrending>
-        <type>Number</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Field_Trip__Object_Name__c</fullName>
-        <deprecated>false</deprecated>
-        <externalId>false</externalId>
-        <label>Object Name</label>
-        <length>255</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <label>Field Analytic Config</label>
+    <label>Google_Project</label>
     <nameField>
-        <label>Field Analytic Config Name</label>
+        <label>Google_Project Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Field Analytic Config</pluralLabel>
+    <pluralLabel>Google_Projects</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

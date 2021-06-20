@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <defaultLandingTab>copado__Persona__c</defaultLandingTab>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Copado Permissioner</label>
-    <tabs>copado__Persona__c</tabs>
-    <tabs>copado__Permission_Set_Explorer</tabs>
-    <tabs>copado__Promoted_User_Story__c</tabs>
+    <label>Online Sales</label>
+    <navType>Standard</navType>
+    <tabs>standard-OnlineSalesHome</tabs>
+    <uiType>Lightning</uiType>
 </CustomApplication>
