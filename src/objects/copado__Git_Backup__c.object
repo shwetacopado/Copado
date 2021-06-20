@@ -824,17 +824,6 @@
     </fields>
     <label>Git Snapshot</label>
     <listViews>
-        <fullName>Vlocity</fullName>
-        <columns>NAME</columns>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>NAME</field>
-            <operation>equals</operation>
-            <value>dev,qa,vlocity</value>
-        </filters>
-        <label>Vlocity</label>
-    </listViews>
-    <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
         <columns>copado__Branch__c</columns>
