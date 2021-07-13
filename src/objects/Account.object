@@ -364,6 +364,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>USB_POC2__c</fullName>
+        <externalId>false</externalId>
+        <label>USB_POC2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>USB_poc1__c</fullName>
         <externalId>false</externalId>
         <label>USB_poc1</label>
