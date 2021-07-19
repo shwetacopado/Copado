@@ -29,7 +29,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>External_ID__c</field>
+                <field>USB_poc1__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>USB_POC2__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
