@@ -12259,7 +12259,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Pipeline_Manager</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Project__c</tab>
