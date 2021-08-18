@@ -1,116 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label></label>
+        <label><!-- Label --></label>
         <name>Field_Trip__Label__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Object Analysis --></label>
         <name>Field_Trip__Object_Analysis__c</name>
-        <relationshipLabel></relationshipLabel>
+        <relationshipLabel><!-- Field Analyses --></relationshipLabel>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Populated On (%) --></label>
         <name>Field_Trip__Populated_On_Percent__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Populated On --></label>
         <name>Field_Trip__Populated_On__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Total Tally (Temporary) --></label>
         <name>Field_Trip__Total_Tally__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Type --></label>
         <name>Field_Trip__Type__c</name>
         <picklistValues>
             <masterLabel>Address</masterLabel>
-            <translation></translation>
+            <translation><!-- Address --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Boolean</masterLabel>
-            <translation></translation>
+            <translation><!-- Boolean --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Combobox</masterLabel>
-            <translation></translation>
+            <translation><!-- Combobox --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Currency</masterLabel>
-            <translation></translation>
+            <translation><!-- Currency --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Date</masterLabel>
-            <translation></translation>
+            <translation><!-- Date --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>DateTime</masterLabel>
-            <translation></translation>
+            <translation><!-- DateTime --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Double</masterLabel>
-            <translation></translation>
+            <translation><!-- Double --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Email</masterLabel>
-            <translation></translation>
+            <translation><!-- Email --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>ID</masterLabel>
-            <translation></translation>
+            <translation><!-- ID --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Integer</masterLabel>
-            <translation></translation>
+            <translation><!-- Integer --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>MultiPicklist</masterLabel>
-            <translation></translation>
+            <translation><!-- MultiPicklist --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Percent</masterLabel>
-            <translation></translation>
+            <translation><!-- Percent --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Phone</masterLabel>
-            <translation></translation>
+            <translation><!-- Phone --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Picklist</masterLabel>
-            <translation></translation>
+            <translation><!-- Picklist --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Reference</masterLabel>
-            <translation></translation>
+            <translation><!-- Reference --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>String</masterLabel>
-            <translation></translation>
+            <translation><!-- String --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>TextArea</masterLabel>
-            <translation></translation>
+            <translation><!-- TextArea --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>URL</masterLabel>
-            <translation></translation>
+            <translation><!-- URL --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>anytype</masterLabel>
-            <translation></translation>
+            <translation><!-- anytype --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>base64</masterLabel>
-            <translation></translation>
+            <translation><!-- base64 --></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Custom --></label>
         <name>Field_Trip__isCustom__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Required --></label>
         <name>Field_Trip__isRequired__c</name>
     </fields>
 </CustomObjectTranslation>
