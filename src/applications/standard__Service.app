@@ -12,4 +12,8 @@
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
     <tabs>copado__Promoted_User_Story__c</tabs>
+    <tabs>copado__Environmental_Variable__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Bundled_UserStory__c</tabs>
+    <tabs>copado__Bundled_Story__c</tabs>
 </CustomApplication>
