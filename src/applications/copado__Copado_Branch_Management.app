@@ -2,7 +2,6 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>copado__Pipeline_Manager</defaultLandingTab>
     <description>Setup &amp; Manage Copado Pipelines and Deployments</description>
-    <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Copado Pipeline Manager</label>
@@ -21,4 +20,8 @@
     <tabs>copado__Account_Summary</tabs>
     <tabs>standard-report</tabs>
     <tabs>copado__Promoted_User_Story__c</tabs>
+    <tabs>copado__Environmental_Variable__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Bundled_UserStory__c</tabs>
+    <tabs>copado__Bundled_Story__c</tabs>
 </CustomApplication>

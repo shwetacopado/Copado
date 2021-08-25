@@ -7,5 +7,9 @@
     <navType>Standard</navType>
     <tabs>standard-LightningInstrumentation</tabs>
     <tabs>copado__Promoted_User_Story__c</tabs>
+    <tabs>copado__Environmental_Variable__c</tabs>
+    <tabs>copado__Artifact_Version__c</tabs>
+    <tabs>copado__Bundled_UserStory__c</tabs>
+    <tabs>copado__Bundled_Story__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
