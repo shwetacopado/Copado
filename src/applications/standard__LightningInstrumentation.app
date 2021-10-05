@@ -11,5 +11,7 @@
     <tabs>copado__Artifact_Version__c</tabs>
     <tabs>copado__Bundled_UserStory__c</tabs>
     <tabs>copado__Bundled_Story__c</tabs>
+    <tabs>copado__Pull_Request__c</tabs>
+    <tabs>copado__Pull_Request_Review__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

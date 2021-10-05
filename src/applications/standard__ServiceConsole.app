@@ -184,6 +184,8 @@
     <tabs>copado__Artifact_Version__c</tabs>
     <tabs>copado__Bundled_UserStory__c</tabs>
     <tabs>copado__Bundled_Story__c</tabs>
+    <tabs>copado__Pull_Request__c</tabs>
+    <tabs>copado__Pull_Request_Review__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>copado__Artifact_Version__c</tab>
@@ -199,6 +201,12 @@
         </mappings>
         <mappings>
             <tab>copado__Promoted_User_Story__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Pull_Request_Review__c</tab>
+        </mappings>
+        <mappings>
+            <tab>copado__Pull_Request__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

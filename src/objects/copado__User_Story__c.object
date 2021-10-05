@@ -5565,7 +5565,7 @@
         <inlineHelpText>The git merge status of the latest pull request between the feature branch and the target branch. This value is provided by the Git Repository. If there is no value, the Git Repository did not provide one.</inlineHelpText>
         <label>Git Merge Status</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -6256,7 +6256,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <precision>3</precision>
         <required>false</required>
         <scale>0</scale>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Percent</type>
     </fields>
@@ -6284,7 +6284,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Promotion and Branch Management pages.</inlineHelpText>
         <label>Ready to Promote</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -6295,7 +6295,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <externalId>false</externalId>
         <inlineHelpText>When this checkbox is checked, a promotion and deployment of this User Story will be started.</inlineHelpText>
         <label>Promote and Deploy</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
@@ -6405,7 +6405,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <relationshipLabel>User Stories</relationshipLabel>
         <relationshipName>User_Stories</relationshipName>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
@@ -6417,7 +6417,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <inlineHelpText>Current status of the implementation of the User Story.</inlineHelpText>
         <label>Status</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -6634,7 +6634,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <label>User Story Title</label>
         <length>255</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
