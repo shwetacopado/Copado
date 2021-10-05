@@ -379,6 +379,11 @@
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
+    <recordTypes>
+        <fullName>TestB</fullName>
+        <active>true</active>
+        <label>TestB</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
