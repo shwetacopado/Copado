@@ -232,6 +232,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>HelloWorldTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>copado__ADD_DependencyHandler</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -3014,6 +3018,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.BillingAddress</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Copado_ExternalID__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
