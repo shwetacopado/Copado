@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Summer21</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Summer21</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assignee --></label>
+        <name>Assignee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summer_Month --></label>
+        <name>Summer_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summer_Year --></label>
+        <name>Summer_Year__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

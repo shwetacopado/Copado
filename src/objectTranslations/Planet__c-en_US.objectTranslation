@@ -44,5 +44,9 @@
         <label><!-- Issue2 --></label>
         <name>Issue2__c</name>
     </fields>
+    <fields>
+        <label><!-- XID --></label>
+        <name>XID__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

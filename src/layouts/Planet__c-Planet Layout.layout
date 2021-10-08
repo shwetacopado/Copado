@@ -18,6 +18,10 @@
                 <behavior>Edit</behavior>
                 <field>Distance_to_sun__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>XID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
