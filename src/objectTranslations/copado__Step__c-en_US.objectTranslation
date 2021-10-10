@@ -9,10 +9,6 @@
         <name>copado__ViewDeploymentColumns</name>
     </fieldSets>
     <fields>
-        <label><!-- Api Name --></label>
-        <name>copado__ApiName__c</name>
-    </fields>
-    <fields>
         <label><!-- Attachment Id --></label>
         <name>copado__Attachment_Id__c</name>
     </fields>
@@ -63,10 +59,6 @@ WARNING: Credits consumption will apply as a regular deployment since resource-w
         <relationshipLabel><!-- Steps --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- JsonResult --></label>
-        <name>copado__JsonResult__c</name>
-    </fields>
-    <fields>
         <label><!-- Manual Task Notified --></label>
         <name>copado__Manual_Task_Notified__c</name>
     </fields>
@@ -79,12 +71,8 @@ WARNING: Credits consumption will apply as a regular deployment since resource-w
         <name>copado__Order__c</name>
     </fields>
     <fields>
-        <label><!-- Credential Count --></label>
+        <label><!-- Org Count --></label>
         <name>copado__Org_Count__c</name>
-    </fields>
-    <fields>
-        <label><!-- Parent Id --></label>
-        <name>copado__ParentId__c</name>
     </fields>
     <fields>
         <label><!-- Read Only --></label>

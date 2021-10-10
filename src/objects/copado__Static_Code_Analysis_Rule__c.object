@@ -447,7 +447,7 @@
         <externalId>false</externalId>
         <label>Rule Reference</label>
         <length>255</length>
-        <required>true</required>
+        <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>

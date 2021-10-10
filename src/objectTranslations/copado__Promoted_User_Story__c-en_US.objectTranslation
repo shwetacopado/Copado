@@ -6,7 +6,7 @@
         <relationshipLabel><!-- Promoted User Stories --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Active / Outdated --></label>
+        <label><!-- Status --></label>
         <name>copado__Status__c</name>
         <picklistValues>
             <masterLabel>Active</masterLabel>
