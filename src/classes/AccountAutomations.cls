@@ -5,8 +5,8 @@ public class AccountAutomations {
             a.Description = 'Default description';
             return a;
         }
-    }
-  //  This is a comment4
+    } 
+    //this is a comment2
     public static Account setDefaultBillingAddress(Account a){
         a.billingstreet = 'Basauri, 6'; 
         a.billingstate = 'Madrid'; 
@@ -24,7 +24,7 @@ public class AccountAutomations {
         return a;
     }
     public static Account setDefaultURL(Account a) {
-        a.website = 'www.D&G.com'; 
+        a.website = 'www.copado.com'; 
         return a;
     }
 }
