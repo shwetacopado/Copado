@@ -28,6 +28,12 @@
         </picklistValues>
     </fields>
     <fields>
+        <help><!-- Select the Job Template that implements the commit action for this Pipeline --></help>
+        <label><!-- Commit Job Template --></label>
+        <name>copado__CommitJobTemplate__c</name>
+        <relationshipLabel><!-- Pipelines (Commit Job Template) --></relationshipLabel>
+    </fields>
+    <fields>
         <help><!-- Selected DX mode will determine scratch metadata sources. --></help>
         <label><!-- Copado DX Mode --></label>
         <name>copado__Copado_DX_Mode__c</name>
@@ -56,6 +62,11 @@
         </lookupFilter>
         <name>copado__Deployment_Automation__c</name>
         <relationshipLabel><!-- Pipelines (Deployment Automation) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deployment Job Template --></label>
+        <name>copado__Deployment_Job_Template__c</name>
+        <relationshipLabel><!-- Pipelines (Deployment Job Template) --></relationshipLabel>
     </fields>
     <fields>
         <help><!-- If checked, Deployment Flow Steps best practices validations will be disabled. --></help>
@@ -176,6 +187,11 @@ This value will prefill the order by field on related Promotion record creation 
             <errorMessage><!-- Only active automation templates are allowed --></errorMessage>
         </lookupFilter>
         <name>copado__Promotion_Automation__c</name>
+        <relationshipLabel><!-- Pipelines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Promotion Job Template --></label>
+        <name>copado__Promotion_Job_Template__c</name>
         <relationshipLabel><!-- Pipelines --></relationshipLabel>
     </fields>
     <fields>

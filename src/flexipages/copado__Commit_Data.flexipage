@@ -5,6 +5,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>copado:commitDataPage</componentName>
+                <identifier>commitDataPage</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
