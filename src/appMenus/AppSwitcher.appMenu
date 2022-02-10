@@ -156,4 +156,12 @@
         <name>copado__Copado_Change_Management_Lightning</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Plan</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>copado__Copado_Plan_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

@@ -4,11 +4,13 @@
         <itemInstances>
             <componentInstance>
                 <componentName>notes:utilityBarNoteList</componentName>
+                <identifier>notes_utilityBarNoteList</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>console:history</componentName>
+                <identifier>console_history</identifier>
             </componentInstance>
         </itemInstances>
         <name>utilityItems</name>
@@ -18,11 +20,13 @@
         <itemInstances>
             <componentInstance>
                 <componentName>lightningbuddy:LightningBuddy</componentName>
+                <identifier>lightningbuddy_LightningBuddy</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>lightningbuddy:BreadCrumbListener</componentName>
+                <identifier>lightningbuddy_BreadCrumbListener</identifier>
             </componentInstance>
         </itemInstances>
         <name>backgroundComponents</name>

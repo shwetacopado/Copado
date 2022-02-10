@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>copado:extensions</componentName>
+                <identifier>extensions</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

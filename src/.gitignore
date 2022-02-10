@@ -9,6 +9,8 @@ certs/*
 connectedApps/*
 samlssoconfigs/*
 namedCredentials/*
+flows/*
+reports/*
 
 #Documents are mostly created in Production and are not deployed between Sandboxes. You can safely ignore them in Git.
 documents/*

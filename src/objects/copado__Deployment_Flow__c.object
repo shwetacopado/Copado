@@ -218,6 +218,22 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>copado__CommitJobTemplate__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select the Job Template that implements the commit action for this Pipeline</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select the Job Template that implements the commit action for this Pipeline</inlineHelpText>
+        <label>Commit Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Pipelines (Commit Job Template)</relationshipLabel>
+        <relationshipName>Pipelines2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>copado__Copado_DX_Mode__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -291,6 +307,20 @@
         <referenceTo>copado__Deployment__c</referenceTo>
         <relationshipLabel>Pipelines (Deployment Automation)</relationshipLabel>
         <relationshipName>DeploymentPipelines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Deployment_Job_Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Deployment Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Pipelines (Deployment Job Template)</relationshipLabel>
+        <relationshipName>Pipelines1</relationshipName>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -562,6 +592,20 @@ This value will prefill the order by field on related Promotion record creation 
             <isOptional>false</isOptional>
         </lookupFilter>
         <referenceTo>copado__Deployment__c</referenceTo>
+        <relationshipLabel>Pipelines</relationshipLabel>
+        <relationshipName>Pipelines</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Promotion_Job_Template__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Promotion Job Template</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
         <relationshipLabel>Pipelines</relationshipLabel>
         <relationshipName>Pipelines</relationshipName>
         <required>false</required>

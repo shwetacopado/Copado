@@ -158,6 +158,21 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>copado__CommitJobTemplateOverride__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Select a Job Template to override the default Commit Job Template defined in the Pipeline</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select a Job Template to override the default Commit Job Template defined in the Pipeline</inlineHelpText>
+        <label>Commit Job Template Override</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environments (Commit Job Template Override)</relationshipLabel>
+        <relationshipName>Environments2</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>copado__Compliance_Rule_Group__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -273,6 +288,30 @@
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Deployment_Job_Template_Override__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Deployment Job Template Override</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environments (Deployment Job Template Override)</relationshipLabel>
+        <relationshipName>Environments1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>copado__Enable_Rollback__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Enable Rollbacks for any Deployments/Promotions have this Environment as destination. Rollbacks will be available for Deployments/Promotions created after this feature is enabled</inlineHelpText>
+        <label>Enable Rollback</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>copado__Index_Back_Promotion_metadata__c</fullName>
@@ -470,6 +509,19 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>copado__Promotion_Job_Template_Override__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Promotion Job Template Override</label>
+        <referenceTo>copado__JobTemplate__c</referenceTo>
+        <relationshipLabel>Environments</relationshipLabel>
+        <relationshipName>Environments</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>copado__Promotion_Override__c</fullName>
